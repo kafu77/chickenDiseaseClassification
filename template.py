@@ -19,6 +19,7 @@ list_of_files=[
     "params.yaml",
     "research/trails.ipynb",
     "Dockerfile.py",
+    "templates/index.html",
     f"src/{project_name}/__init__.py",
     f"src/{project_name}/components/__init__.py",
     f"src/{project_name}/components/Data_Ingestion.py",
@@ -54,7 +55,7 @@ for filepath in list_of_files:
     if (not os.path.exists(filepath)) or (os.path.getsize(filepath)==0):
         with open(filepath, 'w') as f:
             pass
-        logging.info(f"Creating empty file; {filepath}")
+        logging.info(f"Creating empty file: {filepath}")
     
     else:
         logging.info(f"File already exists: {filepath}")

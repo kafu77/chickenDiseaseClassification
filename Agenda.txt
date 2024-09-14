@@ -2,14 +2,15 @@
 
  1. Introduction and GitHub repository setup
  2. Project template setup
- 3. Project setup and requirements installation
- 4. Logging, utils, and exceptions module setup
- 5. Project workflow setup
- 6. All components notebook  experimental
- 7. All components Modular code implementation
- 8. Training pipeline setup
- 9. DVC(MLOps tool) for pipeline tracking and implementation
- 10. Prediction pipeline
- 11. User app creation
- 12. Docker setup
- 13. CI/CD deployment
+ 3. installation of virtual environment
+ 4. Project setup and requirements installation
+ 5. Logging, utils, and exceptions module setup
+ 6. Project workflow setup
+ 7. All components notebook  experimental
+ 8. All components Modular code implementation
+ 9. Training pipeline setup
+ 10. DVC(MLOps tool) for pipeline tracking and implementation
+ 11. Prediction pipeline
+ 12. User app creation
+ 13. Docker setup
+ 14. CI/CD deployment

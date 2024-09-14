@@ -1,0 +1,15 @@
+# End to End Chicken-Disease-Classification
+
+ 1. Introduction and GitHub repository setup
+ 2. Project template setup
+ 3. Project setup and requirements installation
+ 4. Logging, utils, and exceptions module setup
+ 5. Project workflow setup
+ 6. All components notebook  experimental
+ 7. All components Modular code implementation
+ 8. Training pipeline setup
+ 9. DVC(MLOps tool) for pipeline tracking and implementation
+ 10. Prediction pipeline
+ 11. User app creation
+ 12. Docker setup
+ 13. CI/CD deployment

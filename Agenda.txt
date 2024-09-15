@@ -2,7 +2,7 @@
 
  1. Introduction and GitHub repository setup
  2. Project template setup
- 3. installation of virtual environment
+ 3. installation of virtual environment: conda create -n myenv python==3.8 -y
  4. Project setup and requirements installation
  5. Logging, utils, and exceptions module setup
  6. Project workflow setup

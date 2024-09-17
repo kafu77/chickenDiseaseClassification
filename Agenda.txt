@@ -5,12 +5,13 @@
  3. installation of virtual environment: conda create -n myenv python==3.8 -y
  4. Project setup and requirements installation
  5. Logging, utils, and exceptions module setup
- 6. Project workflow setup
- 7. All components notebook  experimental
- 8. All components Modular code implementation
- 9. Training pipeline setup
- 10. DVC(MLOps tool) for pipeline tracking and implementation
- 11. Prediction pipeline
- 12. User app creation
- 13. Docker setup
- 14. CI/CD deployment
+ 6. setup utils configuration
+ 7. Project workflow setup
+ 8. All components notebook  experimental
+ 9. All components Modular code implementation
+ 10. Training pipeline setup
+ 11. DVC(MLOps tool) for pipeline tracking and implementation
+ 12. Prediction pipeline
+ 13. User app creation
+ 14. Docker setup
+ 15. CI/CD deployment

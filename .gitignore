@@ -162,3 +162,4 @@ cython_debug/
 #.idea/
 artifacts/*
 artifacts_01_data_ingestion/*
+artifacts_Ingestio_and_model/*

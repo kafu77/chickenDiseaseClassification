@@ -7,6 +7,7 @@ logger.error('This is an error message')
 logger.debug('This is a debug message')
 
 from src.CNNClassifier.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
+from src.CNNClassifier.pipeline.stage_02_Base_Model import PrepareBaseModelTrainingPipeline
 
 # Create Data Ingestion 
 STAGE_NAME = "Data Ingestion stage"
@@ -18,3 +19,17 @@ try:
 except Exception as e:
         logger.exception(e)
         raise e
+   
+   
+   
+#Model training stage
+STAGE_NAME = "Prepare base model"
+try:
+   logger.info(f"*******************")
+   logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+   prepare_base_model = PrepareBaseModelTrainingPipeline()
+   prepare_base_model.main()
+   logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+except Exception as e:
+   logger.exception(e)
+   raise e

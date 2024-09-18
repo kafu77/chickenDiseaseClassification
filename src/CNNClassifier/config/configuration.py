@@ -1,7 +1,10 @@
+import os
+from pathlib import Path
 from src.CNNClassifier.constants import *
 from src.CNNClassifier.utils.common1 import read_yaml, create_directories
 from src.CNNClassifier.entity.config import (DataIngestionConfig,
-                                             BaseModelEntityConfig)
+                                             BaseModelEntityConfig,
+                                             PrepareCallbacksEntityConfig)
 
 class ConfigurationManager:
     def __init__(
@@ -48,3 +51,21 @@ class ConfigurationManager:
         )
 
         return prepare_base_model_config
+    
+    
+    #Callbacks configuration
+    def get_prepare_callback_config(self) -> PrepareCallbacksEntityConfig:
+        config = self.config.prepare_callbacks
+        model_ckpt_dir = os.path.dirname(config.checkpoint_model_filepath)
+        create_directories([
+            Path(model_ckpt_dir),
+            Path(config.tensorboard_root_log_dir)
+        ])
+
+        prepare_callback_config = PrepareCallbacksEntityConfig(
+            root_dir=Path(config.root_dir),
+            tensorboard_root_log_dir=Path(config.tensorboard_root_log_dir),
+            checkpoint_model_filepath=Path(config.checkpoint_model_filepath)
+        )
+
+        return prepare_callback_config

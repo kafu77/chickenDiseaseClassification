@@ -1,16 +1,3 @@
-#DVC (Data Version Control) is an open-source version control system for machine learning (ML) projects. 
-#It helps manage and version data, code, and machine learning models, making it easier to track and reproduce experiments 
-#in data science workflows.
-
-
-#Workflow of DVC:
-    #Initialize DVC: dvc init
-    #Track a Dataset: dvc add data/my_dataset.csv
-    #Push Data to Remote Storage: dvc push
-    #Track Model Files: dvc add model/my_model.h5
-    #Reproduce an Experiment: dvc repro
-    #ipeline Visualization:  dvc dag
-
 stages:
   data_ingestion:
     cmd: python src/CNNClassifier/pipeline/stage_01_data_ingestion.py

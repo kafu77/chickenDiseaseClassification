@@ -163,3 +163,4 @@ cython_debug/
 artifacts/*
 artifacts_01_data_ingestion/*
 artifacts_Ingestio_and_model/*
+chickenenv/*

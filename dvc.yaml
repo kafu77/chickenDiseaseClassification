@@ -1,1 +1,68 @@
-key: val
+#DVC (Data Version Control) is an open-source version control system for machine learning (ML) projects. 
+#It helps manage and version data, code, and machine learning models, making it easier to track and reproduce experiments 
+#in data science workflows.
+
+
+#Workflow of DVC:
+    #Initialize DVC: dvc init
+    #Track a Dataset: dvc add data/my_dataset.csv
+    #Push Data to Remote Storage: dvc push
+    #Track Model Files: dvc add model/my_model.h5
+    #Reproduce an Experiment: dvc repro
+    #ipeline Visualization:  dvc dag
+
+stages:
+  data_ingestion:
+    cmd: python src/CNNClassifier/pipeline/stage_01_data_ingestion.py
+    deps:
+      - src/CNNClassifier/pipeline/stage_01_data_ingestion.py
+      - config/config.yaml
+    outs:
+      - artifacts/data_ingestion/chicken_disease
+  
+
+  prepare_base_model:
+    cmd: src/CNNClassifier/pipeline/stage_02_Base_Model.py
+    deps:
+      - src/CNNClassifier/pipeline/stage_02_Base_Model.py
+      - config/config.yaml
+    params:
+      - IMAGE_SIZE
+      - INCLUDE_TOP
+      - CLASSES
+      - WEIGHTS
+      - LEARNING_RATE
+    outs:
+      - artifacts/prepare_base_model
+
+  
+  training:
+    cmd: src/CNNClassifier/pipeline/stage_03_training.py
+    deps:
+      - src/CNNClassifier/pipeline/stage_03_training.py
+      - src/CNNClassifier/components/prepare_callbacks.py
+      - config/config.yaml
+      - artifacts/data_ingestion/chicken_disease
+      - artifacts/prepare_base_model
+    params:
+      - IMAGE_SIZE
+      - EPOCHS
+      - BATCH_SIZE
+      - AUGMENTATION
+    outs:
+      - artifacts/training/model.h5
+  
+
+  evaluation:
+    cmd: src/CNNClassifier/pipeline/stage_04_model_Evaluation.py
+    deps:
+      - src/CNNClassifier/pipeline/stage_04_model_Evaluation.py
+      - config/config.yaml
+      - artifacts/data_ingestion/chicken_disease
+      - artifacts/training/model.h5
+    params:
+      - IMAGE_SIZE
+      - BATCH_SIZE
+    metrics:
+    - scores.json:
+        cache: false

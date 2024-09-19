@@ -1,0 +1,967 @@
+{
+  "build": "py38h2e0ef18_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38",
+    "ucrt >=10.0.20348.0",
+    "urllib3 >=1.25",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "extracted_package_dir": "C:\\Users\\kafub\\anaconda3\\pkgs\\dulwich-0.22.1-py38h2e0ef18_0",
+  "files": [
+    "Lib/site-packages/dulwich-0.22.1.dist-info/COPYING",
+    "Lib/site-packages/dulwich-0.22.1.dist-info/INSTALLER",
+    "Lib/site-packages/dulwich-0.22.1.dist-info/METADATA",
+    "Lib/site-packages/dulwich-0.22.1.dist-info/RECORD",
+    "Lib/site-packages/dulwich-0.22.1.dist-info/REQUESTED",
+    "Lib/site-packages/dulwich-0.22.1.dist-info/WHEEL",
+    "Lib/site-packages/dulwich-0.22.1.dist-info/direct_url.json",
+    "Lib/site-packages/dulwich-0.22.1.dist-info/entry_points.txt",
+    "Lib/site-packages/dulwich-0.22.1.dist-info/top_level.txt",
+    "Lib/site-packages/dulwich/__init__.py",
+    "Lib/site-packages/dulwich/__main__.py",
+    "Lib/site-packages/dulwich/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/__main__.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/archive.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/bundle.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/cli.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/client.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/config.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/credentials.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/diff_tree.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/errors.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/fastexport.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/file.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/graph.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/greenthreads.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/hooks.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/ignore.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/index.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/lfs.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/line_ending.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/log_utils.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/lru_cache.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/mailmap.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/object_store.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/objects.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/objectspec.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/pack.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/patch.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/porcelain.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/protocol.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/reflog.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/refs.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/repo.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/server.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/stash.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/submodule.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/walk.cpython-38.pyc",
+    "Lib/site-packages/dulwich/__pycache__/web.cpython-38.pyc",
+    "Lib/site-packages/dulwich/_diff_tree.cp38-win_amd64.pyd",
+    "Lib/site-packages/dulwich/_objects.cp38-win_amd64.pyd",
+    "Lib/site-packages/dulwich/_pack.cp38-win_amd64.pyd",
+    "Lib/site-packages/dulwich/archive.py",
+    "Lib/site-packages/dulwich/bundle.py",
+    "Lib/site-packages/dulwich/cli.py",
+    "Lib/site-packages/dulwich/client.py",
+    "Lib/site-packages/dulwich/cloud/__init__.py",
+    "Lib/site-packages/dulwich/cloud/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/dulwich/cloud/__pycache__/gcs.cpython-38.pyc",
+    "Lib/site-packages/dulwich/cloud/gcs.py",
+    "Lib/site-packages/dulwich/config.py",
+    "Lib/site-packages/dulwich/contrib/__init__.py",
+    "Lib/site-packages/dulwich/contrib/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/dulwich/contrib/__pycache__/diffstat.cpython-38.pyc",
+    "Lib/site-packages/dulwich/contrib/__pycache__/paramiko_vendor.cpython-38.pyc",
+    "Lib/site-packages/dulwich/contrib/__pycache__/release_robot.cpython-38.pyc",
+    "Lib/site-packages/dulwich/contrib/__pycache__/requests_vendor.cpython-38.pyc",
+    "Lib/site-packages/dulwich/contrib/__pycache__/swift.cpython-38.pyc",
+    "Lib/site-packages/dulwich/contrib/diffstat.py",
+    "Lib/site-packages/dulwich/contrib/paramiko_vendor.py",
+    "Lib/site-packages/dulwich/contrib/release_robot.py",
+    "Lib/site-packages/dulwich/contrib/requests_vendor.py",
+    "Lib/site-packages/dulwich/contrib/swift.py",
+    "Lib/site-packages/dulwich/credentials.py",
+    "Lib/site-packages/dulwich/diff_tree.py",
+    "Lib/site-packages/dulwich/errors.py",
+    "Lib/site-packages/dulwich/fastexport.py",
+    "Lib/site-packages/dulwich/file.py",
+    "Lib/site-packages/dulwich/graph.py",
+    "Lib/site-packages/dulwich/greenthreads.py",
+    "Lib/site-packages/dulwich/hooks.py",
+    "Lib/site-packages/dulwich/ignore.py",
+    "Lib/site-packages/dulwich/index.py",
+    "Lib/site-packages/dulwich/lfs.py",
+    "Lib/site-packages/dulwich/line_ending.py",
+    "Lib/site-packages/dulwich/log_utils.py",
+    "Lib/site-packages/dulwich/lru_cache.py",
+    "Lib/site-packages/dulwich/mailmap.py",
+    "Lib/site-packages/dulwich/object_store.py",
+    "Lib/site-packages/dulwich/objects.py",
+    "Lib/site-packages/dulwich/objectspec.py",
+    "Lib/site-packages/dulwich/pack.py",
+    "Lib/site-packages/dulwich/patch.py",
+    "Lib/site-packages/dulwich/porcelain.py",
+    "Lib/site-packages/dulwich/protocol.py",
+    "Lib/site-packages/dulwich/py.typed",
+    "Lib/site-packages/dulwich/reflog.py",
+    "Lib/site-packages/dulwich/refs.py",
+    "Lib/site-packages/dulwich/repo.py",
+    "Lib/site-packages/dulwich/server.py",
+    "Lib/site-packages/dulwich/stash.py",
+    "Lib/site-packages/dulwich/stdint.h",
+    "Lib/site-packages/dulwich/submodule.py",
+    "Lib/site-packages/dulwich/tests/__init__.py",
+    "Lib/site-packages/dulwich/tests/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/dulwich/tests/__pycache__/test_object_store.cpython-38.pyc",
+    "Lib/site-packages/dulwich/tests/__pycache__/utils.cpython-38.pyc",
+    "Lib/site-packages/dulwich/tests/test_object_store.py",
+    "Lib/site-packages/dulwich/tests/utils.py",
+    "Lib/site-packages/dulwich/walk.py",
+    "Lib/site-packages/dulwich/web.py",
+    "Scripts/dul-receive-pack-script.py",
+    "Scripts/dul-receive-pack.exe",
+    "Scripts/dul-upload-pack-script.py",
+    "Scripts/dul-upload-pack.exe",
+    "Scripts/dulwich-script.py",
+    "Scripts/dulwich.exe",
+    ".nonadmin"
+  ],
+  "fn": "dulwich-0.22.1-py38h2e0ef18_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\kafub\\anaconda3\\pkgs\\dulwich-0.22.1-py38h2e0ef18_0",
+    "type": 1
+  },
+  "md5": "2b07125e383189afa50f77b5812d58c5",
+  "name": "dulwich",
+  "package_tarball_full_path": "C:\\Users\\kafub\\anaconda3\\pkgs\\dulwich-0.22.1-py38h2e0ef18_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/dulwich-0.22.1.dist-info/COPYING",
+        "path_type": "hardlink",
+        "sha256": "c2b3a1f4c6c247514efce9f2e1e28c8fff31aad6fd1539aab5676dad3779ce89",
+        "sha256_in_prefix": "c2b3a1f4c6c247514efce9f2e1e28c8fff31aad6fd1539aab5676dad3779ce89",
+        "size_in_bytes": 29516
+      },
+      {
+        "_path": "Lib/site-packages/dulwich-0.22.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/dulwich-0.22.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "38568fe4dbe5693fc7c76874380fc9636081ea29e5ee9f6642d1599c433064a5",
+        "sha256_in_prefix": "38568fe4dbe5693fc7c76874380fc9636081ea29e5ee9f6642d1599c433064a5",
+        "size_in_bytes": 4525
+      },
+      {
+        "_path": "Lib/site-packages/dulwich-0.22.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "678648219d26ee2d9962f54da5182185b8ca56adf651f061db2fde3b05533736",
+        "sha256_in_prefix": "678648219d26ee2d9962f54da5182185b8ca56adf651f061db2fde3b05533736",
+        "size_in_bytes": 7526
+      },
+      {
+        "_path": "Lib/site-packages/dulwich-0.22.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/dulwich-0.22.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "59be328f021754a12986de09585519342ce91bb24b04d667aad2b660d76a2e42",
+        "sha256_in_prefix": "59be328f021754a12986de09585519342ce91bb24b04d667aad2b660d76a2e42",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "Lib/site-packages/dulwich-0.22.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "11597d09f6a5ea788de4e5955b7288891a74a7e8c9b74c5db813cd2247a31744",
+        "sha256_in_prefix": "11597d09f6a5ea788de4e5955b7288891a74a7e8c9b74c5db813cd2247a31744",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "Lib/site-packages/dulwich-0.22.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "c65a2e1b9d6c785ba2576020690d2da122e4fcede5424b77622d17cfa1e99be2",
+        "sha256_in_prefix": "c65a2e1b9d6c785ba2576020690d2da122e4fcede5424b77622d17cfa1e99be2",
+        "size_in_bytes": 45
+      },
+      {
+        "_path": "Lib/site-packages/dulwich-0.22.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "9ccdad568739266ee4956ea82b093acbbcb609b80b72ce0d1e6fa5299faea7a2",
+        "sha256_in_prefix": "9ccdad568739266ee4956ea82b093acbbcb609b80b72ce0d1e6fa5299faea7a2",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a12c2428a3f0a85e36b43dec7f80c9a2a2547c2874b05294a130c0ba4b53b254",
+        "sha256_in_prefix": "a12c2428a3f0a85e36b43dec7f80c9a2a2547c2874b05294a130c0ba4b53b254",
+        "size_in_bytes": 1111
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "15e01043e1a16a4eb35602ad432271b5fc434d130fcc5279f9101d17ba1e8bd3",
+        "sha256_in_prefix": "15e01043e1a16a4eb35602ad432271b5fc434d130fcc5279f9101d17ba1e8bd3",
+        "size_in_bytes": 62
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "234ebb9de385531753a22e9d929689b370ffa2602e3ac46f8bd31ad1cc0031a9",
+        "sha256_in_prefix": "234ebb9de385531753a22e9d929689b370ffa2602e3ac46f8bd31ad1cc0031a9",
+        "size_in_bytes": 236
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/__main__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7f64987fcc845ac976436f19b31e7d717a8b15c1771087a019aa57161798de69",
+        "sha256_in_prefix": "7f64987fcc845ac976436f19b31e7d717a8b15c1771087a019aa57161798de69",
+        "size_in_bytes": 203
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/archive.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a288ec65292d68fe54c5508520a505b8b5d4164f8096e9a763ec9372f6aa9992",
+        "sha256_in_prefix": "a288ec65292d68fe54c5508520a505b8b5d4164f8096e9a763ec9372f6aa9992",
+        "size_in_bytes": 3239
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/bundle.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ff6876d34859008f6b884941dd7bddfeb06d5f7272b66eecb31d4e651204a38e",
+        "sha256_in_prefix": "ff6876d34859008f6b884941dd7bddfeb06d5f7272b66eecb31d4e651204a38e",
+        "size_in_bytes": 2970
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/cli.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "01dea83d34f06355a4c428f7a2f5eb835ff25f4046e7784234cbfcc8844d1f2d",
+        "sha256_in_prefix": "01dea83d34f06355a4c428f7a2f5eb835ff25f4046e7784234cbfcc8844d1f2d",
+        "size_in_bytes": 26480
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/client.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7af826efeecabe78b21df67787139c783159a81eca4ae76d99b443794b866f81",
+        "sha256_in_prefix": "7af826efeecabe78b21df67787139c783159a81eca4ae76d99b443794b866f81",
+        "size_in_bytes": 61769
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/config.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7a530c55256061ebe32260d8c39943b3bf095814bcf2b61bdcf9c0f38cff74fd",
+        "sha256_in_prefix": "7a530c55256061ebe32260d8c39943b3bf095814bcf2b61bdcf9c0f38cff74fd",
+        "size_in_bytes": 22149
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/credentials.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "dd504540f009bdfb9465ad1bf46ff478a7977967c8c6c0c2a11873783c6ba122",
+        "sha256_in_prefix": "dd504540f009bdfb9465ad1bf46ff478a7977967c8c6c0c2a11873783c6ba122",
+        "size_in_bytes": 1863
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/diff_tree.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7acf9189fdb929c39a77dd4d454cdeac3ae25fbb9557224e19e73b7fe7f8506d",
+        "sha256_in_prefix": "7acf9189fdb929c39a77dd4d454cdeac3ae25fbb9557224e19e73b7fe7f8506d",
+        "size_in_bytes": 17837
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/errors.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7de10b079d50acddf3278881b2370c91c9a46eabe17dd07d3f48d4d6d992f1ea",
+        "sha256_in_prefix": "7de10b079d50acddf3278881b2370c91c9a46eabe17dd07d3f48d4d6d992f1ea",
+        "size_in_bytes": 6962
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/fastexport.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bbb4f7183e5530afe6475abb4b77d558776fd9ef825b4bbfbf28096c290395be",
+        "sha256_in_prefix": "bbb4f7183e5530afe6475abb4b77d558776fd9ef825b4bbfbf28096c290395be",
+        "size_in_bytes": 7494
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/file.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2e2e26eb16f7a655f9384c9d47ae47b7c266fa3be20692fa15e88dd84cbe23ec",
+        "sha256_in_prefix": "2e2e26eb16f7a655f9384c9d47ae47b7c266fa3be20692fa15e88dd84cbe23ec",
+        "size_in_bytes": 6007
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/graph.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ebb35691726b183bbbba23ad92ba0367775f7596c989330b3bd925a5ed4035da",
+        "sha256_in_prefix": "ebb35691726b183bbbba23ad92ba0367775f7596c989330b3bd925a5ed4035da",
+        "size_in_bytes": 5053
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/greenthreads.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1cb3510a39f19b6d515eeaa71f4d684d64bca3662ed052c641564a932133b26d",
+        "sha256_in_prefix": "1cb3510a39f19b6d515eeaa71f4d684d64bca3662ed052c641564a932133b26d",
+        "size_in_bytes": 3500
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/hooks.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3793a005e6bf76379dbfb6eddfea3c48fb23fce560c631d8e8f2c9549892e3f6",
+        "sha256_in_prefix": "3793a005e6bf76379dbfb6eddfea3c48fb23fce560c631d8e8f2c9549892e3f6",
+        "size_in_bytes": 5828
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/ignore.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "70f7e36b9ab10cf01cfc517ec457b06f952ed97eb1c6cfa677c4e2ea70adb166",
+        "sha256_in_prefix": "70f7e36b9ab10cf01cfc517ec457b06f952ed97eb1c6cfa677c4e2ea70adb166",
+        "size_in_bytes": 10636
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/index.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1518156998e076fec32e770fdf2adc30f1a8f13ce2713a9db28781c132d945e1",
+        "sha256_in_prefix": "1518156998e076fec32e770fdf2adc30f1a8f13ce2713a9db28781c132d945e1",
+        "size_in_bytes": 29941
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/lfs.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b5a5664d614e2f051cfa2483c0cf7aff8ba97bd81cee803ef2208a80ea49acf5",
+        "sha256_in_prefix": "b5a5664d614e2f051cfa2483c0cf7aff8ba97bd81cee803ef2208a80ea49acf5",
+        "size_in_bytes": 2056
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/line_ending.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4446f5280d45d5c3cf9b515186ed508f3d9dc57f593f8f5e29d5378e3f758c8a",
+        "sha256_in_prefix": "4446f5280d45d5c3cf9b515186ed508f3d9dc57f593f8f5e29d5378e3f758c8a",
+        "size_in_bytes": 9904
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/log_utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6fd874916610f0ae0a49657e4b057f4ed582c895e3f7d0d7071d067f879163b9",
+        "sha256_in_prefix": "6fd874916610f0ae0a49657e4b057f4ed582c895e3f7d0d7071d067f879163b9",
+        "size_in_bytes": 2064
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/lru_cache.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0bb00711458309141e44bf9c277738c6a8fbc5f3c33344416af6b35abc3e73ce",
+        "sha256_in_prefix": "0bb00711458309141e44bf9c277738c6a8fbc5f3c33344416af6b35abc3e73ce",
+        "size_in_bytes": 11083
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/mailmap.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9663a45f6718a4841387d40c219284f1bd7463a738abab60cad05e5294bc451c",
+        "sha256_in_prefix": "9663a45f6718a4841387d40c219284f1bd7463a738abab60cad05e5294bc451c",
+        "size_in_bytes": 2592
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/object_store.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c4052e4182f8a3aedd6b72cbe45f49d2406d0d497c9b19314fe3ece51848bdd7",
+        "sha256_in_prefix": "c4052e4182f8a3aedd6b72cbe45f49d2406d0d497c9b19314fe3ece51848bdd7",
+        "size_in_bytes": 51495
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/objects.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3246332f9ffc3e7b962ae17fe875de296d2d888685436ef6b18f975c0358d049",
+        "sha256_in_prefix": "3246332f9ffc3e7b962ae17fe875de296d2d888685436ef6b18f975c0358d049",
+        "size_in_bytes": 45045
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/objectspec.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5b316121fe9c09753d3d8d9375e12fb9cae39ec37fbba4dc576e846410864343",
+        "sha256_in_prefix": "5b316121fe9c09753d3d8d9375e12fb9cae39ec37fbba4dc576e846410864343",
+        "size_in_bytes": 6013
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/pack.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e6933510030bd5367a363dddb2bb2ad5c29c9157be163ea027001f95916c248f",
+        "sha256_in_prefix": "e6933510030bd5367a363dddb2bb2ad5c29c9157be163ea027001f95916c248f",
+        "size_in_bytes": 79910
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/patch.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "232d648b4dc4dc593714e098069bf0bbfb6f143944e0239fb620d172e14761d7",
+        "sha256_in_prefix": "232d648b4dc4dc593714e098069bf0bbfb6f143944e0239fb620d172e14761d7",
+        "size_in_bytes": 9440
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/porcelain.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "de621bf19a6822829106a3fdd2bb0b877d29a8e2e13ffc2db50615dc61799682",
+        "sha256_in_prefix": "de621bf19a6822829106a3fdd2bb0b877d29a8e2e13ffc2db50615dc61799682",
+        "size_in_bytes": 56186
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/protocol.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1c66bc69ff3f5e85722890920ec3ca83846e57b3fb48a1d14f8e17fb0602526e",
+        "sha256_in_prefix": "1c66bc69ff3f5e85722890920ec3ca83846e57b3fb48a1d14f8e17fb0602526e",
+        "size_in_bytes": 15964
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/reflog.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c28ec6745231eb91b0b08f863658ecbddd29ef48247d450da4dd79aec77c6730",
+        "sha256_in_prefix": "c28ec6745231eb91b0b08f863658ecbddd29ef48247d450da4dd79aec77c6730",
+        "size_in_bytes": 2670
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/refs.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "734d70a6aaf68d419586538a6d8cb237d50c6e8e960674cbdf11ee6616bba20d",
+        "sha256_in_prefix": "734d70a6aaf68d419586538a6d8cb237d50c6e8e960674cbdf11ee6616bba20d",
+        "size_in_bytes": 31322
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/repo.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "89f6681caaf12a2f66c5a962cb899944ca67ed6ea93928cd013e2dbab2674227",
+        "sha256_in_prefix": "89f6681caaf12a2f66c5a962cb899944ca67ed6ea93928cd013e2dbab2674227",
+        "size_in_bytes": 51750
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/server.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6f4710a08344a695018f790157c2beb97db212c6e5190bfc0a2296a94751735b",
+        "sha256_in_prefix": "6f4710a08344a695018f790157c2beb97db212c6e5190bfc0a2296a94751735b",
+        "size_in_bytes": 35551
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/stash.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f48764d4b8a5d0d24678eb17860057ac206ee310a4899499e78d85381bd33009",
+        "sha256_in_prefix": "f48764d4b8a5d0d24678eb17860057ac206ee310a4899499e78d85381bd33009",
+        "size_in_bytes": 3126
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/submodule.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3f4dcfaedcf30fbe988569808c8f16c0407f39c78f9428c206e5c14d0e52e80e",
+        "sha256_in_prefix": "3f4dcfaedcf30fbe988569808c8f16c0407f39c78f9428c206e5c14d0e52e80e",
+        "size_in_bytes": 770
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/walk.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ea4525d3eae299e9867c8749472c373c162de6830ea4a1ae5dd9d318da8685d0",
+        "sha256_in_prefix": "ea4525d3eae299e9867c8749472c373c162de6830ea4a1ae5dd9d318da8685d0",
+        "size_in_bytes": 11202
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/__pycache__/web.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6b2ca91df146b458f2acd87332bb1b99757483855a2e01ba4573cff89519f840",
+        "sha256_in_prefix": "6b2ca91df146b458f2acd87332bb1b99757483855a2e01ba4573cff89519f840",
+        "size_in_bytes": 17318
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/_diff_tree.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "68bae05e2446d818f4f2d553e447070971ffe704b6b543a9123a93a502abf0a6",
+        "sha256_in_prefix": "68bae05e2446d818f4f2d553e447070971ffe704b6b543a9123a93a502abf0a6",
+        "size_in_bytes": 243712
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/_objects.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "3cdb00bc42265f55089b0ab1b78c584229bcbb14e9731710084a6a79982b3422",
+        "sha256_in_prefix": "3cdb00bc42265f55089b0ab1b78c584229bcbb14e9731710084a6a79982b3422",
+        "size_in_bytes": 262144
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/_pack.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "099b01f26dc87c199dd5980ab4456376f328ebab4491a2df5479e1bb44c1b600",
+        "sha256_in_prefix": "099b01f26dc87c199dd5980ab4456376f328ebab4491a2df5479e1bb44c1b600",
+        "size_in_bytes": 239616
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/archive.py",
+        "path_type": "hardlink",
+        "sha256": "d2c21dea37c69b11c19e859d65687b9784ec52ca1feb4f08d1e5428b197163f6",
+        "sha256_in_prefix": "d2c21dea37c69b11c19e859d65687b9784ec52ca1feb4f08d1e5428b197163f6",
+        "size_in_bytes": 4785
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/bundle.py",
+        "path_type": "hardlink",
+        "sha256": "3dd8610f796091a3eefc64183269ae18ddc8199c42efbb59fc390b9e1cbc1773",
+        "sha256_in_prefix": "3dd8610f796091a3eefc64183269ae18ddc8199c42efbb59fc390b9e1cbc1773",
+        "size_in_bytes": 4422
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/cli.py",
+        "path_type": "hardlink",
+        "sha256": "33db71852a57dc0c3151f83b6695c67f6e14bcd1a4c1b30074190d6c1bb47c46",
+        "sha256_in_prefix": "33db71852a57dc0c3151f83b6695c67f6e14bcd1a4c1b30074190d6c1bb47c46",
+        "size_in_bytes": 23881
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/client.py",
+        "path_type": "hardlink",
+        "sha256": "8de5f4e52f91217e1fe862a7b304eb27dceeca425435b54c012b74c1f2d81315",
+        "sha256_in_prefix": "8de5f4e52f91217e1fe862a7b304eb27dceeca425435b54c012b74c1f2d81315",
+        "size_in_bytes": 81186
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/cloud/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/cloud/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1fd8ae587d6f9b9655740e79ac87251565a3f4ec231bee06ce617660f1270e5a",
+        "sha256_in_prefix": "1fd8ae587d6f9b9655740e79ac87251565a3f4ec231bee06ce617660f1270e5a",
+        "size_in_bytes": 134
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/cloud/__pycache__/gcs.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ddee973f4f10e36bfeab3027e2372612d0ed81128928e2c0160bb9c54b7a8b26",
+        "sha256_in_prefix": "ddee973f4f10e36bfeab3027e2372612d0ed81128928e2c0160bb9c54b7a8b26",
+        "size_in_bytes": 3109
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/cloud/gcs.py",
+        "path_type": "hardlink",
+        "sha256": "b2107a5c75fbd527ae77a004549b7f1ab89131994b2bbcf3b8fe91e32f7cea19",
+        "sha256_in_prefix": "b2107a5c75fbd527ae77a004549b7f1ab89131994b2bbcf3b8fe91e32f7cea19",
+        "size_in_bytes": 3096
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/config.py",
+        "path_type": "hardlink",
+        "sha256": "1c9e4ff384a19b851a078e95415c62766248dbfd2f5948e703a25c35da384c90",
+        "sha256_in_prefix": "1c9e4ff384a19b851a078e95415c62766248dbfd2f5948e703a25c35da384c90",
+        "size_in_bytes": 25269
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/contrib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b23f2763d0cf06041bffea7f44474c678689c9e211d059faeb1c33239635bb8c",
+        "sha256_in_prefix": "b23f2763d0cf06041bffea7f44474c678689c9e211d059faeb1c33239635bb8c",
+        "size_in_bytes": 956
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/contrib/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1605402136d2060984397d36f059112424c70c4835069958e98d9fbcce0dbaba",
+        "sha256_in_prefix": "1605402136d2060984397d36f059112424c70c4835069958e98d9fbcce0dbaba",
+        "size_in_bytes": 136
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/contrib/__pycache__/diffstat.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6435177cd2838de1aee181f6c9d09bb7ad9663f42f64de26d6eeec2cad717a47",
+        "sha256_in_prefix": "6435177cd2838de1aee181f6c9d09bb7ad9663f42f64de26d6eeec2cad717a47",
+        "size_in_bytes": 9367
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/contrib/__pycache__/paramiko_vendor.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "350d305937ac9c4fd23c753dad6889c6128630b5ddcd8a430bb69e12863b2202",
+        "sha256_in_prefix": "350d305937ac9c4fd23c753dad6889c6128630b5ddcd8a430bb69e12863b2202",
+        "size_in_bytes": 2742
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/contrib/__pycache__/release_robot.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "22858a02539f72fd2760238662935fa3f50af36944a8937beac3a63ed738353e",
+        "sha256_in_prefix": "22858a02539f72fd2760238662935fa3f50af36944a8937beac3a63ed738353e",
+        "size_in_bytes": 3341
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/contrib/__pycache__/requests_vendor.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9bd23945ca703e397eb75af2bee4476543e20c71865f80aeb39b28b3d95d2624",
+        "sha256_in_prefix": "9bd23945ca703e397eb75af2bee4476543e20c71865f80aeb39b28b3d95d2624",
+        "size_in_bytes": 2996
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/contrib/__pycache__/swift.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a7c5653a0d202d8a335a103b6f06c2fa5293a87def0613e6d6d0c1999763cfda",
+        "sha256_in_prefix": "a7c5653a0d202d8a335a103b6f06c2fa5293a87def0613e6d6d0c1999763cfda",
+        "size_in_bytes": 29470
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/contrib/diffstat.py",
+        "path_type": "hardlink",
+        "sha256": "b9d9d599c923504a4239e533ba61826c3032c4311be402738be0460881fa5450",
+        "sha256_in_prefix": "b9d9d599c923504a4239e533ba61826c3032c4311be402738be0460881fa5450",
+        "size_in_bytes": 13680
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/contrib/paramiko_vendor.py",
+        "path_type": "hardlink",
+        "sha256": "e564554677f2511d320aa2c2f93995c598126533998113458966d17684310bd3",
+        "sha256_in_prefix": "e564554677f2511d320aa2c2f93995c598126533998113458966d17684310bd3",
+        "size_in_bytes": 3472
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/contrib/release_robot.py",
+        "path_type": "hardlink",
+        "sha256": "90a97ad0b12e71f1f1794a2607bafc9132dfc96e84b7fd095396f3a114e8d8cd",
+        "sha256_in_prefix": "90a97ad0b12e71f1f1794a2607bafc9132dfc96e84b7fd095396f3a114e8d8cd",
+        "size_in_bytes": 5311
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/contrib/requests_vendor.py",
+        "path_type": "hardlink",
+        "sha256": "0900abd15e9e7c061fb1cb8933e71d5898346d037919fc071302ce53de081ae9",
+        "sha256_in_prefix": "0900abd15e9e7c061fb1cb8933e71d5898346d037919fc071302ce53de081ae9",
+        "size_in_bytes": 4736
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/contrib/swift.py",
+        "path_type": "hardlink",
+        "sha256": "91f09679c1a1d26bf71c724899a1f162ef2eee564ae8c083b9f9a020b953ac3a",
+        "sha256_in_prefix": "91f09679c1a1d26bf71c724899a1f162ef2eee564ae8c083b9f9a020b953ac3a",
+        "size_in_bytes": 33035
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/credentials.py",
+        "path_type": "hardlink",
+        "sha256": "7b4dfde524aee40a7b51f10d51301a622f9e4f6dc8fd1f9f851617de7ba0908b",
+        "sha256_in_prefix": "7b4dfde524aee40a7b51f10d51301a622f9e4f6dc8fd1f9f851617de7ba0908b",
+        "size_in_bytes": 3236
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/diff_tree.py",
+        "path_type": "hardlink",
+        "sha256": "3a2e1b589ffb5ece67f1a79580784fb507211a7ea6ec21c5883c4bd8393a62f4",
+        "sha256_in_prefix": "3a2e1b589ffb5ece67f1a79580784fb507211a7ea6ec21c5883c4bd8393a62f4",
+        "size_in_bytes": 22835
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/errors.py",
+        "path_type": "hardlink",
+        "sha256": "50680817f2b05788f8ed8ac1be8ad7674fa112fa523433dcfbafd77a4d4662b8",
+        "sha256_in_prefix": "50680817f2b05788f8ed8ac1be8ad7674fa112fa523433dcfbafd77a4d4662b8",
+        "size_in_bytes": 5620
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/fastexport.py",
+        "path_type": "hardlink",
+        "sha256": "9d207c9295a5ec84533a50d5cd04d57947e06a67a9ac90aba55a8608d1fd8364",
+        "sha256_in_prefix": "9d207c9295a5ec84533a50d5cd04d57947e06a67a9ac90aba55a8608d1fd8364",
+        "size_in_bytes": 8991
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/file.py",
+        "path_type": "hardlink",
+        "sha256": "151130c879872bada635192fa0ba33d4710d9c1cdfccb3da4998094cfb4192a1",
+        "sha256_in_prefix": "151130c879872bada635192fa0ba33d4710d9c1cdfccb3da4998094cfb4192a1",
+        "size_in_bytes": 7262
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/graph.py",
+        "path_type": "hardlink",
+        "sha256": "f54dfa005a8dfabfdbfd77e878270e9e1c8c8ce691fed0081236cd8ebd1236bb",
+        "sha256_in_prefix": "f54dfa005a8dfabfdbfd77e878270e9e1c8c8ce691fed0081236cd8ebd1236bb",
+        "size_in_bytes": 7487
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/greenthreads.py",
+        "path_type": "hardlink",
+        "sha256": "c96032505d659f4b47cb02faa296313079bba79b9d19c40ae49b9a59c66b7853",
+        "sha256_in_prefix": "c96032505d659f4b47cb02faa296313079bba79b9d19c40ae49b9a59c66b7853",
+        "size_in_bytes": 4075
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/hooks.py",
+        "path_type": "hardlink",
+        "sha256": "136c8688241bb20eaf99a0c7de36667d6ef9b98db2e62425778d7a6bb29fbd54",
+        "sha256_in_prefix": "136c8688241bb20eaf99a0c7de36667d6ef9b98db2e62425778d7a6bb29fbd54",
+        "size_in_bytes": 6498
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/ignore.py",
+        "path_type": "hardlink",
+        "sha256": "30f56496fed48f7b3f8ab8fee9b4393172a3d628da5e9d76bf7d525d9d6faebd",
+        "sha256_in_prefix": "30f56496fed48f7b3f8ab8fee9b4393172a3d628da5e9d76bf7d525d9d6faebd",
+        "size_in_bytes": 11699
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/index.py",
+        "path_type": "hardlink",
+        "sha256": "8880b2bd00b1e18e64e91660cabdc3ebccb558196b4218cefbe5ecd6d88743cb",
+        "sha256_in_prefix": "8880b2bd00b1e18e64e91660cabdc3ebccb558196b4218cefbe5ecd6d88743cb",
+        "size_in_bytes": 34779
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/lfs.py",
+        "path_type": "hardlink",
+        "sha256": "403de3d4b0cf55e39ffed6487408fa3ac853fd846c20f2ab355ab085033f49bf",
+        "sha256_in_prefix": "403de3d4b0cf55e39ffed6487408fa3ac853fd846c20f2ab355ab085033f49bf",
+        "size_in_bytes": 2505
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/line_ending.py",
+        "path_type": "hardlink",
+        "sha256": "6dfd8f54d3a8faaf6c2bdcfd6506f32ac87fa67b57126f92b2d3120d557e5c81",
+        "sha256_in_prefix": "6dfd8f54d3a8faaf6c2bdcfd6506f32ac87fa67b57126f92b2d3120d557e5c81",
+        "size_in_bytes": 11589
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/log_utils.py",
+        "path_type": "hardlink",
+        "sha256": "02d9ad39d62ad545509ff1cabc6dff1c93d93eef01f51cf9ef0adb8a07568293",
+        "sha256_in_prefix": "02d9ad39d62ad545509ff1cabc6dff1c93d93eef01f51cf9ef0adb8a07568293",
+        "size_in_bytes": 2575
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/lru_cache.py",
+        "path_type": "hardlink",
+        "sha256": "861b66afadb455a539979479c679fd19b19015e0a912944791e682840434f120",
+        "sha256_in_prefix": "861b66afadb455a539979479c679fd19b19015e0a912944791e682840434f120",
+        "size_in_bytes": 15620
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/mailmap.py",
+        "path_type": "hardlink",
+        "sha256": "32d20c12e5eb26d5693147534f60e3f17e220299f5808cf4d95b12207d60173b",
+        "sha256_in_prefix": "32d20c12e5eb26d5693147534f60e3f17e220299f5808cf4d95b12207d60173b",
+        "size_in_bytes": 4101
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/object_store.py",
+        "path_type": "hardlink",
+        "sha256": "a1921adbbe63542535b6c6d9fe224ba249b1e8d5ecb4d50da9e1a3320e01919b",
+        "sha256_in_prefix": "a1921adbbe63542535b6c6d9fe224ba249b1e8d5ecb4d50da9e1a3320e01919b",
+        "size_in_bytes": 58417
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/objects.py",
+        "path_type": "hardlink",
+        "sha256": "8d95cada14d49c5443a44ab911829568b3769be5b6778c35963a4df3c368bc21",
+        "sha256_in_prefix": "8d95cada14d49c5443a44ab911829568b3769be5b6778c35963a4df3c368bc21",
+        "size_in_bytes": 53619
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/objectspec.py",
+        "path_type": "hardlink",
+        "sha256": "4a018497273095aea4cef8af4193a0bc79212f528d0b214d80ddafb86ee49487",
+        "sha256_in_prefix": "4a018497273095aea4cef8af4193a0bc79212f528d0b214d80ddafb86ee49487",
+        "size_in_bytes": 7572
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/pack.py",
+        "path_type": "hardlink",
+        "sha256": "6c72d25104777690695454f56d2b6644430da6b80b1bdaec98e31d2a9d5a58c5",
+        "sha256_in_prefix": "6c72d25104777690695454f56d2b6644430da6b80b1bdaec98e31d2a9d5a58c5",
+        "size_in_bytes": 91635
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/patch.py",
+        "path_type": "hardlink",
+        "sha256": "8bc41b729a053e114ce2288c990844fa8fa53ae42c7f60a62984362ba84a5613",
+        "sha256_in_prefix": "8bc41b729a053e114ce2288c990844fa8fa53ae42c7f60a62984362ba84a5613",
+        "size_in_bytes": 12583
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/porcelain.py",
+        "path_type": "hardlink",
+        "sha256": "d534ef6134d90bb6270721945e31d46ecf5db93680e4a45846a99e3b25d029c3",
+        "sha256_in_prefix": "d534ef6134d90bb6270721945e31d46ecf5db93680e4a45846a99e3b25d029c3",
+        "size_in_bytes": 69500
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/protocol.py",
+        "path_type": "hardlink",
+        "sha256": "bed34ec885cbd2ebd6344f3e1f5db838217e2f3f3da8ef29e6ff74bdd3d38842",
+        "sha256_in_prefix": "bed34ec885cbd2ebd6344f3e1f5db838217e2f3f3da8ef29e6ff74bdd3d38842",
+        "size_in_bytes": 18211
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/reflog.py",
+        "path_type": "hardlink",
+        "sha256": "091a8fe29b37cbe6b324ace0daf9b27089453f5c183d55050bbe22df73a93277",
+        "sha256_in_prefix": "091a8fe29b37cbe6b324ace0daf9b27089453f5c183d55050bbe22df73a93277",
+        "size_in_bytes": 4125
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/refs.py",
+        "path_type": "hardlink",
+        "sha256": "738e6354129f1b7177ff10e887d45010ee5c8b03e79ebc2c0d0f3db348be9378",
+        "sha256_in_prefix": "738e6354129f1b7177ff10e887d45010ee5c8b03e79ebc2c0d0f3db348be9378",
+        "size_in_bytes": 40420
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/repo.py",
+        "path_type": "hardlink",
+        "sha256": "1cc2f007c801744e97da047689664ff4203878435b204b3d6f9a4b98457581df",
+        "sha256_in_prefix": "1cc2f007c801744e97da047689664ff4203878435b204b3d6f9a4b98457581df",
+        "size_in_bytes": 63916
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/server.py",
+        "path_type": "hardlink",
+        "sha256": "cc3c44780ec5827bbda0df06ca735e01d38dcf479d5f08c44325a270d0ab0358",
+        "sha256_in_prefix": "cc3c44780ec5827bbda0df06ca735e01d38dcf479d5f08c44325a270d0ab0358",
+        "size_in_bytes": 44479
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/stash.py",
+        "path_type": "hardlink",
+        "sha256": "cdceb8f776ee9697f9a008d841f21f922a81da165b10c6025f4d64eb66aedfd7",
+        "sha256_in_prefix": "cdceb8f776ee9697f9a008d841f21f922a81da165b10c6025f4d64eb66aedfd7",
+        "size_in_bytes": 4000
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/stdint.h",
+        "path_type": "hardlink",
+        "sha256": "077eabf73f023cee10ce90c88b615af0cd258faf192db94275aa0fe4756b004b",
+        "sha256_in_prefix": "077eabf73f023cee10ce90c88b615af0cd258faf192db94275aa0fe4756b004b",
+        "size_in_bytes": 385
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/submodule.py",
+        "path_type": "hardlink",
+        "sha256": "10bb36414a549ec092293ea5ebef544f3ae20901c6342dcd55f20d2143e75fe2",
+        "sha256_in_prefix": "10bb36414a549ec092293ea5ebef544f3ae20901c6342dcd55f20d2143e75fe2",
+        "size_in_bytes": 1531
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "deed008c1fe393618f4c962e5435ab509416ba1bbd2636d097faa6e9c61bf4ae",
+        "sha256_in_prefix": "deed008c1fe393618f4c962e5435ab509416ba1bbd2636d097faa6e9c61bf4ae",
+        "size_in_bytes": 976
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8136aa1ce57c21d7d699b22d581b8ac0c4960fb2d0405f0b0e73a35a2073388f",
+        "sha256_in_prefix": "8136aa1ce57c21d7d699b22d581b8ac0c4960fb2d0405f0b0e73a35a2073388f",
+        "size_in_bytes": 164
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/tests/__pycache__/test_object_store.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4447368b420e6eaa6e75c54a4c36d69fc81a45be6aef2e8215805367795c7a59",
+        "sha256_in_prefix": "4447368b420e6eaa6e75c54a4c36d69fc81a45be6aef2e8215805367795c7a59",
+        "size_in_bytes": 9860
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/tests/__pycache__/utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "343f1a94952da59077fba97baba3751d56ac04fd26a415d9fc4c9842e7f0f506",
+        "sha256_in_prefix": "343f1a94952da59077fba97baba3751d56ac04fd26a415d9fc4c9842e7f0f506",
+        "size_in_bytes": 10768
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/tests/test_object_store.py",
+        "path_type": "hardlink",
+        "sha256": "9d86511b6c7911fcc9010092301f1bbad02c3c9d7f2659ed711bada32879652d",
+        "sha256_in_prefix": "9d86511b6c7911fcc9010092301f1bbad02c3c9d7f2659ed711bada32879652d",
+        "size_in_bytes": 11054
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/tests/utils.py",
+        "path_type": "hardlink",
+        "sha256": "0bb4adc8661453f338acd32f09718d7ed2c96d158445d1288223f96dd7ede398",
+        "sha256_in_prefix": "0bb4adc8661453f338acd32f09718d7ed2c96d158445d1288223f96dd7ede398",
+        "size_in_bytes": 12431
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/walk.py",
+        "path_type": "hardlink",
+        "sha256": "2d8468192d1bbc9e36d02013529218360c7943a5d244efcf33157b297ec37d35",
+        "sha256_in_prefix": "2d8468192d1bbc9e36d02013529218360c7943a5d244efcf33157b297ec37d35",
+        "size_in_bytes": 16435
+      },
+      {
+        "_path": "Lib/site-packages/dulwich/web.py",
+        "path_type": "hardlink",
+        "sha256": "91cd1844a90411cc1023f256b21e40cfe2f5f626897122944d3efef0993e172b",
+        "sha256_in_prefix": "91cd1844a90411cc1023f256b21e40cfe2f5f626897122944d3efef0993e172b",
+        "size_in_bytes": 18716
+      },
+      {
+        "_path": "Scripts/dul-receive-pack-script.py",
+        "path_type": "hardlink",
+        "sha256": "a65e80801cdf8acd85d386cd193f77a4daf8611b3135ed7712463712e75c606e",
+        "sha256_in_prefix": "a65e80801cdf8acd85d386cd193f77a4daf8611b3135ed7712463712e75c606e",
+        "size_in_bytes": 1211
+      },
+      {
+        "_path": "Scripts/dul-receive-pack.exe",
+        "path_type": "hardlink",
+        "sha256": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "sha256_in_prefix": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "size_in_bytes": 41984
+      },
+      {
+        "_path": "Scripts/dul-upload-pack-script.py",
+        "path_type": "hardlink",
+        "sha256": "22fdfd223aaa3993262157dbc40837ba3579bf909a8e2c29c239de0391a6d8ec",
+        "sha256_in_prefix": "22fdfd223aaa3993262157dbc40837ba3579bf909a8e2c29c239de0391a6d8ec",
+        "size_in_bytes": 1207
+      },
+      {
+        "_path": "Scripts/dul-upload-pack.exe",
+        "path_type": "hardlink",
+        "sha256": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "sha256_in_prefix": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "size_in_bytes": 41984
+      },
+      {
+        "_path": "Scripts/dulwich-script.py",
+        "path_type": "hardlink",
+        "sha256": "87e712fdbbd1220bca76afc30e7216c98344df143ef9cfa5dd11718beaab6339",
+        "sha256_in_prefix": "87e712fdbbd1220bca76afc30e7216c98344df143ef9cfa5dd11718beaab6339",
+        "size_in_bytes": 205
+      },
+      {
+        "_path": "Scripts/dulwich.exe",
+        "path_type": "hardlink",
+        "sha256": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "sha256_in_prefix": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "size_in_bytes": 41984
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b2fbb8625a2c4b0da0e2a7a14c10f4d84ead6a793bed78c2a302b7f965088fff",
+  "size": 574143,
+  "subdir": "win-64",
+  "timestamp": 1713938839000,
+  "url": "https://conda.anaconda.org/conda-forge/win-64/dulwich-0.22.1-py38h2e0ef18_0.conda",
+  "version": "0.22.1"
+}

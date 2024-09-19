@@ -1,0 +1,152 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.8.0"
+  ],
+  "extracted_package_dir": "C:\\Users\\kafub\\anaconda3\\pkgs\\aiohappyeyeballs-2.4.0-pyhd8ed1ab_0",
+  "files": [
+    "Lib/site-packages/aiohappyeyeballs-2.4.0.dist-info/INSTALLER",
+    "Lib/site-packages/aiohappyeyeballs-2.4.0.dist-info/LICENSE",
+    "Lib/site-packages/aiohappyeyeballs-2.4.0.dist-info/METADATA",
+    "Lib/site-packages/aiohappyeyeballs-2.4.0.dist-info/RECORD",
+    "Lib/site-packages/aiohappyeyeballs-2.4.0.dist-info/REQUESTED",
+    "Lib/site-packages/aiohappyeyeballs-2.4.0.dist-info/WHEEL",
+    "Lib/site-packages/aiohappyeyeballs-2.4.0.dist-info/direct_url.json",
+    "Lib/site-packages/aiohappyeyeballs/__init__.py",
+    "Lib/site-packages/aiohappyeyeballs/impl.py",
+    "Lib/site-packages/aiohappyeyeballs/py.typed",
+    "Lib/site-packages/aiohappyeyeballs/types.py",
+    "Lib/site-packages/aiohappyeyeballs/utils.py",
+    ".nonadmin",
+    "Lib/site-packages/aiohappyeyeballs/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/aiohappyeyeballs/__pycache__/impl.cpython-38.pyc",
+    "Lib/site-packages/aiohappyeyeballs/__pycache__/types.cpython-38.pyc",
+    "Lib/site-packages/aiohappyeyeballs/__pycache__/utils.cpython-38.pyc"
+  ],
+  "fn": "aiohappyeyeballs-2.4.0-pyhd8ed1ab_0.conda",
+  "license": "PSF-2.0",
+  "link": {
+    "source": "C:\\Users\\kafub\\anaconda3\\pkgs\\aiohappyeyeballs-2.4.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "0482cd2217e27b3ce47676d570ac3d45",
+  "name": "aiohappyeyeballs",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\kafub\\anaconda3\\pkgs\\aiohappyeyeballs-2.4.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/aiohappyeyeballs-2.4.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/aiohappyeyeballs-2.4.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+        "sha256_in_prefix": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+        "size_in_bytes": 13936
+      },
+      {
+        "_path": "site-packages/aiohappyeyeballs-2.4.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "901bf2d337774e1bfe713feba86720442c6f56acd719187c8214c2df365f88b6",
+        "sha256_in_prefix": "901bf2d337774e1bfe713feba86720442c6f56acd719187c8214c2df365f88b6",
+        "size_in_bytes": 5901
+      },
+      {
+        "_path": "site-packages/aiohappyeyeballs-2.4.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "40e8428726bde5229ca29961ef4fbd4330a0192489d85c4309b25b75039fa985",
+        "sha256_in_prefix": "40e8428726bde5229ca29961ef4fbd4330a0192489d85c4309b25b75039fa985",
+        "size_in_bytes": 1264
+      },
+      {
+        "_path": "site-packages/aiohappyeyeballs-2.4.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/aiohappyeyeballs-2.4.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "b0ff78e83ee31421de373e48ab87cbe0bbbe3eb5ab16c81f2d76db91c8886708",
+        "sha256_in_prefix": "b0ff78e83ee31421de373e48ab87cbe0bbbe3eb5ab16c81f2d76db91c8886708",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "site-packages/aiohappyeyeballs-2.4.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "6ec7eb71a57ae0f882193c1dd4b2461f8848ef35ffd9d05ac073afb146bf29c6",
+        "sha256_in_prefix": "6ec7eb71a57ae0f882193c1dd4b2461f8848ef35ffd9d05ac073afb146bf29c6",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "site-packages/aiohappyeyeballs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "385f86278306b25dd0a8eff679f7ba50bd75140c519b34c3c838b013a86019cd",
+        "sha256_in_prefix": "385f86278306b25dd0a8eff679f7ba50bd75140c519b34c3c838b013a86019cd",
+        "size_in_bytes": 317
+      },
+      {
+        "_path": "site-packages/aiohappyeyeballs/impl.py",
+        "path_type": "hardlink",
+        "sha256": "75c62ad39837946924a31c5dd4a167c978f814a51a2df7a996727dddd2e7a104",
+        "sha256_in_prefix": "75c62ad39837946924a31c5dd4a167c978f814a51a2df7a996727dddd2e7a104",
+        "size_in_bytes": 7289
+      },
+      {
+        "_path": "site-packages/aiohappyeyeballs/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/aiohappyeyeballs/types.py",
+        "path_type": "hardlink",
+        "sha256": "8983e205397927b6048e722a10e5544d13f3cf60f0a921c1461bdb025334cefd",
+        "sha256_in_prefix": "8983e205397927b6048e722a10e5544d13f3cf60f0a921c1461bdb025334cefd",
+        "size_in_bytes": 234
+      },
+      {
+        "_path": "site-packages/aiohappyeyeballs/utils.py",
+        "path_type": "hardlink",
+        "sha256": "5bf39a7f588ff306111e8e81f79798c7e6716e3a71c96c18813764856a861797",
+        "sha256_in_prefix": "5bf39a7f588ff306111e8e81f79798c7e6716e3a71c96c18813764856a861797",
+        "size_in_bytes": 3026
+      },
+      {
+        "_path": "Lib/site-packages/aiohappyeyeballs/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/aiohappyeyeballs/__pycache__/impl.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/aiohappyeyeballs/__pycache__/types.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/aiohappyeyeballs/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5d318408a7ad62c1dbff90060795287f1fd3bdbec13b733bc82f1fadb2c9244e",
+  "size": 17032,
+  "subdir": "noarch",
+  "timestamp": 1724167966000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/aiohappyeyeballs-2.4.0-pyhd8ed1ab_0.conda",
+  "version": "2.4.0"
+}

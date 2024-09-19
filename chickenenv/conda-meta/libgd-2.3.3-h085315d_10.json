@@ -1,0 +1,263 @@
+{
+  "build": "h085315d_10",
+  "build_number": 10,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "fontconfig >=2.14.2,<3.0a0",
+    "fonts-conda-ecosystem",
+    "freetype >=2.12.1,<3.0a0",
+    "icu >=75.1,<76.0a0",
+    "libexpat >=2.6.2,<3.0a0",
+    "libjpeg-turbo >=3.0.0,<4.0a0",
+    "libpng >=1.6.43,<1.7.0a0",
+    "libtiff >=4.6.0,<4.7.0a0",
+    "libwebp-base >=1.4.0,<2.0a0",
+    "libzlib >=1.3.1,<2.0a0",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139",
+    "xorg-libxpm >=3.5.17,<4.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\kafub\\anaconda3\\pkgs\\libgd-2.3.3-h085315d_10",
+  "files": [
+    "Library/bin/libgd.dll",
+    "Library/include/bmp.h",
+    "Library/include/config.h",
+    "Library/include/entities.h",
+    "Library/include/gd.h",
+    "Library/include/gd_color.h",
+    "Library/include/gd_color_map.h",
+    "Library/include/gd_errors.h",
+    "Library/include/gd_intern.h",
+    "Library/include/gd_io.h",
+    "Library/include/gd_io_stream.h",
+    "Library/include/gd_nnquant.h",
+    "Library/include/gd_tga.h",
+    "Library/include/gdcache.h",
+    "Library/include/gdfontg.h",
+    "Library/include/gdfontl.h",
+    "Library/include/gdfontmb.h",
+    "Library/include/gdfonts.h",
+    "Library/include/gdfontt.h",
+    "Library/include/gdfx.h",
+    "Library/include/gdhelpers.h",
+    "Library/include/gdpp.h",
+    "Library/include/jisx0208.h",
+    "Library/include/wbmp.h",
+    "Library/lib/gd.lib",
+    "Library/lib/libgd.lib",
+    "Library/lib/libgd_a.lib",
+    ".nonadmin"
+  ],
+  "fn": "libgd-2.3.3-h085315d_10.conda",
+  "license": "GD",
+  "link": {
+    "source": "C:\\Users\\kafub\\anaconda3\\pkgs\\libgd-2.3.3-h085315d_10",
+    "type": 1
+  },
+  "md5": "ac0cda3730da6013715a0d9e8e677d83",
+  "name": "libgd",
+  "package_tarball_full_path": "C:\\Users\\kafub\\anaconda3\\pkgs\\libgd-2.3.3-h085315d_10.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/libgd.dll",
+        "path_type": "hardlink",
+        "sha256": "c10d7c570b7e1cd0638550c268c68f02ebfc614e71581ac7dbd8e1196f612325",
+        "sha256_in_prefix": "c10d7c570b7e1cd0638550c268c68f02ebfc614e71581ac7dbd8e1196f612325",
+        "size_in_bytes": 368128
+      },
+      {
+        "_path": "Library/include/bmp.h",
+        "path_type": "hardlink",
+        "sha256": "f024b2477c8cdbfa83db9293f905d4ac980126acab37824d4cb1001e1e629d08",
+        "sha256_in_prefix": "f024b2477c8cdbfa83db9293f905d4ac980126acab37824d4cb1001e1e629d08",
+        "size_in_bytes": 2439
+      },
+      {
+        "_path": "Library/include/config.h",
+        "path_type": "hardlink",
+        "sha256": "008f776c60f2c8af55eab9e44c11c3261e87f8dce915f0b5441abb9e3a3a8ff1",
+        "sha256_in_prefix": "008f776c60f2c8af55eab9e44c11c3261e87f8dce915f0b5441abb9e3a3a8ff1",
+        "size_in_bytes": 643
+      },
+      {
+        "_path": "Library/include/entities.h",
+        "path_type": "hardlink",
+        "sha256": "7fab5e2f769bfc2344d618f3f1a1f62448b74b0e336b5be6fdb00be8a6b3d3ff",
+        "sha256_in_prefix": "7fab5e2f769bfc2344d618f3f1a1f62448b74b0e336b5be6fdb00be8a6b3d3ff",
+        "size_in_bytes": 4930
+      },
+      {
+        "_path": "Library/include/gd.h",
+        "path_type": "hardlink",
+        "sha256": "9b50770ef2ae01636f258e33cb81c8c35d4f282f602e9216b73854e3c1a108fd",
+        "sha256_in_prefix": "9b50770ef2ae01636f258e33cb81c8c35d4f282f602e9216b73854e3c1a108fd",
+        "size_in_bytes": 60084
+      },
+      {
+        "_path": "Library/include/gd_color.h",
+        "path_type": "hardlink",
+        "sha256": "3aa6480c999c94b2b54289c3d42374f6a1bc2fa660a108743db54758e734c878",
+        "sha256_in_prefix": "3aa6480c999c94b2b54289c3d42374f6a1bc2fa660a108743db54758e734c878",
+        "size_in_bytes": 189
+      },
+      {
+        "_path": "Library/include/gd_color_map.h",
+        "path_type": "hardlink",
+        "sha256": "651690d56592975310220013e59a1fe9dba7d27f64fd77c004311ce7540c6b84",
+        "sha256_in_prefix": "651690d56592975310220013e59a1fe9dba7d27f64fd77c004311ce7540c6b84",
+        "size_in_bytes": 478
+      },
+      {
+        "_path": "Library/include/gd_errors.h",
+        "path_type": "hardlink",
+        "sha256": "b62365abcca9db1c61ab630e3a1582bee1d64ebc3392c5cc956a6d61367d98ca",
+        "sha256_in_prefix": "b62365abcca9db1c61ab630e3a1582bee1d64ebc3392c5cc956a6d61367d98ca",
+        "size_in_bytes": 1503
+      },
+      {
+        "_path": "Library/include/gd_intern.h",
+        "path_type": "hardlink",
+        "sha256": "5ed5f9346b05ce36669cde59ec567df21b19f4c6999691dd5ad91b3984246135",
+        "sha256_in_prefix": "5ed5f9346b05ce36669cde59ec567df21b19f4c6999691dd5ad91b3984246135",
+        "size_in_bytes": 2283
+      },
+      {
+        "_path": "Library/include/gd_io.h",
+        "path_type": "hardlink",
+        "sha256": "6169c37be0c79fa1040bfa980e3bf5597775f6332c97acf542618d26c07da80a",
+        "sha256_in_prefix": "6169c37be0c79fa1040bfa980e3bf5597775f6332c97acf542618d26c07da80a",
+        "size_in_bytes": 2931
+      },
+      {
+        "_path": "Library/include/gd_io_stream.h",
+        "path_type": "hardlink",
+        "sha256": "424bafd46cbaf68cd5df10a110f6441a000e8c83fc4a6de17a800854dc564187",
+        "sha256_in_prefix": "424bafd46cbaf68cd5df10a110f6441a000e8c83fc4a6de17a800854dc564187",
+        "size_in_bytes": 3603
+      },
+      {
+        "_path": "Library/include/gd_nnquant.h",
+        "path_type": "hardlink",
+        "sha256": "090f1defdaec132c55447b0ce4bf95ef10ebbbfaa7f3f7f39958dde350ebb39a",
+        "sha256_in_prefix": "090f1defdaec132c55447b0ce4bf95ef10ebbbfaa7f3f7f39958dde350ebb39a",
+        "size_in_bytes": 524
+      },
+      {
+        "_path": "Library/include/gd_tga.h",
+        "path_type": "hardlink",
+        "sha256": "6323d5bfb39b2c9064af6caa530ca68ec8786693c2e75648f9ac834e1b847345",
+        "sha256_in_prefix": "6323d5bfb39b2c9064af6caa530ca68ec8786693c2e75648f9ac834e1b847345",
+        "size_in_bytes": 1708
+      },
+      {
+        "_path": "Library/include/gdcache.h",
+        "path_type": "hardlink",
+        "sha256": "1e917251274392ab183a080df2b6feabbb8819a2a107e314db1cefc9c09ade5f",
+        "sha256_in_prefix": "1e917251274392ab183a080df2b6feabbb8819a2a107e314db1cefc9c09ade5f",
+        "size_in_bytes": 2994
+      },
+      {
+        "_path": "Library/include/gdfontg.h",
+        "path_type": "hardlink",
+        "sha256": "be02beef98b36f7f3471e2bfcf9ed4d5b9eb929b07eef9f7ef459d7a34e38766",
+        "sha256_in_prefix": "be02beef98b36f7f3471e2bfcf9ed4d5b9eb929b07eef9f7ef459d7a34e38766",
+        "size_in_bytes": 553
+      },
+      {
+        "_path": "Library/include/gdfontl.h",
+        "path_type": "hardlink",
+        "sha256": "718fb4d1a992cb93cdd423bbb4e8c9688f19f43e0542d7e12398f9c9905a2d3c",
+        "sha256_in_prefix": "718fb4d1a992cb93cdd423bbb4e8c9688f19f43e0542d7e12398f9c9905a2d3c",
+        "size_in_bytes": 551
+      },
+      {
+        "_path": "Library/include/gdfontmb.h",
+        "path_type": "hardlink",
+        "sha256": "704e6f4c5fa60f85c44ea9d5f6f14c7489842784efe1a19bc23a472ca3399150",
+        "sha256_in_prefix": "704e6f4c5fa60f85c44ea9d5f6f14c7489842784efe1a19bc23a472ca3399150",
+        "size_in_bytes": 519
+      },
+      {
+        "_path": "Library/include/gdfonts.h",
+        "path_type": "hardlink",
+        "sha256": "281c5777fcdf9ad4c1cd2538af836c84d725f5d2e4a13f09160bc76111534829",
+        "sha256_in_prefix": "281c5777fcdf9ad4c1cd2538af836c84d725f5d2e4a13f09160bc76111534829",
+        "size_in_bytes": 515
+      },
+      {
+        "_path": "Library/include/gdfontt.h",
+        "path_type": "hardlink",
+        "sha256": "db4968e3f05c8e76feba9a821047c8c6f0f9103c3341371e0083e13a18f0d4f6",
+        "sha256_in_prefix": "db4968e3f05c8e76feba9a821047c8c6f0f9103c3341371e0083e13a18f0d4f6",
+        "size_in_bytes": 546
+      },
+      {
+        "_path": "Library/include/gdfx.h",
+        "path_type": "hardlink",
+        "sha256": "9e9f12e08e586ddb24ea3cee58611aefd403044ec40bf03a6861a77c91c56fbe",
+        "sha256_in_prefix": "9e9f12e08e586ddb24ea3cee58611aefd403044ec40bf03a6861a77c91c56fbe",
+        "size_in_bytes": 496
+      },
+      {
+        "_path": "Library/include/gdhelpers.h",
+        "path_type": "hardlink",
+        "sha256": "5ef3c67dabc3dd5b35953eff457528121d2523afa8c04da5a59a277a74b70236",
+        "sha256_in_prefix": "5ef3c67dabc3dd5b35953eff457528121d2523afa8c04da5a59a277a74b70236",
+        "size_in_bytes": 2385
+      },
+      {
+        "_path": "Library/include/gdpp.h",
+        "path_type": "hardlink",
+        "sha256": "63fe761e0f8e249313a2dfdc48088c9764525eff1d4401b1b7f188a4aee8cd7f",
+        "sha256_in_prefix": "63fe761e0f8e249313a2dfdc48088c9764525eff1d4401b1b7f188a4aee8cd7f",
+        "size_in_bytes": 51975
+      },
+      {
+        "_path": "Library/include/jisx0208.h",
+        "path_type": "hardlink",
+        "sha256": "0d59b52940816d7f30abe3d121e6dcae74e5fd8f30e3e640354380d03be72c9b",
+        "sha256_in_prefix": "0d59b52940816d7f30abe3d121e6dcae74e5fd8f30e3e640354380d03be72c9b",
+        "size_in_bytes": 75479
+      },
+      {
+        "_path": "Library/include/wbmp.h",
+        "path_type": "hardlink",
+        "sha256": "5654db98652fd33c959245abbe234cb310dfa735e9858ca8f1c5dc0dd9a0c647",
+        "sha256_in_prefix": "5654db98652fd33c959245abbe234cb310dfa735e9858ca8f1c5dc0dd9a0c647",
+        "size_in_bytes": 1225
+      },
+      {
+        "_path": "Library/lib/gd.lib",
+        "path_type": "hardlink",
+        "sha256": "02898ed7bba2b3c9a94c56b8b0e65655ac806e5f59ac92e10592f329d08bb8e0",
+        "sha256_in_prefix": "02898ed7bba2b3c9a94c56b8b0e65655ac806e5f59ac92e10592f329d08bb8e0",
+        "size_in_bytes": 51010
+      },
+      {
+        "_path": "Library/lib/libgd.lib",
+        "path_type": "hardlink",
+        "sha256": "02898ed7bba2b3c9a94c56b8b0e65655ac806e5f59ac92e10592f329d08bb8e0",
+        "sha256_in_prefix": "02898ed7bba2b3c9a94c56b8b0e65655ac806e5f59ac92e10592f329d08bb8e0",
+        "size_in_bytes": 51010
+      },
+      {
+        "_path": "Library/lib/libgd_a.lib",
+        "path_type": "hardlink",
+        "sha256": "ea59802dcdc34e8097801fa049f2cb347637758631632fd31da7f65f7d9e01e2",
+        "sha256_in_prefix": "ea59802dcdc34e8097801fa049f2cb347637758631632fd31da7f65f7d9e01e2",
+        "size_in_bytes": 1044764
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "301b6da73cef796766945299a3dea776728703298aac90827aa6bf15134bc03c",
+  "size": 344264,
+  "subdir": "win-64",
+  "timestamp": 1722928697000,
+  "url": "https://conda.anaconda.org/conda-forge/win-64/libgd-2.3.3-h085315d_10.conda",
+  "version": "2.3.3"
+}

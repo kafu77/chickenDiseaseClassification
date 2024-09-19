@@ -1,0 +1,271 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [
+    "pywin32 >=225"
+  ],
+  "depends": [
+    "celery >=5.3.0,<6",
+    "funcy >=1.17",
+    "kombu",
+    "python >=3.7",
+    "pywin32-on-windows",
+    "shortuuid >=1.0.8"
+  ],
+  "extracted_package_dir": "C:\\Users\\kafub\\anaconda3\\pkgs\\dvc-task-0.4.0-pyhd8ed1ab_0",
+  "files": [
+    "Lib/site-packages/dvc_task-0.4.0.dist-info/INSTALLER",
+    "Lib/site-packages/dvc_task-0.4.0.dist-info/LICENSE",
+    "Lib/site-packages/dvc_task-0.4.0.dist-info/METADATA",
+    "Lib/site-packages/dvc_task-0.4.0.dist-info/RECORD",
+    "Lib/site-packages/dvc_task-0.4.0.dist-info/REQUESTED",
+    "Lib/site-packages/dvc_task-0.4.0.dist-info/WHEEL",
+    "Lib/site-packages/dvc_task-0.4.0.dist-info/direct_url.json",
+    "Lib/site-packages/dvc_task-0.4.0.dist-info/top_level.txt",
+    "Lib/site-packages/dvc_task/__init__.py",
+    "Lib/site-packages/dvc_task/app/__init__.py",
+    "Lib/site-packages/dvc_task/app/filesystem.py",
+    "Lib/site-packages/dvc_task/exceptions.py",
+    "Lib/site-packages/dvc_task/proc/__init__.py",
+    "Lib/site-packages/dvc_task/proc/exceptions.py",
+    "Lib/site-packages/dvc_task/proc/manager.py",
+    "Lib/site-packages/dvc_task/proc/process.py",
+    "Lib/site-packages/dvc_task/proc/tasks.py",
+    "Lib/site-packages/dvc_task/py.typed",
+    "Lib/site-packages/dvc_task/utils.py",
+    "Lib/site-packages/dvc_task/worker/__init__.py",
+    "Lib/site-packages/dvc_task/worker/temporary.py",
+    ".nonadmin",
+    "Lib/site-packages/dvc_task/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/dvc_task/app/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/dvc_task/app/__pycache__/filesystem.cpython-38.pyc",
+    "Lib/site-packages/dvc_task/__pycache__/exceptions.cpython-38.pyc",
+    "Lib/site-packages/dvc_task/proc/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/dvc_task/proc/__pycache__/exceptions.cpython-38.pyc",
+    "Lib/site-packages/dvc_task/proc/__pycache__/manager.cpython-38.pyc",
+    "Lib/site-packages/dvc_task/proc/__pycache__/process.cpython-38.pyc",
+    "Lib/site-packages/dvc_task/proc/__pycache__/tasks.cpython-38.pyc",
+    "Lib/site-packages/dvc_task/__pycache__/utils.cpython-38.pyc",
+    "Lib/site-packages/dvc_task/worker/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/dvc_task/worker/__pycache__/temporary.cpython-38.pyc"
+  ],
+  "fn": "dvc-task-0.4.0-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\kafub\\anaconda3\\pkgs\\dvc-task-0.4.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "99dd2e9046ade98deadd415ad5b143fe",
+  "name": "dvc-task",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\kafub\\anaconda3\\pkgs\\dvc-task-0.4.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/dvc_task-0.4.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/dvc_task-0.4.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "fb58e16cf8e82151d1d1c1206a12f866172def915fe0ccd8091fe339a2433eaf",
+        "sha256_in_prefix": "fb58e16cf8e82151d1d1c1206a12f866172def915fe0ccd8091fe339a2433eaf",
+        "size_in_bytes": 11340
+      },
+      {
+        "_path": "site-packages/dvc_task-0.4.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f4dc3f9be8e7004db5b8b40f45cd27640c1b9474b758fd486f112f31ace34135",
+        "sha256_in_prefix": "f4dc3f9be8e7004db5b8b40f45cd27640c1b9474b758fd486f112f31ace34135",
+        "size_in_bytes": 9899
+      },
+      {
+        "_path": "site-packages/dvc_task-0.4.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "54d6c2afbf404b9f9d0a08406acb9215f533f8ccd19f0ef1157a50ce404b59ce",
+        "sha256_in_prefix": "54d6c2afbf404b9f9d0a08406acb9215f533f8ccd19f0ef1157a50ce404b59ce",
+        "size_in_bytes": 2350
+      },
+      {
+        "_path": "site-packages/dvc_task-0.4.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dvc_task-0.4.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
+        "sha256_in_prefix": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/dvc_task-0.4.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "532d42b47f8a7eba421e0167a161eebc1762217a4649a787074a20dc5abb612f",
+        "sha256_in_prefix": "532d42b47f8a7eba421e0167a161eebc1762217a4649a787074a20dc5abb612f",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/dvc_task-0.4.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "4609fa3f26e752271e19447c5326f974945edb46cd43e8afd456ec78cd5288b5",
+        "sha256_in_prefix": "4609fa3f26e752271e19447c5326f974945edb46cd43e8afd456ec78cd5288b5",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/dvc_task/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d1d1cbec238f04c380c993379edf431b6027888bb64adb069d50fd8d7e6f513b",
+        "sha256_in_prefix": "d1d1cbec238f04c380c993379edf431b6027888bb64adb069d50fd8d7e6f513b",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "site-packages/dvc_task/app/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "96cd97323e9c4abeb13c8e4e3fc1dbb0d1cefe70af2e3418265c4611c396c562",
+        "sha256_in_prefix": "96cd97323e9c4abeb13c8e4e3fc1dbb0d1cefe70af2e3418265c4611c396c562",
+        "size_in_bytes": 82
+      },
+      {
+        "_path": "site-packages/dvc_task/app/filesystem.py",
+        "path_type": "hardlink",
+        "sha256": "531901d8d28cd1f4cbda2508996e4ce9ae19164f04cff6d330dbc04292524148",
+        "sha256_in_prefix": "531901d8d28cd1f4cbda2508996e4ce9ae19164f04cff6d330dbc04292524148",
+        "size_in_bytes": 10441
+      },
+      {
+        "_path": "site-packages/dvc_task/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "408dcca584679babd976517ab801831d2685bac0a17e0f7da6b8964a9d573d01",
+        "sha256_in_prefix": "408dcca584679babd976517ab801831d2685bac0a17e0f7da6b8964a9d573d01",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/dvc_task/proc/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8641b9c2a2048e3be59d08c16af1a21f4a3ae81b283ffa89ba79c00b623597f9",
+        "sha256_in_prefix": "8641b9c2a2048e3be59d08c16af1a21f4a3ae81b283ffa89ba79c00b623597f9",
+        "size_in_bytes": 197
+      },
+      {
+        "_path": "site-packages/dvc_task/proc/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "71d8c02cb319c3fa709b2c891b498c5520cdf2d42548eff3c71b239b3886d119",
+        "sha256_in_prefix": "71d8c02cb319c3fa709b2c891b498c5520cdf2d42548eff3c71b239b3886d119",
+        "size_in_bytes": 876
+      },
+      {
+        "_path": "site-packages/dvc_task/proc/manager.py",
+        "path_type": "hardlink",
+        "sha256": "f5374eaea35060028509af7c4dfd812c49adaa34677d80e212cf3bf1cda16c89",
+        "sha256_in_prefix": "f5374eaea35060028509af7c4dfd812c49adaa34677d80e212cf3bf1cda16c89",
+        "size_in_bytes": 8068
+      },
+      {
+        "_path": "site-packages/dvc_task/proc/process.py",
+        "path_type": "hardlink",
+        "sha256": "19168995cae979608727bb8c3b1715dfc0fc294548b58f0cff43fbab4b6424c7",
+        "sha256_in_prefix": "19168995cae979608727bb8c3b1715dfc0fc294548b58f0cff43fbab4b6424c7",
+        "size_in_bytes": 6768
+      },
+      {
+        "_path": "site-packages/dvc_task/proc/tasks.py",
+        "path_type": "hardlink",
+        "sha256": "db28165d8605e5a5ae720699575422cbdc2e08bb59575e925d78aba5baaf9be1",
+        "sha256_in_prefix": "db28165d8605e5a5ae720699575422cbdc2e08bb59575e925d78aba5baaf9be1",
+        "size_in_bytes": 415
+      },
+      {
+        "_path": "site-packages/dvc_task/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dvc_task/utils.py",
+        "path_type": "hardlink",
+        "sha256": "5b3a58233e4bd3a41c4dcd44e2e2bfe282626ec8949f6cabd4d9225a53847e97",
+        "sha256_in_prefix": "5b3a58233e4bd3a41c4dcd44e2e2bfe282626ec8949f6cabd4d9225a53847e97",
+        "size_in_bytes": 2584
+      },
+      {
+        "_path": "site-packages/dvc_task/worker/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6d3c5672592e6662bd409bda70af3b797ff3e3e0cb0732d5bf544610fd8bca0f",
+        "sha256_in_prefix": "6d3c5672592e6662bd409bda70af3b797ff3e3e0cb0732d5bf544610fd8bca0f",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/dvc_task/worker/temporary.py",
+        "path_type": "hardlink",
+        "sha256": "f86e2eb1209cfdce6c404f163dea8e5a744182345ea772e4e24f138a51194e40",
+        "sha256_in_prefix": "f86e2eb1209cfdce6c404f163dea8e5a744182345ea772e4e24f138a51194e40",
+        "size_in_bytes": 4388
+      },
+      {
+        "_path": "Lib/site-packages/dvc_task/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_task/app/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_task/app/__pycache__/filesystem.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_task/__pycache__/exceptions.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_task/proc/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_task/proc/__pycache__/exceptions.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_task/proc/__pycache__/manager.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_task/proc/__pycache__/process.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_task/proc/__pycache__/tasks.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_task/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_task/worker/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_task/worker/__pycache__/temporary.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d499d1495ab6d00a4c75510d4573749abed3a7f2b3b291fbe377f029eef7ff79",
+  "size": 24321,
+  "subdir": "noarch",
+  "timestamp": 1711373624000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/dvc-task-0.4.0-pyhd8ed1ab_0.conda",
+  "version": "0.4.0"
+}

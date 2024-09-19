@@ -1,0 +1,246 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "flatten-dict >=0.4.1",
+    "funcy >=1.17",
+    "python >=3.7",
+    "tabulate >=0.8.7"
+  ],
+  "extracted_package_dir": "C:\\Users\\kafub\\anaconda3\\pkgs\\dvc-render-1.0.2-pyhd8ed1ab_0",
+  "files": [
+    "Lib/site-packages/dvc_render-1.0.2.dist-info/INSTALLER",
+    "Lib/site-packages/dvc_render-1.0.2.dist-info/LICENSE",
+    "Lib/site-packages/dvc_render-1.0.2.dist-info/METADATA",
+    "Lib/site-packages/dvc_render-1.0.2.dist-info/RECORD",
+    "Lib/site-packages/dvc_render-1.0.2.dist-info/REQUESTED",
+    "Lib/site-packages/dvc_render-1.0.2.dist-info/WHEEL",
+    "Lib/site-packages/dvc_render-1.0.2.dist-info/direct_url.json",
+    "Lib/site-packages/dvc_render-1.0.2.dist-info/top_level.txt",
+    "Lib/site-packages/dvc_render/__init__.py",
+    "Lib/site-packages/dvc_render/base.py",
+    "Lib/site-packages/dvc_render/exceptions.py",
+    "Lib/site-packages/dvc_render/html.py",
+    "Lib/site-packages/dvc_render/image.py",
+    "Lib/site-packages/dvc_render/markdown.py",
+    "Lib/site-packages/dvc_render/plotly.py",
+    "Lib/site-packages/dvc_render/table.py",
+    "Lib/site-packages/dvc_render/utils.py",
+    "Lib/site-packages/dvc_render/vega.py",
+    "Lib/site-packages/dvc_render/vega_templates.py",
+    ".nonadmin",
+    "Lib/site-packages/dvc_render/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/dvc_render/__pycache__/base.cpython-38.pyc",
+    "Lib/site-packages/dvc_render/__pycache__/exceptions.cpython-38.pyc",
+    "Lib/site-packages/dvc_render/__pycache__/html.cpython-38.pyc",
+    "Lib/site-packages/dvc_render/__pycache__/image.cpython-38.pyc",
+    "Lib/site-packages/dvc_render/__pycache__/markdown.cpython-38.pyc",
+    "Lib/site-packages/dvc_render/__pycache__/plotly.cpython-38.pyc",
+    "Lib/site-packages/dvc_render/__pycache__/table.cpython-38.pyc",
+    "Lib/site-packages/dvc_render/__pycache__/utils.cpython-38.pyc",
+    "Lib/site-packages/dvc_render/__pycache__/vega.cpython-38.pyc",
+    "Lib/site-packages/dvc_render/__pycache__/vega_templates.cpython-38.pyc"
+  ],
+  "fn": "dvc-render-1.0.2-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\kafub\\anaconda3\\pkgs\\dvc-render-1.0.2-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "33300000fa304dba183023f1251d7a5e",
+  "name": "dvc-render",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\kafub\\anaconda3\\pkgs\\dvc-render-1.0.2-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/dvc_render-1.0.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/dvc_render-1.0.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "fb58e16cf8e82151d1d1c1206a12f866172def915fe0ccd8091fe339a2433eaf",
+        "sha256_in_prefix": "fb58e16cf8e82151d1d1c1206a12f866172def915fe0ccd8091fe339a2433eaf",
+        "size_in_bytes": 11340
+      },
+      {
+        "_path": "site-packages/dvc_render-1.0.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "70b26cef25fb120e22a8200a310b737c214df9f3f4acb6be6f8a87b82f16613c",
+        "sha256_in_prefix": "70b26cef25fb120e22a8200a310b737c214df9f3f4acb6be6f8a87b82f16613c",
+        "size_in_bytes": 5423
+      },
+      {
+        "_path": "site-packages/dvc_render-1.0.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "0a7782b0ed6e14e51641b8c098b4be1a6006a7aa5cb65e59d2acf5ecba131ac3",
+        "sha256_in_prefix": "0a7782b0ed6e14e51641b8c098b4be1a6006a7aa5cb65e59d2acf5ecba131ac3",
+        "size_in_bytes": 2098
+      },
+      {
+        "_path": "site-packages/dvc_render-1.0.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dvc_render-1.0.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
+        "sha256_in_prefix": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/dvc_render-1.0.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "ac76fcc236bc4ce43a79218a86c86b950d86c141fdf54e43d0967919261c4f5e",
+        "sha256_in_prefix": "ac76fcc236bc4ce43a79218a86c86b950d86c141fdf54e43d0967919261c4f5e",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "site-packages/dvc_render-1.0.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "a719c643b3ae5b40a12400caf3076d6ca87c0e3e5ca12893e46599603e42028b",
+        "sha256_in_prefix": "a719c643b3ae5b40a12400caf3076d6ca87c0e3e5ca12893e46599603e42028b",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/dvc_render/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e133e616c8d5c4971c2c04961b94a7b635f89588037dae4aff0ff7ac03b6612c",
+        "sha256_in_prefix": "e133e616c8d5c4971c2c04961b94a7b635f89588037dae4aff0ff7ac03b6612c",
+        "size_in_bytes": 306
+      },
+      {
+        "_path": "site-packages/dvc_render/base.py",
+        "path_type": "hardlink",
+        "sha256": "ca7ae54d62c37fb3a422876d277b58b47caf036c47323c27b55dfcac112e7542",
+        "sha256_in_prefix": "ca7ae54d62c37fb3a422876d277b58b47caf036c47323c27b55dfcac112e7542",
+        "size_in_bytes": 1999
+      },
+      {
+        "_path": "site-packages/dvc_render/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "703c54a36d346e3709cec0ceb4ab56a8a487e75052102bb8bc2fe42694134914",
+        "sha256_in_prefix": "703c54a36d346e3709cec0ceb4ab56a8a487e75052102bb8bc2fe42694134914",
+        "size_in_bytes": 229
+      },
+      {
+        "_path": "site-packages/dvc_render/html.py",
+        "path_type": "hardlink",
+        "sha256": "a8eca3c924c863f60538c2a8f22ddf65bf55624e9f9e7ea163b01c24a9f49be7",
+        "sha256_in_prefix": "a8eca3c924c863f60538c2a8f22ddf65bf55624e9f9e7ea163b01c24a9f49be7",
+        "size_in_bytes": 3675
+      },
+      {
+        "_path": "site-packages/dvc_render/image.py",
+        "path_type": "hardlink",
+        "sha256": "70e35d3b31649975bb0aa16795575f88219a875d634876ed6618e70fb20acd6f",
+        "sha256_in_prefix": "70e35d3b31649975bb0aa16795575f88219a875d634876ed6618e70fb20acd6f",
+        "size_in_bytes": 1864
+      },
+      {
+        "_path": "site-packages/dvc_render/markdown.py",
+        "path_type": "hardlink",
+        "sha256": "1ef1e3ae039a5df74fbe8a0e6b4bdff1580fc380c1a6f6e0a71612d2787fe68d",
+        "sha256_in_prefix": "1ef1e3ae039a5df74fbe8a0e6b4bdff1580fc380c1a6f6e0a71612d2787fe68d",
+        "size_in_bytes": 2024
+      },
+      {
+        "_path": "site-packages/dvc_render/plotly.py",
+        "path_type": "hardlink",
+        "sha256": "c65afd380146ba3f11a574a49e68eefeee7b1f16026afde0c5f470ec39c234e1",
+        "sha256_in_prefix": "c65afd380146ba3f11a574a49e68eefeee7b1f16026afde0c5f470ec39c234e1",
+        "size_in_bytes": 2880
+      },
+      {
+        "_path": "site-packages/dvc_render/table.py",
+        "path_type": "hardlink",
+        "sha256": "a96bf47f4dbaaaf49106fab5aec53ad2fcdc3a018d9a945148031d2d9b9bb669",
+        "sha256_in_prefix": "a96bf47f4dbaaaf49106fab5aec53ad2fcdc3a018d9a945148031d2d9b9bb669",
+        "size_in_bytes": 1190
+      },
+      {
+        "_path": "site-packages/dvc_render/utils.py",
+        "path_type": "hardlink",
+        "sha256": "b46ea7ebd835a8f861850f18ccd4887bae9e8796dd87b36a5c9a43752551f76d",
+        "sha256_in_prefix": "b46ea7ebd835a8f861850f18ccd4887bae9e8796dd87b36a5c9a43752551f76d",
+        "size_in_bytes": 348
+      },
+      {
+        "_path": "site-packages/dvc_render/vega.py",
+        "path_type": "hardlink",
+        "sha256": "2dfb70c8d4163de7a7a29fa59d0ca93927c331aaaddcac85e4584704ae3a6faf",
+        "sha256_in_prefix": "2dfb70c8d4163de7a7a29fa59d0ca93927c331aaaddcac85e4584704ae3a6faf",
+        "size_in_bytes": 15649
+      },
+      {
+        "_path": "site-packages/dvc_render/vega_templates.py",
+        "path_type": "hardlink",
+        "sha256": "6e407c64ba3d975bb106da0eb691c8ad8ce04a2505386959b4c8ee614516134e",
+        "sha256_in_prefix": "6e407c64ba3d975bb106da0eb691c8ad8ce04a2505386959b4c8ee614516134e",
+        "size_in_bytes": 26204
+      },
+      {
+        "_path": "Lib/site-packages/dvc_render/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_render/__pycache__/base.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_render/__pycache__/exceptions.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_render/__pycache__/html.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_render/__pycache__/image.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_render/__pycache__/markdown.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_render/__pycache__/plotly.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_render/__pycache__/table.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_render/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_render/__pycache__/vega.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_render/__pycache__/vega_templates.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d52444f19cc12f2d2c4948a2a822a0ee9ed8a509c3fe5cbf52e86646befdbefd",
+  "size": 24503,
+  "subdir": "noarch",
+  "timestamp": 1712771301000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/dvc-render-1.0.2-pyhd8ed1ab_0.conda",
+  "version": "1.0.2"
+}

@@ -1,0 +1,117 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "appdirs",
+    "distro",
+    "filelock",
+    "python >=3.7",
+    "requests"
+  ],
+  "extracted_package_dir": "C:\\Users\\kafub\\anaconda3\\pkgs\\iterative-telemetry-0.0.9-pyhd8ed1ab_0",
+  "files": [
+    "Lib/site-packages/iterative_telemetry-0.0.9.dist-info/INSTALLER",
+    "Lib/site-packages/iterative_telemetry-0.0.9.dist-info/LICENSE",
+    "Lib/site-packages/iterative_telemetry-0.0.9.dist-info/METADATA",
+    "Lib/site-packages/iterative_telemetry-0.0.9.dist-info/RECORD",
+    "Lib/site-packages/iterative_telemetry-0.0.9.dist-info/REQUESTED",
+    "Lib/site-packages/iterative_telemetry-0.0.9.dist-info/WHEEL",
+    "Lib/site-packages/iterative_telemetry-0.0.9.dist-info/direct_url.json",
+    "Lib/site-packages/iterative_telemetry-0.0.9.dist-info/top_level.txt",
+    "Lib/site-packages/iterative_telemetry/__init__.py",
+    ".nonadmin",
+    "Lib/site-packages/iterative_telemetry/__pycache__/__init__.cpython-38.pyc"
+  ],
+  "fn": "iterative-telemetry-0.0.9-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\kafub\\anaconda3\\pkgs\\iterative-telemetry-0.0.9-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "028c97741a8f978642f20a9549749c36",
+  "name": "iterative-telemetry",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\kafub\\anaconda3\\pkgs\\iterative-telemetry-0.0.9-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/iterative_telemetry-0.0.9.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/iterative_telemetry-0.0.9.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "fb58e16cf8e82151d1d1c1206a12f866172def915fe0ccd8091fe339a2433eaf",
+        "sha256_in_prefix": "fb58e16cf8e82151d1d1c1206a12f866172def915fe0ccd8091fe339a2433eaf",
+        "size_in_bytes": 11340
+      },
+      {
+        "_path": "site-packages/iterative_telemetry-0.0.9.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "584e7ac57636f3570f3cf32e6abc696420eeb77bbccd5facf0cdbed40f8d7543",
+        "sha256_in_prefix": "584e7ac57636f3570f3cf32e6abc696420eeb77bbccd5facf0cdbed40f8d7543",
+        "size_in_bytes": 4081
+      },
+      {
+        "_path": "site-packages/iterative_telemetry-0.0.9.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "1e926bdb4253cc8c10aa4b0840165c6753321ffd7057bcd7d5cdffefce7fb849",
+        "sha256_in_prefix": "1e926bdb4253cc8c10aa4b0840165c6753321ffd7057bcd7d5cdffefce7fb849",
+        "size_in_bytes": 910
+      },
+      {
+        "_path": "site-packages/iterative_telemetry-0.0.9.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/iterative_telemetry-0.0.9.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "31d8bd3c3370119a6d3a34e551c02d87b5c90c5b4aac761a40c3ee9597810a24",
+        "sha256_in_prefix": "31d8bd3c3370119a6d3a34e551c02d87b5c90c5b4aac761a40c3ee9597810a24",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/iterative_telemetry-0.0.9.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "74f292596427151673a0841adaa1b67acdb6abb2a5ed17ed1129c42d68226155",
+        "sha256_in_prefix": "74f292596427151673a0841adaa1b67acdb6abb2a5ed17ed1129c42d68226155",
+        "size_in_bytes": 115
+      },
+      {
+        "_path": "site-packages/iterative_telemetry-0.0.9.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "eeac9017c175fe2c5b9ddab6bb9a28ac4e74516e6c71cd9a7b7c2c8480dacfbb",
+        "sha256_in_prefix": "eeac9017c175fe2c5b9ddab6bb9a28ac4e74516e6c71cd9a7b7c2c8480dacfbb",
+        "size_in_bytes": 20
+      },
+      {
+        "_path": "site-packages/iterative_telemetry/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4acefaf0c6651315fc5060cd44bed9ee0d268f3922e2fc86d2b245eee8255a49",
+        "sha256_in_prefix": "4acefaf0c6651315fc5060cd44bed9ee0d268f3922e2fc86d2b245eee8255a49",
+        "size_in_bytes": 13022
+      },
+      {
+        "_path": "Lib/site-packages/iterative_telemetry/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "90bb393f34f61eef55cedf24fb59307d1d0db6b2ccaf5945a0b693f174ae1c54",
+  "size": 16239,
+  "subdir": "noarch",
+  "timestamp": 1726555761000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/iterative-telemetry-0.0.9-pyhd8ed1ab_0.conda",
+  "version": "0.0.9"
+}

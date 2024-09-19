@@ -1,0 +1,970 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "cryptography",
+    "pyopenssl >=17.0.0",
+    "python >=3.4",
+    "python-gssapi >=1.2.0",
+    "typing_extensions >=3.6"
+  ],
+  "extracted_package_dir": "C:\\Users\\kafub\\anaconda3\\pkgs\\asyncssh-2.17.0-pyhd8ed1ab_0",
+  "files": [
+    "Lib/site-packages/asyncssh-2.17.0.dist-info/INSTALLER",
+    "Lib/site-packages/asyncssh-2.17.0.dist-info/LICENSE",
+    "Lib/site-packages/asyncssh-2.17.0.dist-info/METADATA",
+    "Lib/site-packages/asyncssh-2.17.0.dist-info/RECORD",
+    "Lib/site-packages/asyncssh-2.17.0.dist-info/REQUESTED",
+    "Lib/site-packages/asyncssh-2.17.0.dist-info/WHEEL",
+    "Lib/site-packages/asyncssh-2.17.0.dist-info/direct_url.json",
+    "Lib/site-packages/asyncssh-2.17.0.dist-info/top_level.txt",
+    "Lib/site-packages/asyncssh/__init__.py",
+    "Lib/site-packages/asyncssh/agent.py",
+    "Lib/site-packages/asyncssh/agent_unix.py",
+    "Lib/site-packages/asyncssh/agent_win32.py",
+    "Lib/site-packages/asyncssh/asn1.py",
+    "Lib/site-packages/asyncssh/auth.py",
+    "Lib/site-packages/asyncssh/auth_keys.py",
+    "Lib/site-packages/asyncssh/channel.py",
+    "Lib/site-packages/asyncssh/client.py",
+    "Lib/site-packages/asyncssh/compression.py",
+    "Lib/site-packages/asyncssh/config.py",
+    "Lib/site-packages/asyncssh/connection.py",
+    "Lib/site-packages/asyncssh/constants.py",
+    "Lib/site-packages/asyncssh/crypto/__init__.py",
+    "Lib/site-packages/asyncssh/crypto/chacha.py",
+    "Lib/site-packages/asyncssh/crypto/cipher.py",
+    "Lib/site-packages/asyncssh/crypto/dh.py",
+    "Lib/site-packages/asyncssh/crypto/dsa.py",
+    "Lib/site-packages/asyncssh/crypto/ec.py",
+    "Lib/site-packages/asyncssh/crypto/ec_params.py",
+    "Lib/site-packages/asyncssh/crypto/ed.py",
+    "Lib/site-packages/asyncssh/crypto/kdf.py",
+    "Lib/site-packages/asyncssh/crypto/misc.py",
+    "Lib/site-packages/asyncssh/crypto/rsa.py",
+    "Lib/site-packages/asyncssh/crypto/sntrup.py",
+    "Lib/site-packages/asyncssh/crypto/umac.py",
+    "Lib/site-packages/asyncssh/crypto/x509.py",
+    "Lib/site-packages/asyncssh/dsa.py",
+    "Lib/site-packages/asyncssh/ecdsa.py",
+    "Lib/site-packages/asyncssh/eddsa.py",
+    "Lib/site-packages/asyncssh/editor.py",
+    "Lib/site-packages/asyncssh/encryption.py",
+    "Lib/site-packages/asyncssh/forward.py",
+    "Lib/site-packages/asyncssh/gss.py",
+    "Lib/site-packages/asyncssh/gss_unix.py",
+    "Lib/site-packages/asyncssh/gss_win32.py",
+    "Lib/site-packages/asyncssh/kex.py",
+    "Lib/site-packages/asyncssh/kex_dh.py",
+    "Lib/site-packages/asyncssh/kex_rsa.py",
+    "Lib/site-packages/asyncssh/keysign.py",
+    "Lib/site-packages/asyncssh/known_hosts.py",
+    "Lib/site-packages/asyncssh/listener.py",
+    "Lib/site-packages/asyncssh/logging.py",
+    "Lib/site-packages/asyncssh/mac.py",
+    "Lib/site-packages/asyncssh/misc.py",
+    "Lib/site-packages/asyncssh/packet.py",
+    "Lib/site-packages/asyncssh/pattern.py",
+    "Lib/site-packages/asyncssh/pbe.py",
+    "Lib/site-packages/asyncssh/pkcs11.py",
+    "Lib/site-packages/asyncssh/process.py",
+    "Lib/site-packages/asyncssh/public_key.py",
+    "Lib/site-packages/asyncssh/py.typed",
+    "Lib/site-packages/asyncssh/rsa.py",
+    "Lib/site-packages/asyncssh/saslprep.py",
+    "Lib/site-packages/asyncssh/scp.py",
+    "Lib/site-packages/asyncssh/server.py",
+    "Lib/site-packages/asyncssh/session.py",
+    "Lib/site-packages/asyncssh/sftp.py",
+    "Lib/site-packages/asyncssh/sk.py",
+    "Lib/site-packages/asyncssh/sk_ecdsa.py",
+    "Lib/site-packages/asyncssh/sk_eddsa.py",
+    "Lib/site-packages/asyncssh/socks.py",
+    "Lib/site-packages/asyncssh/stream.py",
+    "Lib/site-packages/asyncssh/subprocess.py",
+    "Lib/site-packages/asyncssh/tuntap.py",
+    "Lib/site-packages/asyncssh/version.py",
+    "Lib/site-packages/asyncssh/x11.py",
+    ".nonadmin",
+    "Lib/site-packages/asyncssh/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/agent.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/agent_unix.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/agent_win32.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/asn1.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/auth.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/auth_keys.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/channel.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/client.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/compression.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/config.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/connection.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/constants.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/crypto/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/crypto/__pycache__/chacha.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/crypto/__pycache__/cipher.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/crypto/__pycache__/dh.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/crypto/__pycache__/dsa.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/crypto/__pycache__/ec.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/crypto/__pycache__/ec_params.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/crypto/__pycache__/ed.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/crypto/__pycache__/kdf.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/crypto/__pycache__/misc.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/crypto/__pycache__/rsa.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/crypto/__pycache__/sntrup.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/crypto/__pycache__/umac.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/crypto/__pycache__/x509.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/dsa.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/ecdsa.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/eddsa.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/editor.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/encryption.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/forward.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/gss.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/gss_unix.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/gss_win32.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/kex.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/kex_dh.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/kex_rsa.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/keysign.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/known_hosts.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/listener.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/logging.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/mac.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/misc.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/packet.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/pattern.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/pbe.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/pkcs11.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/process.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/public_key.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/rsa.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/saslprep.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/scp.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/server.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/session.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/sftp.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/sk.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/sk_ecdsa.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/sk_eddsa.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/socks.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/stream.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/subprocess.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/tuntap.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/version.cpython-38.pyc",
+    "Lib/site-packages/asyncssh/__pycache__/x11.cpython-38.pyc"
+  ],
+  "fn": "asyncssh-2.17.0-pyhd8ed1ab_0.conda",
+  "license": "EPL-1.0",
+  "link": {
+    "source": "C:\\Users\\kafub\\anaconda3\\pkgs\\asyncssh-2.17.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "0179ab966c1e8c6ca0c25631a22bb4fc",
+  "name": "asyncssh",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\kafub\\anaconda3\\pkgs\\asyncssh-2.17.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/asyncssh-2.17.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/asyncssh-2.17.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "0becf16567beb77fa252b7664631dd177c8f9a1889e48995b45379c7130e5303",
+        "sha256_in_prefix": "0becf16567beb77fa252b7664631dd177c8f9a1889e48995b45379c7130e5303",
+        "size_in_bytes": 14198
+      },
+      {
+        "_path": "site-packages/asyncssh-2.17.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "86825cb63372ec0ced24258d467751b38ee6bf270fff8fa72410875a4de407ec",
+        "sha256_in_prefix": "86825cb63372ec0ced24258d467751b38ee6bf270fff8fa72410875a4de407ec",
+        "size_in_bytes": 9925
+      },
+      {
+        "_path": "site-packages/asyncssh-2.17.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "fd6543c978187b5562b61814e2c84720d733319888f6e2b717f093280a998855",
+        "sha256_in_prefix": "fd6543c978187b5562b61814e2c84720d733319888f6e2b717f093280a998855",
+        "size_in_bytes": 9104
+      },
+      {
+        "_path": "site-packages/asyncssh-2.17.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/asyncssh-2.17.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "31d8bd3c3370119a6d3a34e551c02d87b5c90c5b4aac761a40c3ee9597810a24",
+        "sha256_in_prefix": "31d8bd3c3370119a6d3a34e551c02d87b5c90c5b4aac761a40c3ee9597810a24",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/asyncssh-2.17.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "2c8ee201559d5005bcd55bff40006d85d4106165d038bce33bbb33621628e98b",
+        "sha256_in_prefix": "2c8ee201559d5005bcd55bff40006d85d4106165d038bce33bbb33621628e98b",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/asyncssh-2.17.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "9f5c97cb6fb2bd09b0785976274b33535aa52b1438033eb37eed0edf9255fb47",
+        "sha256_in_prefix": "9f5c97cb6fb2bd09b0785976274b33535aa52b1438033eb37eed0edf9255fb47",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/asyncssh/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b4e5bf967ce29acb6b6a32d490a01bc0e61904a7af1501ae9d5d76cf500e9481",
+        "sha256_in_prefix": "b4e5bf967ce29acb6b6a32d490a01bc0e61904a7af1501ae9d5d76cf500e9481",
+        "size_in_bytes": 8133
+      },
+      {
+        "_path": "site-packages/asyncssh/agent.py",
+        "path_type": "hardlink",
+        "sha256": "7a80f091efca429410ceed712d4f483d134e5f5c71b3f0da89ac0a3fcb59c133",
+        "sha256_in_prefix": "7a80f091efca429410ceed712d4f483d134e5f5c71b3f0da89ac0a3fcb59c133",
+        "size_in_bytes": 23547
+      },
+      {
+        "_path": "site-packages/asyncssh/agent_unix.py",
+        "path_type": "hardlink",
+        "sha256": "5c3f55674c85c74ed8c7e3b9d327908a651bbb24a9adaf671bcef945d9e4d8b6",
+        "sha256_in_prefix": "5c3f55674c85c74ed8c7e3b9d327908a651bbb24a9adaf671bcef945d9e4d8b6",
+        "size_in_bytes": 1196
+      },
+      {
+        "_path": "site-packages/asyncssh/agent_win32.py",
+        "path_type": "hardlink",
+        "sha256": "8cf3f8871512ae8563414d150c16ad4a07d785fea191c648f6cc97e8088b2d8e",
+        "sha256_in_prefix": "8cf3f8871512ae8563414d150c16ad4a07d785fea191c648f6cc97e8088b2d8e",
+        "size_in_bytes": 5145
+      },
+      {
+        "_path": "site-packages/asyncssh/asn1.py",
+        "path_type": "hardlink",
+        "sha256": "500783311f069264a243fb00780f63d42c32b8359f696094e1a2107cd3cc916e",
+        "sha256_in_prefix": "500783311f069264a243fb00780f63d42c32b8359f696094e1a2107cd3cc916e",
+        "size_in_bytes": 24462
+      },
+      {
+        "_path": "site-packages/asyncssh/auth.py",
+        "path_type": "hardlink",
+        "sha256": "ac9fe1d91e436c50ae4a1a922e8eb4268901c5bcb32f02d1798a9521e27e2151",
+        "sha256_in_prefix": "ac9fe1d91e436c50ae4a1a922e8eb4268901c5bcb32f02d1798a9521e27e2151",
+        "size_in_bytes": 33091
+      },
+      {
+        "_path": "site-packages/asyncssh/auth_keys.py",
+        "path_type": "hardlink",
+        "sha256": "162fd570bd84f3b1aea221dcac0cf2878e22ee05f2465fa75975ff7888195c5d",
+        "sha256_in_prefix": "162fd570bd84f3b1aea221dcac0cf2878e22ee05f2465fa75975ff7888195c5d",
+        "size_in_bytes": 11821
+      },
+      {
+        "_path": "site-packages/asyncssh/channel.py",
+        "path_type": "hardlink",
+        "sha256": "6ea8c91a802178b3d3ba8e113cb144d77722fd98e28b143d0cc0d60777d12cea",
+        "sha256_in_prefix": "6ea8c91a802178b3d3ba8e113cb144d77722fd98e28b143d0cc0d60777d12cea",
+        "size_in_bytes": 80324
+      },
+      {
+        "_path": "site-packages/asyncssh/client.py",
+        "path_type": "hardlink",
+        "sha256": "bd01af7de53763429239d8e5f403bd1908a5705c7d54dde0b26ca09042db8f46",
+        "sha256_in_prefix": "bd01af7de53763429239d8e5f403bd1908a5705c7d54dde0b26ca09042db8f46",
+        "size_in_bytes": 17291
+      },
+      {
+        "_path": "site-packages/asyncssh/compression.py",
+        "path_type": "hardlink",
+        "sha256": "beac66d041e8afd6c2f7943052c357483f444fd74116ff9b8f4b23d89107579a",
+        "sha256_in_prefix": "beac66d041e8afd6c2f7943052c357483f444fd74116ff9b8f4b23d89107579a",
+        "size_in_bytes": 4162
+      },
+      {
+        "_path": "site-packages/asyncssh/config.py",
+        "path_type": "hardlink",
+        "sha256": "3fd16433ce62c6b1382619603b3cec1a3e48b57ab27345e910434b5c812e3326",
+        "sha256_in_prefix": "3fd16433ce62c6b1382619603b3cec1a3e48b57ab27345e910434b5c812e3326",
+        "size_in_bytes": 23126
+      },
+      {
+        "_path": "site-packages/asyncssh/connection.py",
+        "path_type": "hardlink",
+        "sha256": "bb18b3862112a006fc7c72564de23227db524d25b0b127e0ec65a6c8c2375717",
+        "sha256_in_prefix": "bb18b3862112a006fc7c72564de23227db524d25b0b127e0ec65a6c8c2375717",
+        "size_in_bytes": 398563
+      },
+      {
+        "_path": "site-packages/asyncssh/constants.py",
+        "path_type": "hardlink",
+        "sha256": "39c4d6c798087253438701c1b384ea6229f96d97a7e0b96546e9d4fb820b1ea1",
+        "sha256_in_prefix": "39c4d6c798087253438701c1b384ea6229f96d97a7e0b96546e9d4fb820b1ea1",
+        "size_in_bytes": 13385
+      },
+      {
+        "_path": "site-packages/asyncssh/crypto/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3c9530040a94eb1d9897bbd20b6c4efce11f4dc3b2f4117fca508a019776f157",
+        "sha256_in_prefix": "3c9530040a94eb1d9897bbd20b6c4efce11f4dc3b2f4117fca508a019776f157",
+        "size_in_bytes": 2051
+      },
+      {
+        "_path": "site-packages/asyncssh/crypto/chacha.py",
+        "path_type": "hardlink",
+        "sha256": "c28159612feddbcacd25dac92b6e17d2c29c2f5a07860998a6d92193ce72e675",
+        "sha256_in_prefix": "c28159612feddbcacd25dac92b6e17d2c29c2f5a07860998a6d92193ce72e675",
+        "size_in_bytes": 5573
+      },
+      {
+        "_path": "site-packages/asyncssh/crypto/cipher.py",
+        "path_type": "hardlink",
+        "sha256": "484ffe56c78a0b0cd7c933ea74618bee1a7f15d79c8c1593df670068df63ac46",
+        "sha256_in_prefix": "484ffe56c78a0b0cd7c933ea74618bee1a7f15d79c8c1593df670068df63ac46",
+        "size_in_bytes": 6317
+      },
+      {
+        "_path": "site-packages/asyncssh/crypto/dh.py",
+        "path_type": "hardlink",
+        "sha256": "115caf214108e83f355810763fb808898f1face79d8a6d09dac4c6d2ef391bd2",
+        "sha256_in_prefix": "115caf214108e83f355810763fb808898f1face79d8a6d09dac4c6d2ef391bd2",
+        "size_in_bytes": 1547
+      },
+      {
+        "_path": "site-packages/asyncssh/crypto/dsa.py",
+        "path_type": "hardlink",
+        "sha256": "9922a56236d59b3bb262a4d3b961c61c37bdbe055af580168e71398e5bc45232",
+        "sha256_in_prefix": "9922a56236d59b3bb262a4d3b961c61c37bdbe055af580168e71398e5bc45232",
+        "size_in_bytes": 3811
+      },
+      {
+        "_path": "site-packages/asyncssh/crypto/ec.py",
+        "path_type": "hardlink",
+        "sha256": "9add50c56902af49c1a5f28df65551d4eba54c14e705623fa184959dd830b5de",
+        "sha256_in_prefix": "9add50c56902af49c1a5f28df65551d4eba54c14e705623fa184959dd830b5de",
+        "size_in_bytes": 6472
+      },
+      {
+        "_path": "site-packages/asyncssh/crypto/ec_params.py",
+        "path_type": "hardlink",
+        "sha256": "13391b3f92d88616b664f2e09c88b0841ca50d657960788fd60b03c3c0059825",
+        "sha256_in_prefix": "13391b3f92d88616b664f2e09c88b0841ca50d657960788fd60b03c3c0059825",
+        "size_in_bytes": 4804
+      },
+      {
+        "_path": "site-packages/asyncssh/crypto/ed.py",
+        "path_type": "hardlink",
+        "sha256": "9f60fad013c52a44e33acaebbfe6e1fd065a030eb689d0d7019faa765bb43725",
+        "sha256_in_prefix": "9f60fad013c52a44e33acaebbfe6e1fd065a030eb689d0d7019faa765bb43725",
+        "size_in_bytes": 11179
+      },
+      {
+        "_path": "site-packages/asyncssh/crypto/kdf.py",
+        "path_type": "hardlink",
+        "sha256": "ee0d2c043f4e7559b21b13acbf0df412812a749b3ae06a5253c4e03c9f8d26f8",
+        "sha256_in_prefix": "ee0d2c043f4e7559b21b13acbf0df412812a749b3ae06a5253c4e03c9f8d26f8",
+        "size_in_bytes": 1159
+      },
+      {
+        "_path": "site-packages/asyncssh/crypto/misc.py",
+        "path_type": "hardlink",
+        "sha256": "4d41daf2611263b5b50bbfdf173d2487a6f05dc0e5fa0141f1873c862bdd6d0f",
+        "sha256_in_prefix": "4d41daf2611263b5b50bbfdf173d2487a6f05dc0e5fa0141f1873c862bdd6d0f",
+        "size_in_bytes": 2401
+      },
+      {
+        "_path": "site-packages/asyncssh/crypto/rsa.py",
+        "path_type": "hardlink",
+        "sha256": "badcbce149b58d97c483eae9d1c9ccf64388013ece9c2a6b2521f960788581f9",
+        "sha256_in_prefix": "badcbce149b58d97c483eae9d1c9ccf64388013ece9c2a6b2521f960788581f9",
+        "size_in_bytes": 5136
+      },
+      {
+        "_path": "site-packages/asyncssh/crypto/sntrup.py",
+        "path_type": "hardlink",
+        "sha256": "b84097f444b07aed4a2bc541f8b450ef6280318e039078f4f84e5a76a5291dfd",
+        "sha256_in_prefix": "b84097f444b07aed4a2bc541f8b450ef6280318e039078f4f84e5a76a5291dfd",
+        "size_in_bytes": 2629
+      },
+      {
+        "_path": "site-packages/asyncssh/crypto/umac.py",
+        "path_type": "hardlink",
+        "sha256": "7d252dac79a8b76bdf4a3c6990035218a6631e1c0fa9796655e35f919ff558be",
+        "sha256_in_prefix": "7d252dac79a8b76bdf4a3c6990035218a6631e1c0fa9796655e35f919ff558be",
+        "size_in_bytes": 4395
+      },
+      {
+        "_path": "site-packages/asyncssh/crypto/x509.py",
+        "path_type": "hardlink",
+        "sha256": "c9598d742a2cbb386316a19e5885e3b17eb953a6e546f0c2fe30d7df8f19fe0d",
+        "sha256_in_prefix": "c9598d742a2cbb386316a19e5885e3b17eb953a6e546f0c2fe30d7df8f19fe0d",
+        "size_in_bytes": 15395
+      },
+      {
+        "_path": "site-packages/asyncssh/dsa.py",
+        "path_type": "hardlink",
+        "sha256": "df6044429a3cbc37ff8fc27375ffee4279532bd0899084e72306620e5d1796aa",
+        "sha256_in_prefix": "df6044429a3cbc37ff8fc27375ffee4279532bd0899084e72306620e5d1796aa",
+        "size_in_bytes": 8419
+      },
+      {
+        "_path": "site-packages/asyncssh/ecdsa.py",
+        "path_type": "hardlink",
+        "sha256": "13d2887fd20bfa91cbbd03a6b73a4065f5f314004b75703fea16a4b2001f4e92",
+        "sha256_in_prefix": "13d2887fd20bfa91cbbd03a6b73a4065f5f314004b75703fea16a4b2001f4e92",
+        "size_in_bytes": 12211
+      },
+      {
+        "_path": "site-packages/asyncssh/eddsa.py",
+        "path_type": "hardlink",
+        "sha256": "fa9cfb14656a4a756fe57a8464452a7c98e6ef2d0e11064ac9df5a24c790a427",
+        "sha256_in_prefix": "fa9cfb14656a4a756fe57a8464452a7c98e6ef2d0e11064ac9df5a24c790a427",
+        "size_in_bytes": 7319
+      },
+      {
+        "_path": "site-packages/asyncssh/editor.py",
+        "path_type": "hardlink",
+        "sha256": "f3db6809028d055223f57577d083d070e271d4a8e147dca8a959c657509d87ad",
+        "sha256_in_prefix": "f3db6809028d055223f57577d083d070e271d4a8e147dca8a959c657509d87ad",
+        "size_in_bytes": 30401
+      },
+      {
+        "_path": "site-packages/asyncssh/encryption.py",
+        "path_type": "hardlink",
+        "sha256": "1764f28c0da1142595bfe0f5c49f4f8ae7deec7d64ab0a474ec8e12e768b8503",
+        "sha256_in_prefix": "1764f28c0da1142595bfe0f5c49f4f8ae7deec7d64ab0a474ec8e12e768b8503",
+        "size_in_bytes": 11004
+      },
+      {
+        "_path": "site-packages/asyncssh/forward.py",
+        "path_type": "hardlink",
+        "sha256": "6c90e9cb6a54e4950dd8551128cd97001e8358721a53973db390f06bd7806d72",
+        "sha256_in_prefix": "6c90e9cb6a54e4950dd8551128cd97001e8358721a53973db390f06bd7806d72",
+        "size_in_bytes": 7117
+      },
+      {
+        "_path": "site-packages/asyncssh/gss.py",
+        "path_type": "hardlink",
+        "sha256": "340d50f48020dc46fa4308d72895bf53008ede48f3bc7df6022e41ef40578fad",
+        "sha256_in_prefix": "340d50f48020dc46fa4308d72895bf53008ede48f3bc7df6022e41ef40578fad",
+        "size_in_bytes": 2131
+      },
+      {
+        "_path": "site-packages/asyncssh/gss_unix.py",
+        "path_type": "hardlink",
+        "sha256": "184954a949b192a2dfe23e1e5acb6603e3c69a4c9a86364301a51aa0403165b4",
+        "sha256_in_prefix": "184954a949b192a2dfe23e1e5acb6603e3c69a4c9a86364301a51aa0403165b4",
+        "size_in_bytes": 5182
+      },
+      {
+        "_path": "site-packages/asyncssh/gss_win32.py",
+        "path_type": "hardlink",
+        "sha256": "3100577453e87493b59c3503d81fa3ceaabf41af940576cada0e811469179e8b",
+        "sha256_in_prefix": "3100577453e87493b59c3503d81fa3ceaabf41af940576cada0e811469179e8b",
+        "size_in_bytes": 6010
+      },
+      {
+        "_path": "site-packages/asyncssh/kex.py",
+        "path_type": "hardlink",
+        "sha256": "c0012a1ac14479a9a6b84d6f8ef9cefcd19b842c86a3efa95cbfc371f566a856",
+        "sha256_in_prefix": "c0012a1ac14479a9a6b84d6f8ef9cefcd19b842c86a3efa95cbfc371f566a856",
+        "size_in_bytes": 4456
+      },
+      {
+        "_path": "site-packages/asyncssh/kex_dh.py",
+        "path_type": "hardlink",
+        "sha256": "26712da13178e81e79cba783bb4fce0a8e2780294374d78790a9af0f85037233",
+        "sha256_in_prefix": "26712da13178e81e79cba783bb4fce0a8e2780294374d78790a9af0f85037233",
+        "size_in_bytes": 32833
+      },
+      {
+        "_path": "site-packages/asyncssh/kex_rsa.py",
+        "path_type": "hardlink",
+        "sha256": "8acee716ee859b47484c7e9ef8f4a6d0e623b787b9e480c6bd2f794e1aae20d7",
+        "sha256_in_prefix": "8acee716ee859b47484c7e9ef8f4a6d0e623b787b9e480c6bd2f794e1aae20d7",
+        "size_in_bytes": 5967
+      },
+      {
+        "_path": "site-packages/asyncssh/keysign.py",
+        "path_type": "hardlink",
+        "sha256": "d3086b3871b5635df2f3e00c9f111fbce24165a0d6b377bf8ad6e34d953b18ba",
+        "sha256_in_prefix": "d3086b3871b5635df2f3e00c9f111fbce24165a0d6b377bf8ad6e34d953b18ba",
+        "size_in_bytes": 3749
+      },
+      {
+        "_path": "site-packages/asyncssh/known_hosts.py",
+        "path_type": "hardlink",
+        "sha256": "4fb4bee0780f1d53679b47047b1fb6b2aca532fc196298d865f9be521c7346fe",
+        "sha256_in_prefix": "4fb4bee0780f1d53679b47047b1fb6b2aca532fc196298d865f9be521c7346fe",
+        "size_in_bytes": 14087
+      },
+      {
+        "_path": "site-packages/asyncssh/listener.py",
+        "path_type": "hardlink",
+        "sha256": "d43d7a5ebe2a2f412a35aaa9ad23f57c803916b5da89aef900011d5c32b12fd4",
+        "sha256_in_prefix": "d43d7a5ebe2a2f412a35aaa9ad23f57c803916b5da89aef900011d5c32b12fd4",
+        "size_in_bytes": 13179
+      },
+      {
+        "_path": "site-packages/asyncssh/logging.py",
+        "path_type": "hardlink",
+        "sha256": "c42624eda285e01de79944491bb91ec4569325da89a5acd1782a221f3d412dfd",
+        "sha256_in_prefix": "c42624eda285e01de79944491bb91ec4569325da89a5acd1782a221f3d412dfd",
+        "size_in_bytes": 7724
+      },
+      {
+        "_path": "site-packages/asyncssh/mac.py",
+        "path_type": "hardlink",
+        "sha256": "1dba4411606bb998819233a123bbea283360a3bd38975ed6fb9f01952a30364a",
+        "sha256_in_prefix": "1dba4411606bb998819233a123bbea283360a3bd38975ed6fb9f01952a30364a",
+        "size_in_bytes": 7140
+      },
+      {
+        "_path": "site-packages/asyncssh/misc.py",
+        "path_type": "hardlink",
+        "sha256": "f764f58d6c99284d1717113d8152385dfe9faee7b65704ed1cc5128eed3e5824",
+        "sha256_in_prefix": "f764f58d6c99284d1717113d8152385dfe9faee7b65704ed1cc5128eed3e5824",
+        "size_in_bytes": 24734
+      },
+      {
+        "_path": "site-packages/asyncssh/packet.py",
+        "path_type": "hardlink",
+        "sha256": "2497300e48067aebea67276ba311d2c3f6b8525016691465dbb97a12536b9b46",
+        "sha256_in_prefix": "2497300e48067aebea67276ba311d2c3f6b8525016691465dbb97a12536b9b46",
+        "size_in_bytes": 6655
+      },
+      {
+        "_path": "site-packages/asyncssh/pattern.py",
+        "path_type": "hardlink",
+        "sha256": "0f027bcb2661b485ea9d2ff0535099ba5016b565f0eeee0d05d372386cda1a25",
+        "sha256_in_prefix": "0f027bcb2661b485ea9d2ff0535099ba5016b565f0eeee0d05d372386cda1a25",
+        "size_in_bytes": 4662
+      },
+      {
+        "_path": "site-packages/asyncssh/pbe.py",
+        "path_type": "hardlink",
+        "sha256": "160551ecb9cad309ee8b4f28bc71ad5b03ea3f3c18f6ac7dcd1bf804a271fede",
+        "sha256_in_prefix": "160551ecb9cad309ee8b4f28bc71ad5b03ea3f3c18f6ac7dcd1bf804a271fede",
+        "size_in_bytes": 20674
+      },
+      {
+        "_path": "site-packages/asyncssh/pkcs11.py",
+        "path_type": "hardlink",
+        "sha256": "fed63e6154679cf0c574e3f4dbb291c50b98248b8fc31d514cb68a029b7870bc",
+        "sha256_in_prefix": "fed63e6154679cf0c574e3f4dbb291c50b98248b8fc31d514cb68a029b7870bc",
+        "size_in_bytes": 11479
+      },
+      {
+        "_path": "site-packages/asyncssh/process.py",
+        "path_type": "hardlink",
+        "sha256": "65597566fe4cf1b764be557113b1a9e590f122dff822670948be08fab7244289",
+        "sha256_in_prefix": "65597566fe4cf1b764be557113b1a9e590f122dff822670948be08fab7244289",
+        "size_in_bytes": 65642
+      },
+      {
+        "_path": "site-packages/asyncssh/public_key.py",
+        "path_type": "hardlink",
+        "sha256": "aecb8b4586a878b8eb12a497e6875e0ec1ef6d8326ed5574f478e456f4554969",
+        "sha256_in_prefix": "aecb8b4586a878b8eb12a497e6875e0ec1ef6d8326ed5574f478e456f4554969",
+        "size_in_bytes": 139326
+      },
+      {
+        "_path": "site-packages/asyncssh/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/asyncssh/rsa.py",
+        "path_type": "hardlink",
+        "sha256": "fcf20ce257a2817ae429595a692717b0199810feac401f6228f87dc4310f92c2",
+        "sha256_in_prefix": "fcf20ce257a2817ae429595a692717b0199810feac401f6228f87dc4310f92c2",
+        "size_in_bytes": 11474
+      },
+      {
+        "_path": "site-packages/asyncssh/saslprep.py",
+        "path_type": "hardlink",
+        "sha256": "3dfc3cc7eb1547034c887ec557d85673ea9d0dfc04584dd3e67d7b5dd1941e08",
+        "sha256_in_prefix": "3dfc3cc7eb1547034c887ec557d85673ea9d0dfc04584dd3e67d7b5dd1941e08",
+        "size_in_bytes": 3672
+      },
+      {
+        "_path": "site-packages/asyncssh/scp.py",
+        "path_type": "hardlink",
+        "sha256": "6cb294f81d16e21be04f3c498fa09441d59d8496fe026bdd8d78ddca21e31118",
+        "sha256_in_prefix": "6cb294f81d16e21be04f3c498fa09441d59d8496fe026bdd8d78ddca21e31118",
+        "size_in_bytes": 38350
+      },
+      {
+        "_path": "site-packages/asyncssh/server.py",
+        "path_type": "hardlink",
+        "sha256": "87328f20bab70246a1584a8cc2466f075e423cbbddc14f43515b1e679f0c8765",
+        "sha256_in_prefix": "87328f20bab70246a1584a8cc2466f075e423cbbddc14f43515b1e679f0c8765",
+        "size_in_bytes": 46904
+      },
+      {
+        "_path": "site-packages/asyncssh/session.py",
+        "path_type": "hardlink",
+        "sha256": "59bbf21713503fa8949745b5870d4413e0c3ae9febd8a9c0e57285714cd538c8",
+        "sha256_in_prefix": "59bbf21713503fa8949745b5870d4413e0c3ae9febd8a9c0e57285714cd538c8",
+        "size_in_bytes": 22876
+      },
+      {
+        "_path": "site-packages/asyncssh/sftp.py",
+        "path_type": "hardlink",
+        "sha256": "ab2013a52cd9f56921e0130d0459654caf3b5369fad87bcb8462e92c4120bd25",
+        "sha256_in_prefix": "ab2013a52cd9f56921e0130d0459654caf3b5369fad87bcb8462e92c4120bd25",
+        "size_in_bytes": 272666
+      },
+      {
+        "_path": "site-packages/asyncssh/sk.py",
+        "path_type": "hardlink",
+        "sha256": "a9d6a6ddd12443b8bc060fd4e15a740a597f42f5df96de54b7b378ac4d51b0db",
+        "sha256_in_prefix": "a9d6a6ddd12443b8bc060fd4e15a740a597f42f5df96de54b7b378ac4d51b0db",
+        "size_in_bytes": 9168
+      },
+      {
+        "_path": "site-packages/asyncssh/sk_ecdsa.py",
+        "path_type": "hardlink",
+        "sha256": "410779b40bf6a5a454dca4acb9bf107df4d283d28efc3ebadca6a2838f5eb14f",
+        "sha256_in_prefix": "410779b40bf6a5a454dca4acb9bf107df4d283d28efc3ebadca6a2838f5eb14f",
+        "size_in_bytes": 7869
+      },
+      {
+        "_path": "site-packages/asyncssh/sk_eddsa.py",
+        "path_type": "hardlink",
+        "sha256": "ff38e178b78bd530ed55bf1517e4e722c5b25bbe777c4cdb3f49fd3defc5d791",
+        "sha256_in_prefix": "ff38e178b78bd530ed55bf1517e4e722c5b25bbe777c4cdb3f49fd3defc5d791",
+        "size_in_bytes": 6892
+      },
+      {
+        "_path": "site-packages/asyncssh/socks.py",
+        "path_type": "hardlink",
+        "sha256": "411bd3d0ca93341eac1b7a568d471837c033fbf9b70eef56be71c027f2024e90",
+        "sha256_in_prefix": "411bd3d0ca93341eac1b7a568d471837c033fbf9b70eef56be71c027f2024e90",
+        "size_in_bytes": 7581
+      },
+      {
+        "_path": "site-packages/asyncssh/stream.py",
+        "path_type": "hardlink",
+        "sha256": "fbb884816ad60fb37da5f561dee1ef55833838540bd0c26294638441b501c053",
+        "sha256_in_prefix": "fbb884816ad60fb37da5f561dee1ef55833838540bd0c26294638441b501c053",
+        "size_in_bytes": 30540
+      },
+      {
+        "_path": "site-packages/asyncssh/subprocess.py",
+        "path_type": "hardlink",
+        "sha256": "314b122602fef07e0791efb403b5c9bc4da639cf18d6480969f7a4b73c1cb74c",
+        "sha256_in_prefix": "314b122602fef07e0791efb403b5c9bc4da639cf18d6480969f7a4b73c1cb74c",
+        "size_in_bytes": 10890
+      },
+      {
+        "_path": "site-packages/asyncssh/tuntap.py",
+        "path_type": "hardlink",
+        "sha256": "df6187062b695b085fabe28f7d986fca367d4942402616602a9676403455c442",
+        "sha256_in_prefix": "df6187062b695b085fabe28f7d986fca367d4942402616602a9676403455c442",
+        "size_in_bytes": 12188
+      },
+      {
+        "_path": "site-packages/asyncssh/version.py",
+        "path_type": "hardlink",
+        "sha256": "8a96c75de3a03b95433188476753f34d21a635160508cc923135597c0ad31f6c",
+        "sha256_in_prefix": "8a96c75de3a03b95433188476753f34d21a635160508cc923135597c0ad31f6c",
+        "size_in_bytes": 899
+      },
+      {
+        "_path": "site-packages/asyncssh/x11.py",
+        "path_type": "hardlink",
+        "sha256": "7d2f3e019ed75e1c4db9ea014839305faf1dbde0767fedc7d4283140e4494767",
+        "sha256_in_prefix": "7d2f3e019ed75e1c4db9ea014839305faf1dbde0767fedc7d4283140e4494767",
+        "size_in_bytes": 17017
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/agent.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/agent_unix.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/agent_win32.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/asn1.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/auth.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/auth_keys.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/channel.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/client.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/compression.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/config.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/connection.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/constants.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/crypto/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/crypto/__pycache__/chacha.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/crypto/__pycache__/cipher.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/crypto/__pycache__/dh.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/crypto/__pycache__/dsa.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/crypto/__pycache__/ec.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/crypto/__pycache__/ec_params.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/crypto/__pycache__/ed.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/crypto/__pycache__/kdf.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/crypto/__pycache__/misc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/crypto/__pycache__/rsa.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/crypto/__pycache__/sntrup.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/crypto/__pycache__/umac.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/crypto/__pycache__/x509.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/dsa.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/ecdsa.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/eddsa.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/editor.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/encryption.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/forward.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/gss.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/gss_unix.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/gss_win32.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/kex.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/kex_dh.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/kex_rsa.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/keysign.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/known_hosts.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/listener.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/logging.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/mac.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/misc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/packet.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/pattern.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/pbe.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/pkcs11.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/process.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/public_key.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/rsa.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/saslprep.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/scp.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/server.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/session.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/sftp.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/sk.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/sk_ecdsa.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/sk_eddsa.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/socks.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/stream.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/subprocess.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/tuntap.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/asyncssh/__pycache__/x11.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "09cf6d084f865b4569144a6ad5667c2b69c21df5bcb201f73ce9c3de6dad4cda",
+  "size": 241137,
+  "subdir": "noarch",
+  "timestamp": 1725374898000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/asyncssh-2.17.0-pyhd8ed1ab_0.conda",
+  "version": "2.17.0"
+}

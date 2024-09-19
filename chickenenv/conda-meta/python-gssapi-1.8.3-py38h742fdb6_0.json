@@ -1,0 +1,784 @@
+{
+  "build": "py38h742fdb6_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "decorator",
+    "krb5 >=1.21.2,<1.22.0a0",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "extracted_package_dir": "C:\\Users\\kafub\\anaconda3\\pkgs\\python-gssapi-1.8.3-py38h742fdb6_0",
+  "files": [
+    "Lib/site-packages/gssapi-1.8.3.dist-info/INSTALLER",
+    "Lib/site-packages/gssapi-1.8.3.dist-info/LICENSE.txt",
+    "Lib/site-packages/gssapi-1.8.3.dist-info/METADATA",
+    "Lib/site-packages/gssapi-1.8.3.dist-info/RECORD",
+    "Lib/site-packages/gssapi-1.8.3.dist-info/REQUESTED",
+    "Lib/site-packages/gssapi-1.8.3.dist-info/WHEEL",
+    "Lib/site-packages/gssapi-1.8.3.dist-info/direct_url.json",
+    "Lib/site-packages/gssapi-1.8.3.dist-info/top_level.txt",
+    "Lib/site-packages/gssapi/__init__.py",
+    "Lib/site-packages/gssapi/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/gssapi/__pycache__/_utils.cpython-38.pyc",
+    "Lib/site-packages/gssapi/__pycache__/_win_config.cpython-38.pyc",
+    "Lib/site-packages/gssapi/__pycache__/creds.cpython-38.pyc",
+    "Lib/site-packages/gssapi/__pycache__/exceptions.cpython-38.pyc",
+    "Lib/site-packages/gssapi/__pycache__/mechs.cpython-38.pyc",
+    "Lib/site-packages/gssapi/__pycache__/names.cpython-38.pyc",
+    "Lib/site-packages/gssapi/__pycache__/sec_contexts.cpython-38.pyc",
+    "Lib/site-packages/gssapi/_utils.py",
+    "Lib/site-packages/gssapi/_win_config.py",
+    "Lib/site-packages/gssapi/creds.py",
+    "Lib/site-packages/gssapi/exceptions.py",
+    "Lib/site-packages/gssapi/mechs.py",
+    "Lib/site-packages/gssapi/names.py",
+    "Lib/site-packages/gssapi/py.typed",
+    "Lib/site-packages/gssapi/raw/__init__.py",
+    "Lib/site-packages/gssapi/raw/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/gssapi/raw/__pycache__/named_tuples.cpython-38.pyc",
+    "Lib/site-packages/gssapi/raw/_enum_extensions/__init__.py",
+    "Lib/site-packages/gssapi/raw/_enum_extensions/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/gssapi/raw/_enum_extensions/ext_dce.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/_enum_extensions/ext_iov_mic.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/chan_bindings.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/chan_bindings.pyi",
+    "Lib/site-packages/gssapi/raw/creds.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/creds.pyi",
+    "Lib/site-packages/gssapi/raw/cython_converters.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/exceptions.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/exceptions.pyi",
+    "Lib/site-packages/gssapi/raw/ext_cred_imp_exp.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/ext_cred_imp_exp.pyi",
+    "Lib/site-packages/gssapi/raw/ext_cred_store.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/ext_cred_store.pyi",
+    "Lib/site-packages/gssapi/raw/ext_dce.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/ext_dce.pyi",
+    "Lib/site-packages/gssapi/raw/ext_dce_aead.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/ext_dce_aead.pyi",
+    "Lib/site-packages/gssapi/raw/ext_ggf.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/ext_ggf.pyi",
+    "Lib/site-packages/gssapi/raw/ext_iov_mic.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/ext_iov_mic.pyi",
+    "Lib/site-packages/gssapi/raw/ext_krb5.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/ext_krb5.pyi",
+    "Lib/site-packages/gssapi/raw/ext_password.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/ext_password.pyi",
+    "Lib/site-packages/gssapi/raw/ext_password_add.pyi",
+    "Lib/site-packages/gssapi/raw/ext_rfc4178.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/ext_rfc4178.pyi",
+    "Lib/site-packages/gssapi/raw/ext_rfc5587.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/ext_rfc5587.pyi",
+    "Lib/site-packages/gssapi/raw/ext_rfc5588.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/ext_rfc5588.pyi",
+    "Lib/site-packages/gssapi/raw/ext_rfc5801.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/ext_rfc5801.pyi",
+    "Lib/site-packages/gssapi/raw/ext_rfc6680.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/ext_rfc6680.pyi",
+    "Lib/site-packages/gssapi/raw/ext_rfc6680_comp_oid.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/ext_rfc6680_comp_oid.pyi",
+    "Lib/site-packages/gssapi/raw/ext_s4u.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/ext_s4u.pyi",
+    "Lib/site-packages/gssapi/raw/ext_set_cred_opt.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/ext_set_cred_opt.pyi",
+    "Lib/site-packages/gssapi/raw/mech_krb5.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/mech_krb5.pyi",
+    "Lib/site-packages/gssapi/raw/message.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/message.pyi",
+    "Lib/site-packages/gssapi/raw/misc.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/misc.pyi",
+    "Lib/site-packages/gssapi/raw/named_tuples.py",
+    "Lib/site-packages/gssapi/raw/names.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/names.pyi",
+    "Lib/site-packages/gssapi/raw/oids.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/oids.pyi",
+    "Lib/site-packages/gssapi/raw/sec_contexts.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/sec_contexts.pyi",
+    "Lib/site-packages/gssapi/raw/types.cp38-win_amd64.pyd",
+    "Lib/site-packages/gssapi/raw/types.pyi",
+    "Lib/site-packages/gssapi/sec_contexts.py",
+    "Lib/site-packages/gssapi/tests/__init__.py",
+    "Lib/site-packages/gssapi/tests/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/gssapi/tests/__pycache__/test_high_level.cpython-38.pyc",
+    "Lib/site-packages/gssapi/tests/__pycache__/test_raw.cpython-38.pyc",
+    "Lib/site-packages/gssapi/tests/test_high_level.py",
+    "Lib/site-packages/gssapi/tests/test_raw.py",
+    ".nonadmin"
+  ],
+  "fn": "python-gssapi-1.8.3-py38h742fdb6_0.conda",
+  "license": "ISC",
+  "link": {
+    "source": "C:\\Users\\kafub\\anaconda3\\pkgs\\python-gssapi-1.8.3-py38h742fdb6_0",
+    "type": 1
+  },
+  "md5": "8be990ef11efec2b4101623597a812a8",
+  "name": "python-gssapi",
+  "package_tarball_full_path": "C:\\Users\\kafub\\anaconda3\\pkgs\\python-gssapi-1.8.3-py38h742fdb6_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/gssapi-1.8.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/gssapi-1.8.3.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "368813402a562f9d4fc3669fe8ec6cd6a7562de9afac826702af593bddb52c50",
+        "sha256_in_prefix": "368813402a562f9d4fc3669fe8ec6cd6a7562de9afac826702af593bddb52c50",
+        "size_in_bytes": 741
+      },
+      {
+        "_path": "Lib/site-packages/gssapi-1.8.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "6cd1348e4a8d2ef6608389ccd8442f2ea539061ebaf1557afcf816ce20dd36b0",
+        "sha256_in_prefix": "6cd1348e4a8d2ef6608389ccd8442f2ea539061ebaf1557afcf816ce20dd36b0",
+        "size_in_bytes": 6274
+      },
+      {
+        "_path": "Lib/site-packages/gssapi-1.8.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d36a4b4f2f80a00577e7ba863d942e0391d057f94758dc320f55c814c9e53fd8",
+        "sha256_in_prefix": "d36a4b4f2f80a00577e7ba863d942e0391d057f94758dc320f55c814c9e53fd8",
+        "size_in_bytes": 7697
+      },
+      {
+        "_path": "Lib/site-packages/gssapi-1.8.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/gssapi-1.8.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "2a9956320c1265b7803ae9afc4dc48ad56cd3e79ff2d5cdf047ee5dfc8c30953",
+        "sha256_in_prefix": "2a9956320c1265b7803ae9afc4dc48ad56cd3e79ff2d5cdf047ee5dfc8c30953",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "Lib/site-packages/gssapi-1.8.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "8ab359e9267f00cee380f188b1b422dd32466855521255d6cf9c61f70f73d640",
+        "sha256_in_prefix": "8ab359e9267f00cee380f188b1b422dd32466855521255d6cf9c61f70f73d640",
+        "size_in_bytes": 74
+      },
+      {
+        "_path": "Lib/site-packages/gssapi-1.8.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "b66d426311945bf7793e014052b40e30ee5c56a38b753d4d4b83fb7ed7d14a04",
+        "sha256_in_prefix": "b66d426311945bf7793e014052b40e30ee5c56a38b753d4d4b83fb7ed7d14a04",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b0a35b90b53e2d8ee80ccc6f68bf5619ce04dae87f02861e43b6d8999b3eea99",
+        "sha256_in_prefix": "b0a35b90b53e2d8ee80ccc6f68bf5619ce04dae87f02861e43b6d8999b3eea99",
+        "size_in_bytes": 1123
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "68f504f1cefa482e04ffeda5d4457ba6d3b5571267de5e3652cf8ef77ac6a01a",
+        "sha256_in_prefix": "68f504f1cefa482e04ffeda5d4457ba6d3b5571267de5e3652cf8ef77ac6a01a",
+        "size_in_bytes": 1296
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/__pycache__/_utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a5b418f06e2873623a199f22a24e3e5b520334d7a6cfc3b826ce9f6671cc4138",
+        "sha256_in_prefix": "a5b418f06e2873623a199f22a24e3e5b520334d7a6cfc3b826ce9f6671cc4138",
+        "size_in_bytes": 5346
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/__pycache__/_win_config.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9d7710d88c6443026e010522357c8ebacae1ffe22393652aa530f23a2ff204b8",
+        "sha256_in_prefix": "9d7710d88c6443026e010522357c8ebacae1ffe22393652aa530f23a2ff204b8",
+        "size_in_bytes": 2306
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/__pycache__/creds.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ac8f864c41fa9332c34f002242d2a1d8c5317ba744ae1015c22677d01227291f",
+        "sha256_in_prefix": "ac8f864c41fa9332c34f002242d2a1d8c5317ba744ae1015c22677d01227291f",
+        "size_in_bytes": 15703
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/__pycache__/exceptions.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "13a4f66a171fbc86444567097bf1a93ce84ffac17d25766879f49567d68807ea",
+        "sha256_in_prefix": "13a4f66a171fbc86444567097bf1a93ce84ffac17d25766879f49567d68807ea",
+        "size_in_bytes": 1660
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/__pycache__/mechs.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f9e17b74d6f30336bba5c4bae2d2319ba608b6081be35f5bdeaacc261907f046",
+        "sha256_in_prefix": "f9e17b74d6f30336bba5c4bae2d2319ba608b6081be35f5bdeaacc261907f046",
+        "size_in_bytes": 7004
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/__pycache__/names.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "451d423d5ffbbc881e2154faebb165b3b9082db2e4815ed80b974a6aba33315b",
+        "sha256_in_prefix": "451d423d5ffbbc881e2154faebb165b3b9082db2e4815ed80b974a6aba33315b",
+        "size_in_bytes": 12487
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/__pycache__/sec_contexts.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "94bf84f07d2cff014c1bc31151c19364e923d29cf64ceafe64607102161f0c40",
+        "sha256_in_prefix": "94bf84f07d2cff014c1bc31151c19364e923d29cf64ceafe64607102161f0c40",
+        "size_in_bytes": 18423
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/_utils.py",
+        "path_type": "hardlink",
+        "sha256": "76a05c2d32afae35da7a601dd80708dffaea2af4ec36fc017c8cae56427a385d",
+        "sha256_in_prefix": "76a05c2d32afae35da7a601dd80708dffaea2af4ec36fc017c8cae56427a385d",
+        "size_in_bytes": 5004
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/_win_config.py",
+        "path_type": "hardlink",
+        "sha256": "bbef0596eb857300c2f33eb44a4300079ddc04958dec94b776a1026dc01c3d8a",
+        "sha256_in_prefix": "bbef0596eb857300c2f33eb44a4300079ddc04958dec94b776a1026dc01c3d8a",
+        "size_in_bytes": 2951
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/creds.py",
+        "path_type": "hardlink",
+        "sha256": "5305affb3676873058f68e813de5f93d0236a3688fad15019fe276c1fdc19bb7",
+        "sha256_in_prefix": "5305affb3676873058f68e813de5f93d0236a3688fad15019fe276c1fdc19bb7",
+        "size_in_bytes": 18991
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "a95f40086746657dc47a9bc16941b16d244a0c0bf224537ecec24592fbe41afe",
+        "sha256_in_prefix": "a95f40086746657dc47a9bc16941b16d244a0c0bf224537ecec24592fbe41afe",
+        "size_in_bytes": 1307
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/mechs.py",
+        "path_type": "hardlink",
+        "sha256": "fcf8fff1b89bc9479f516a0ad12600b47c395910f054c7b0a5d4034ae987bb5e",
+        "sha256_in_prefix": "fcf8fff1b89bc9479f516a0ad12600b47c395910f054c7b0a5d4034ae987bb5e",
+        "size_in_bytes": 6658
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/names.py",
+        "path_type": "hardlink",
+        "sha256": "57c74ce31918b934f3488f49b402eae415ceb6a2c234018412baa0edf2239bff",
+        "sha256_in_prefix": "57c74ce31918b934f3488f49b402eae415ceb6a2c234018412baa0edf2239bff",
+        "size_in_bytes": 14519
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "db3fe64a1277530a4fd829e1bc8953add87c4a83300d222781f3910b9e9b9ecd",
+        "sha256_in_prefix": "db3fe64a1277530a4fd829e1bc8953add87c4a83300d222781f3910b9e9b9ecd",
+        "size_in_bytes": 3705
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "45959a361f97993d90cee0624168746616091fe46c510844bb2ce661c1888957",
+        "sha256_in_prefix": "45959a361f97993d90cee0624168746616091fe46c510844bb2ce661c1888957",
+        "size_in_bytes": 2870
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/__pycache__/named_tuples.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b154ffd051c838ff08c26f3bb834e456304a179260b5bac75e0b103ba64741bf",
+        "sha256_in_prefix": "b154ffd051c838ff08c26f3bb834e456304a179260b5bac75e0b103ba64741bf",
+        "size_in_bytes": 6073
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/_enum_extensions/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2368d98f3273adee965b85d4b9eaa0ff61dd051d5bab4acb0112907232ce0ec2",
+        "sha256_in_prefix": "2368d98f3273adee965b85d4b9eaa0ff61dd051d5bab4acb0112907232ce0ec2",
+        "size_in_bytes": 1097
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/_enum_extensions/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0e0ae8dba7cf22bfd2027859b33f84e7292bde5c9e56c64161029e34da8b634a",
+        "sha256_in_prefix": "0e0ae8dba7cf22bfd2027859b33f84e7292bde5c9e56c64161029e34da8b634a",
+        "size_in_bytes": 1212
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/_enum_extensions/ext_dce.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "dd68f60e97fe5ee7cbc1ac44de32881445dc2bdc0aa8f2fce34fe0c8da7c440a",
+        "sha256_in_prefix": "dd68f60e97fe5ee7cbc1ac44de32881445dc2bdc0aa8f2fce34fe0c8da7c440a",
+        "size_in_bytes": 20480
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/_enum_extensions/ext_iov_mic.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "dd246535b74936eda9e7c3d4b616277813ce7943485316b7a49df390660240fc",
+        "sha256_in_prefix": "dd246535b74936eda9e7c3d4b616277813ce7943485316b7a49df390660240fc",
+        "size_in_bytes": 19456
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/chan_bindings.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "2d742d0d9be75a9f5f1099891c15777c0e431d212f09611610e1c81a191eb363",
+        "sha256_in_prefix": "2d742d0d9be75a9f5f1099891c15777c0e431d212f09611610e1c81a191eb363",
+        "size_in_bytes": 39936
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/chan_bindings.pyi",
+        "path_type": "hardlink",
+        "sha256": "28aa6cdf3be00c0518b38dfaa0d7bc8ecb9ba73e96f6d9438e834f512c78d4cd",
+        "sha256_in_prefix": "28aa6cdf3be00c0518b38dfaa0d7bc8ecb9ba73e96f6d9438e834f512c78d4cd",
+        "size_in_bytes": 960
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/creds.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "ce2ee2fb8065d4925f10cda6dfb773d059d1f228e635d5da84fc0361cc295fb8",
+        "sha256_in_prefix": "ce2ee2fb8065d4925f10cda6dfb773d059d1f228e635d5da84fc0361cc295fb8",
+        "size_in_bytes": 61440
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/creds.pyi",
+        "path_type": "hardlink",
+        "sha256": "0d4c2e89cd8d727d15ef7fc3d3f22ad0af51c8012755b0de3c3424fb88acd4be",
+        "sha256_in_prefix": "0d4c2e89cd8d727d15ef7fc3d3f22ad0af51c8012755b0de3c3424fb88acd4be",
+        "size_in_bytes": 6124
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/cython_converters.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "140d9cd833b2a8013155f423c152a170d499df87238d5e23129eb422fc31f35a",
+        "sha256_in_prefix": "140d9cd833b2a8013155f423c152a170d499df87238d5e23129eb422fc31f35a",
+        "size_in_bytes": 26112
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/exceptions.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "6da46cfc88f65c3355b40eeb9e4381e3809d43002c2fd1440b77b34bd2afd349",
+        "sha256_in_prefix": "6da46cfc88f65c3355b40eeb9e4381e3809d43002c2fd1440b77b34bd2afd349",
+        "size_in_bytes": 39936
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/exceptions.pyi",
+        "path_type": "hardlink",
+        "sha256": "527f48da7437005dfb9533199457dd727e8c2b66d216803b37ffd1c45a160009",
+        "sha256_in_prefix": "527f48da7437005dfb9533199457dd727e8c2b66d216803b37ffd1c45a160009",
+        "size_in_bytes": 1689
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_cred_imp_exp.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "f33996335332bd0e6af724d58bda001e0d2439ac846f5cdbd9c4f2d288221f68",
+        "sha256_in_prefix": "f33996335332bd0e6af724d58bda001e0d2439ac846f5cdbd9c4f2d288221f68",
+        "size_in_bytes": 28672
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_cred_imp_exp.pyi",
+        "path_type": "hardlink",
+        "sha256": "ca14b352ceb7a2b146d939d2879b502c4dc70953248ab6693e0715c89d17ea75",
+        "sha256_in_prefix": "ca14b352ceb7a2b146d939d2879b502c4dc70953248ab6693e0715c89d17ea75",
+        "size_in_bytes": 919
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_cred_store.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "76801d98816d4521a7f4f650df4e389b2a9a11be2961e085f3f1d480e25a5c3d",
+        "sha256_in_prefix": "76801d98816d4521a7f4f650df4e389b2a9a11be2961e085f3f1d480e25a5c3d",
+        "size_in_bytes": 56320
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_cred_store.pyi",
+        "path_type": "hardlink",
+        "sha256": "1076357d9e8e4698386ede73c455257e8abe11b211f5941aedd99d6d2fc181d0",
+        "sha256_in_prefix": "1076357d9e8e4698386ede73c455257e8abe11b211f5941aedd99d6d2fc181d0",
+        "size_in_bytes": 4917
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_dce.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "5bafda6a6ea8f40936649d6dbfee3c383a78d73e1e9878635cc055fe67dd9917",
+        "sha256_in_prefix": "5bafda6a6ea8f40936649d6dbfee3c383a78d73e1e9878635cc055fe67dd9917",
+        "size_in_bytes": 95744
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_dce.pyi",
+        "path_type": "hardlink",
+        "sha256": "09a9c8465f9493faa7ba1b89610d444d121052dabfdd94158fb7f08433c5b76b",
+        "sha256_in_prefix": "09a9c8465f9493faa7ba1b89610d444d121052dabfdd94158fb7f08433c5b76b",
+        "size_in_bytes": 5133
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_dce_aead.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "201323e826ae6b672cbf07d155cf9d3158256d90a47a34300dcc9a624ce55671",
+        "sha256_in_prefix": "201323e826ae6b672cbf07d155cf9d3158256d90a47a34300dcc9a624ce55671",
+        "size_in_bytes": 33792
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_dce_aead.pyi",
+        "path_type": "hardlink",
+        "sha256": "1943e44296cd3844e42532c7c69208c911ea3c590f3db66107cf4a63a7eeaa7e",
+        "sha256_in_prefix": "1943e44296cd3844e42532c7c69208c911ea3c590f3db66107cf4a63a7eeaa7e",
+        "size_in_bytes": 1859
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_ggf.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "bffbeffc7286f103a6cd9762caf6b0612337e7935453d903247b4026d8a6d77c",
+        "sha256_in_prefix": "bffbeffc7286f103a6cd9762caf6b0612337e7935453d903247b4026d8a6d77c",
+        "size_in_bytes": 33792
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_ggf.pyi",
+        "path_type": "hardlink",
+        "sha256": "c648cd7c115acfdbe8df05be32edc3bfcb9290798ea63cc48e126a7740e29f35",
+        "sha256_in_prefix": "c648cd7c115acfdbe8df05be32edc3bfcb9290798ea63cc48e126a7740e29f35",
+        "size_in_bytes": 3269
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_iov_mic.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "91ee03a826f1b942adbd69da2e8cd4ef16c474e0321727b599e474d05371790b",
+        "sha256_in_prefix": "91ee03a826f1b942adbd69da2e8cd4ef16c474e0321727b599e474d05371790b",
+        "size_in_bytes": 34816
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_iov_mic.pyi",
+        "path_type": "hardlink",
+        "sha256": "47f5cf63b4821b364fee3fe3dc59cb82e09f07272ad8bf64aee467faa02307a7",
+        "sha256_in_prefix": "47f5cf63b4821b364fee3fe3dc59cb82e09f07272ad8bf64aee467faa02307a7",
+        "size_in_bytes": 2490
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_krb5.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "23f66d1afdd1b8a33858bae310b6ddbdc9741a88176814f18b0f401d165d943a",
+        "sha256_in_prefix": "23f66d1afdd1b8a33858bae310b6ddbdc9741a88176814f18b0f401d165d943a",
+        "size_in_bytes": 146432
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_krb5.pyi",
+        "path_type": "hardlink",
+        "sha256": "3abc190aed3f44ff5889661abea4efb2b36e6207441720d59297fc6aa91b04c3",
+        "sha256_in_prefix": "3abc190aed3f44ff5889661abea4efb2b36e6207441720d59297fc6aa91b04c3",
+        "size_in_bytes": 7602
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_password.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "080101a8d16c9307a5985adfea97d59f73591740f7f416a768864c4d15e2556c",
+        "sha256_in_prefix": "080101a8d16c9307a5985adfea97d59f73591740f7f416a768864c4d15e2556c",
+        "size_in_bytes": 33792
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_password.pyi",
+        "path_type": "hardlink",
+        "sha256": "86e238d4d17de8f96a92e270dc62df0ef2f4ccabbc440e3ca1722746181ab580",
+        "sha256_in_prefix": "86e238d4d17de8f96a92e270dc62df0ef2f4ccabbc440e3ca1722746181ab580",
+        "size_in_bytes": 1438
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_password_add.pyi",
+        "path_type": "hardlink",
+        "sha256": "d8e337ed036324b47a0427d656573740c1abafd74bafd849fb6b36a4b117e167",
+        "sha256_in_prefix": "d8e337ed036324b47a0427d656573740c1abafd74bafd849fb6b36a4b117e167",
+        "size_in_bytes": 1845
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_rfc4178.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "625bcac3b6e00f637a98dda5acbdb38ea0bb4803d6ff2a9dafd4efe55c14ad8e",
+        "sha256_in_prefix": "625bcac3b6e00f637a98dda5acbdb38ea0bb4803d6ff2a9dafd4efe55c14ad8e",
+        "size_in_bytes": 26112
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_rfc4178.pyi",
+        "path_type": "hardlink",
+        "sha256": "cb0d718763bc78130da71c6018bad8718942999a88c8f6c8eeba8e17fcde078d",
+        "sha256_in_prefix": "cb0d718763bc78130da71c6018bad8718942999a88c8f6c8eeba8e17fcde078d",
+        "size_in_bytes": 721
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_rfc5587.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "906b4588c7b328d08af92735a1c93440020c08b94f7627490cd6536ae41141f1",
+        "sha256_in_prefix": "906b4588c7b328d08af92735a1c93440020c08b94f7627490cd6536ae41141f1",
+        "size_in_bytes": 33280
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_rfc5587.pyi",
+        "path_type": "hardlink",
+        "sha256": "c1eae58686e362436327a833c53b936d133bd1c9cf6e3a924f3213b9173ce399",
+        "sha256_in_prefix": "c1eae58686e362436327a833c53b936d133bd1c9cf6e3a924f3213b9173ce399",
+        "size_in_bytes": 1762
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_rfc5588.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "f8faa489e4c250355b80ae8f36ec69390d354a6dcc9d8354de526415d0153192",
+        "sha256_in_prefix": "f8faa489e4c250355b80ae8f36ec69390d354a6dcc9d8354de526415d0153192",
+        "size_in_bytes": 32256
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_rfc5588.pyi",
+        "path_type": "hardlink",
+        "sha256": "6379739a58528f86e53b7ee7e340063f3584b01f254ff33a63d448c807714b0e",
+        "sha256_in_prefix": "6379739a58528f86e53b7ee7e340063f3584b01f254ff33a63d448c807714b0e",
+        "size_in_bytes": 1434
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_rfc5801.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "f87af0b8c3811bfb7f3a4ba70374e14810055b1ad84c0784ec097bd261ad70b8",
+        "sha256_in_prefix": "f87af0b8c3811bfb7f3a4ba70374e14810055b1ad84c0784ec097bd261ad70b8",
+        "size_in_bytes": 28160
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_rfc5801.pyi",
+        "path_type": "hardlink",
+        "sha256": "706fb29e68577f01d43f3f35ff5fb30f8a11bfe4792a24a492c1d0196b641ffb",
+        "sha256_in_prefix": "706fb29e68577f01d43f3f35ff5fb30f8a11bfe4792a24a492c1d0196b641ffb",
+        "size_in_bytes": 962
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_rfc6680.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "b30edecf21b7e558d47c81e691b26f3203396217d5eea1d8a0236e308350b353",
+        "sha256_in_prefix": "b30edecf21b7e558d47c81e691b26f3203396217d5eea1d8a0236e308350b353",
+        "size_in_bytes": 46080
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_rfc6680.pyi",
+        "path_type": "hardlink",
+        "sha256": "9649a71a8eb3af52a62855f7689f3ac1426ce58fdf61105a5a7d2b85473a07e2",
+        "sha256_in_prefix": "9649a71a8eb3af52a62855f7689f3ac1426ce58fdf61105a5a7d2b85473a07e2",
+        "size_in_bytes": 5396
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_rfc6680_comp_oid.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "3ff242ec3231e392e291f4058f7eb90abf3a54ae83ce12260bb3fcfe580cd300",
+        "sha256_in_prefix": "3ff242ec3231e392e291f4058f7eb90abf3a54ae83ce12260bb3fcfe580cd300",
+        "size_in_bytes": 20992
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_rfc6680_comp_oid.pyi",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_s4u.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "9032d96b277855e78d8ed33a4f54c0925ed5ff9a5fa4a9885a035cdf05844f60",
+        "sha256_in_prefix": "9032d96b277855e78d8ed33a4f54c0925ed5ff9a5fa4a9885a035cdf05844f60",
+        "size_in_bytes": 40448
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_s4u.pyi",
+        "path_type": "hardlink",
+        "sha256": "23c47cbb9f5ae0f81958e7688f1d142e900320fc4fbaf4b09177ae411c50c408",
+        "sha256_in_prefix": "23c47cbb9f5ae0f81958e7688f1d142e900320fc4fbaf4b09177ae411c50c408",
+        "size_in_bytes": 3462
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_set_cred_opt.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "83aa4b00d391fb72bff420c16a88a8fd3caf7a251027199c733807d8692a3f82",
+        "sha256_in_prefix": "83aa4b00d391fb72bff420c16a88a8fd3caf7a251027199c733807d8692a3f82",
+        "size_in_bytes": 27136
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/ext_set_cred_opt.pyi",
+        "path_type": "hardlink",
+        "sha256": "f56f83ca83aed58738009ab7b40af7f5935820a6f55a1a5e245597b2830754d7",
+        "sha256_in_prefix": "f56f83ca83aed58738009ab7b40af7f5935820a6f55a1a5e245597b2830754d7",
+        "size_in_bytes": 1765
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/mech_krb5.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "40e3c3a2b7bf276062d2176f0e7936cd57eac7726c4ec670267de5b3c777f7aa",
+        "sha256_in_prefix": "40e3c3a2b7bf276062d2176f0e7936cd57eac7726c4ec670267de5b3c777f7aa",
+        "size_in_bytes": 21504
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/mech_krb5.pyi",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/message.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "efb8a8a058362cd266cffcb282504e37253ad38bb0fffcf29636e0ed6fb170ab",
+        "sha256_in_prefix": "efb8a8a058362cd266cffcb282504e37253ad38bb0fffcf29636e0ed6fb170ab",
+        "size_in_bytes": 44544
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/message.pyi",
+        "path_type": "hardlink",
+        "sha256": "aadf28646b536de58ff47234a0765bda27a56b67e91d561ad86995e45d9c2bb2",
+        "sha256_in_prefix": "aadf28646b536de58ff47234a0765bda27a56b67e91d561ad86995e45d9c2bb2",
+        "size_in_bytes": 4723
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/misc.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "26d9e21b782d5d851f6fb4bbb293b5f6d294def2c36b7b9745fe160e2bc973ee",
+        "sha256_in_prefix": "26d9e21b782d5d851f6fb4bbb293b5f6d294def2c36b7b9745fe160e2bc973ee",
+        "size_in_bytes": 85504
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/misc.pyi",
+        "path_type": "hardlink",
+        "sha256": "29bea59d0afccd66d504a513118fc2898ea4c95affb1f3ae164b5c3a244a6e91",
+        "sha256_in_prefix": "29bea59d0afccd66d504a513118fc2898ea4c95affb1f3ae164b5c3a244a6e91",
+        "size_in_bytes": 4555
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/named_tuples.py",
+        "path_type": "hardlink",
+        "sha256": "9bf8974c3b6216ccd1e1702ef903f67707552c680776fbd7bfb526c6be72c222",
+        "sha256_in_prefix": "9bf8974c3b6216ccd1e1702ef903f67707552c680776fbd7bfb526c6be72c222",
+        "size_in_bytes": 6646
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/names.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "a0d8700037c4d7c3b49e74223bae924a71050e018f87f08fd29c48f91c559e79",
+        "sha256_in_prefix": "a0d8700037c4d7c3b49e74223bae924a71050e018f87f08fd29c48f91c559e79",
+        "size_in_bytes": 49664
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/names.pyi",
+        "path_type": "hardlink",
+        "sha256": "4fe3ee658fab425cd35ae2d972f8827feebc35a1b51c8f83e2c124a097473dab",
+        "sha256_in_prefix": "4fe3ee658fab425cd35ae2d972f8827feebc35a1b51c8f83e2c124a097473dab",
+        "size_in_bytes": 4109
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/oids.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "8f93f8d3f42ed9048b71400fb8d1773acb44eb48d9babcb455c8067d9031b4e8",
+        "sha256_in_prefix": "8f93f8d3f42ed9048b71400fb8d1773acb44eb48d9babcb455c8067d9031b4e8",
+        "size_in_bytes": 61440
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/oids.pyi",
+        "path_type": "hardlink",
+        "sha256": "6802d97a5bdb0100be22eaefbb4253bc82571376ff7b1bb2884a8ce0461f2aa6",
+        "sha256_in_prefix": "6802d97a5bdb0100be22eaefbb4253bc82571376ff7b1bb2884a8ce0461f2aa6",
+        "size_in_bytes": 1360
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/sec_contexts.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "dae015d7079a77c7acc8b1e904fdf088a5d7685b7d02a04b1e480cd294270f12",
+        "sha256_in_prefix": "dae015d7079a77c7acc8b1e904fdf088a5d7685b7d02a04b1e480cd294270f12",
+        "size_in_bytes": 72192
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/sec_contexts.pyi",
+        "path_type": "hardlink",
+        "sha256": "041aabb9e09160de59c7a00e9b91d3cc1577c25e77b143a3bbdaafa8549ee9a6",
+        "sha256_in_prefix": "041aabb9e09160de59c7a00e9b91d3cc1577c25e77b143a3bbdaafa8549ee9a6",
+        "size_in_bytes": 10241
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/types.cp38-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "60758f9328b362525a5c29677cd9077074cdee971bebcbca1be80690388399bb",
+        "sha256_in_prefix": "60758f9328b362525a5c29677cd9077074cdee971bebcbca1be80690388399bb",
+        "size_in_bytes": 109056
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/raw/types.pyi",
+        "path_type": "hardlink",
+        "sha256": "a7a7d292882507cd8abe5648e80e77d86585cb12d05e32269422e93af46189e8",
+        "sha256_in_prefix": "a7a7d292882507cd8abe5648e80e77d86585cb12d05e32269422e93af46189e8",
+        "size_in_bytes": 5005
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/sec_contexts.py",
+        "path_type": "hardlink",
+        "sha256": "a0f2a36fae85df6b8593333e893fe4b90d48b7de8c15be82b256b451a6a8f19f",
+        "sha256_in_prefix": "a0f2a36fae85df6b8593333e893fe4b90d48b7de8c15be82b256b451a6a8f19f",
+        "size_in_bytes": 22001
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2385175f0d2578e48dec06c1be54b4e3a2e2004bfe6291c2cfae61f1db17d59b",
+        "sha256_in_prefix": "2385175f0d2578e48dec06c1be54b4e3a2e2004bfe6291c2cfae61f1db17d59b",
+        "size_in_bytes": 133
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/tests/__pycache__/test_high_level.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c055a04ae9e7b57625d4c5e240417a139572f55a6acc55d6f54f37ed96fbb3ce",
+        "sha256_in_prefix": "c055a04ae9e7b57625d4c5e240417a139572f55a6acc55d6f54f37ed96fbb3ce",
+        "size_in_bytes": 28354
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/tests/__pycache__/test_raw.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7383c7fc2de8faaf28d2c945229e2b7cac391b7f6e43d730e7141dd734f1e50c",
+        "sha256_in_prefix": "7383c7fc2de8faaf28d2c945229e2b7cac391b7f6e43d730e7141dd734f1e50c",
+        "size_in_bytes": 50576
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/tests/test_high_level.py",
+        "path_type": "hardlink",
+        "sha256": "67cff23f270c87a55eb9643528c72ddac377988bc2bb7e189205b7c7b9f8c54a",
+        "sha256_in_prefix": "67cff23f270c87a55eb9643528c72ddac377988bc2bb7e189205b7c7b9f8c54a",
+        "size_in_bytes": 37914
+      },
+      {
+        "_path": "Lib/site-packages/gssapi/tests/test_raw.py",
+        "path_type": "hardlink",
+        "sha256": "9423a295ab0ff4fd11543cf4c6bf92d1f85df9de1886b0b59bd5880ec5660cf9",
+        "sha256_in_prefix": "9423a295ab0ff4fd11543cf4c6bf92d1f85df9de1886b0b59bd5880ec5660cf9",
+        "size_in_bytes": 81779
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "58c636e4c8a5de13f79b473c3c36bdc946bf8c3eb17e9848cfa5188204303025",
+  "size": 417384,
+  "subdir": "win-64",
+  "timestamp": 1697144855000,
+  "url": "https://conda.anaconda.org/conda-forge/win-64/python-gssapi-1.8.3-py38h742fdb6_0.conda",
+  "version": "1.8.3"
+}

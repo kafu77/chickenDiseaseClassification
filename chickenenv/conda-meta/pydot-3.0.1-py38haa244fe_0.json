@@ -1,0 +1,157 @@
+{
+  "build": "py38haa244fe_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "graphviz >=2.38.0",
+    "pyparsing >=3.0.9",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38"
+  ],
+  "extracted_package_dir": "C:\\Users\\kafub\\anaconda3\\pkgs\\pydot-3.0.1-py38haa244fe_0",
+  "files": [
+    "Lib/site-packages/pydot-3.0.1.dist-info/INSTALLER",
+    "Lib/site-packages/pydot-3.0.1.dist-info/METADATA",
+    "Lib/site-packages/pydot-3.0.1.dist-info/RECORD",
+    "Lib/site-packages/pydot-3.0.1.dist-info/REQUESTED",
+    "Lib/site-packages/pydot-3.0.1.dist-info/WHEEL",
+    "Lib/site-packages/pydot-3.0.1.dist-info/direct_url.json",
+    "Lib/site-packages/pydot-3.0.1.dist-info/top_level.txt",
+    "Lib/site-packages/pydot/__init__.py",
+    "Lib/site-packages/pydot/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/pydot/__pycache__/core.cpython-38.pyc",
+    "Lib/site-packages/pydot/__pycache__/dot_parser.cpython-38.pyc",
+    "Lib/site-packages/pydot/__pycache__/exceptions.cpython-38.pyc",
+    "Lib/site-packages/pydot/core.py",
+    "Lib/site-packages/pydot/dot_parser.py",
+    "Lib/site-packages/pydot/exceptions.py",
+    ".nonadmin"
+  ],
+  "fn": "pydot-3.0.1-py38haa244fe_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\kafub\\anaconda3\\pkgs\\pydot-3.0.1-py38haa244fe_0",
+    "type": 1
+  },
+  "md5": "f20fa8865e12848aed014c775952ec7c",
+  "name": "pydot",
+  "package_tarball_full_path": "C:\\Users\\kafub\\anaconda3\\pkgs\\pydot-3.0.1-py38haa244fe_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/pydot-3.0.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/pydot-3.0.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "4037838f718e9e0ece57714692ba942357cc2978ca7a5cf6c7e7684870f86010",
+        "sha256_in_prefix": "4037838f718e9e0ece57714692ba942357cc2978ca7a5cf6c7e7684870f86010",
+        "size_in_bytes": 10239
+      },
+      {
+        "_path": "Lib/site-packages/pydot-3.0.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "dd8d4affc51bec19a134f05f4437f6e057960f3497ec5f8080d0aea7a578f7ee",
+        "sha256_in_prefix": "dd8d4affc51bec19a134f05f4437f6e057960f3497ec5f8080d0aea7a578f7ee",
+        "size_in_bytes": 1039
+      },
+      {
+        "_path": "Lib/site-packages/pydot-3.0.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/pydot-3.0.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "678a585ea47fad307b3963436053a6d6a464d115fa1853f6a3c2e0bcfe39dc79",
+        "sha256_in_prefix": "678a585ea47fad307b3963436053a6d6a464d115fa1853f6a3c2e0bcfe39dc79",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "Lib/site-packages/pydot-3.0.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "e8919031380613ed8fe9d5f137ae88fd1fda41e360bdeef913ecfba87aa6245a",
+        "sha256_in_prefix": "e8919031380613ed8fe9d5f137ae88fd1fda41e360bdeef913ecfba87aa6245a",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "Lib/site-packages/pydot-3.0.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "80dc4c221b881bb1ccc075af9df3a6c150e234812743559d06fca97f22f4d605",
+        "sha256_in_prefix": "80dc4c221b881bb1ccc075af9df3a6c150e234812743559d06fca97f22f4d605",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "Lib/site-packages/pydot/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4d1ec83f0c009fe0bdc32ab0e6b393a0c3fa50338a877427b97830d01ff908f9",
+        "sha256_in_prefix": "4d1ec83f0c009fe0bdc32ab0e6b393a0c3fa50338a877427b97830d01ff908f9",
+        "size_in_bytes": 415
+      },
+      {
+        "_path": "Lib/site-packages/pydot/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "502c729a1f39190d40ef1aa45b97977db435f37001bd968015b0aeafbc89aa9c",
+        "sha256_in_prefix": "502c729a1f39190d40ef1aa45b97977db435f37001bd968015b0aeafbc89aa9c",
+        "size_in_bytes": 428
+      },
+      {
+        "_path": "Lib/site-packages/pydot/__pycache__/core.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2eabfcc525fe1511ce1c22e69c68e17d398107bf258b6c95e05ed777485755c4",
+        "sha256_in_prefix": "2eabfcc525fe1511ce1c22e69c68e17d398107bf258b6c95e05ed777485755c4",
+        "size_in_bytes": 47269
+      },
+      {
+        "_path": "Lib/site-packages/pydot/__pycache__/dot_parser.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "cb4c5f7585469a4cd2479feefbc537d263fe1b833a6215df8de3a719d3938d56",
+        "sha256_in_prefix": "cb4c5f7585469a4cd2479feefbc537d263fe1b833a6215df8de3a719d3938d56",
+        "size_in_bytes": 10434
+      },
+      {
+        "_path": "Lib/site-packages/pydot/__pycache__/exceptions.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a56618a86dde729bd1faad29423931646308f94be147a1e08b9f83e96fe1506f",
+        "sha256_in_prefix": "a56618a86dde729bd1faad29423931646308f94be147a1e08b9f83e96fe1506f",
+        "size_in_bytes": 1031
+      },
+      {
+        "_path": "Lib/site-packages/pydot/core.py",
+        "path_type": "hardlink",
+        "sha256": "3359ba00b71e19824c9950f0697bb9d1c3e41ff901fc6913a1a2e0cf3460c0c3",
+        "sha256_in_prefix": "3359ba00b71e19824c9950f0697bb9d1c3e41ff901fc6913a1a2e0cf3460c0c3",
+        "size_in_bytes": 54134
+      },
+      {
+        "_path": "Lib/site-packages/pydot/dot_parser.py",
+        "path_type": "hardlink",
+        "sha256": "d203db0e15e69c721b5853f3bc1b2abdeef286f9186e188b198b2f9fe32d3aa8",
+        "sha256_in_prefix": "d203db0e15e69c721b5853f3bc1b2abdeef286f9186e188b198b2f9fe32d3aa8",
+        "size_in_bytes": 14350
+      },
+      {
+        "_path": "Lib/site-packages/pydot/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "1bd971fa4b3b194288038bc48c7b6a1931e39f6ae758c435fb07d498d3e47ffb",
+        "sha256_in_prefix": "1bd971fa4b3b194288038bc48c7b6a1931e39f6ae758c435fb07d498d3e47ffb",
+        "size_in_bytes": 600
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "589f5542d2d09dacbc3fc71052f10ff3b3eefe13e69a2b109cf45958f3d9759c",
+  "size": 47136,
+  "subdir": "win-64",
+  "timestamp": 1721228387000,
+  "url": "https://conda.anaconda.org/conda-forge/win-64/pydot-3.0.1-py38haa244fe_0.conda",
+  "version": "3.0.1"
+}

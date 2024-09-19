@@ -1,0 +1,106 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "click >=7",
+    "python >=3.6.2,<4.0.0"
+  ],
+  "extracted_package_dir": "C:\\Users\\kafub\\anaconda3\\pkgs\\click-didyoumean-0.3.1-pyhd8ed1ab_0",
+  "files": [
+    "Lib/site-packages/click_didyoumean-0.3.1.dist-info/INSTALLER",
+    "Lib/site-packages/click_didyoumean-0.3.1.dist-info/LICENSE",
+    "Lib/site-packages/click_didyoumean-0.3.1.dist-info/METADATA",
+    "Lib/site-packages/click_didyoumean-0.3.1.dist-info/RECORD",
+    "Lib/site-packages/click_didyoumean-0.3.1.dist-info/REQUESTED",
+    "Lib/site-packages/click_didyoumean-0.3.1.dist-info/WHEEL",
+    "Lib/site-packages/click_didyoumean-0.3.1.dist-info/direct_url.json",
+    "Lib/site-packages/click_didyoumean/__init__.py",
+    ".nonadmin",
+    "Lib/site-packages/click_didyoumean/__pycache__/__init__.cpython-38.pyc"
+  ],
+  "fn": "click-didyoumean-0.3.1-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\kafub\\anaconda3\\pkgs\\click-didyoumean-0.3.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "ab1b094a8471e571b95c208bde719a4a",
+  "name": "click-didyoumean",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\kafub\\anaconda3\\pkgs\\click-didyoumean-0.3.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/click_didyoumean-0.3.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/click_didyoumean-0.3.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "efc74f255dd6fd4289363b1bfe71cd0ed70b2926c8258d6152204e6a89041c0a",
+        "sha256_in_prefix": "efc74f255dd6fd4289363b1bfe71cd0ed70b2926c8258d6152204e6a89041c0a",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "site-packages/click_didyoumean-0.3.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "19838d4ca895af23289c19b67590694068d59d03ffb1eb101637ea2db7fd0275",
+        "sha256_in_prefix": "19838d4ca895af23289c19b67590694068d59d03ffb1eb101637ea2db7fd0275",
+        "size_in_bytes": 3943
+      },
+      {
+        "_path": "site-packages/click_didyoumean-0.3.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d48afbd28d3d9a4542b930a94424c88a9cd1ba03c59df6be4ede57b9920f9c9e",
+        "sha256_in_prefix": "d48afbd28d3d9a4542b930a94424c88a9cd1ba03c59df6be4ede57b9920f9c9e",
+        "size_in_bytes": 776
+      },
+      {
+        "_path": "site-packages/click_didyoumean-0.3.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/click_didyoumean-0.3.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "b0ff78e83ee31421de373e48ab87cbe0bbbe3eb5ab16c81f2d76db91c8886708",
+        "sha256_in_prefix": "b0ff78e83ee31421de373e48ab87cbe0bbbe3eb5ab16c81f2d76db91c8886708",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "site-packages/click_didyoumean-0.3.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "bc82e7d4af19d4956746365cdbc77535b71b958f972247916bd6987248ed506f",
+        "sha256_in_prefix": "bc82e7d4af19d4956746365cdbc77535b71b958f972247916bd6987248ed506f",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "site-packages/click_didyoumean/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "65d540153a8e98e40e70a027f1ec382a7afcb585d20f043213373b6b3fa0774f",
+        "sha256_in_prefix": "65d540153a8e98e40e70a027f1ec382a7afcb585d20f043213373b6b3fa0774f",
+        "size_in_bytes": 2054
+      },
+      {
+        "_path": "Lib/site-packages/click_didyoumean/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "37b40b25c766499c79e5f64fb7c6453c882f9a5dabd262e431c9e68ecd971843",
+  "size": 10146,
+  "subdir": "noarch",
+  "timestamp": 1711356805000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/click-didyoumean-0.3.1-pyhd8ed1ab_0.conda",
+  "version": "0.3.1"
+}

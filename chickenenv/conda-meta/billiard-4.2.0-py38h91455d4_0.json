@@ -1,0 +1,550 @@
+{
+  "build": "py38h91455d4_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "extracted_package_dir": "C:\\Users\\kafub\\anaconda3\\pkgs\\billiard-4.2.0-py38h91455d4_0",
+  "files": [
+    "Lib/site-packages/billiard-4.2.0.dist-info/INSTALLER",
+    "Lib/site-packages/billiard-4.2.0.dist-info/LICENSE.txt",
+    "Lib/site-packages/billiard-4.2.0.dist-info/METADATA",
+    "Lib/site-packages/billiard-4.2.0.dist-info/RECORD",
+    "Lib/site-packages/billiard-4.2.0.dist-info/REQUESTED",
+    "Lib/site-packages/billiard-4.2.0.dist-info/WHEEL",
+    "Lib/site-packages/billiard-4.2.0.dist-info/direct_url.json",
+    "Lib/site-packages/billiard-4.2.0.dist-info/top_level.txt",
+    "Lib/site-packages/billiard/__init__.py",
+    "Lib/site-packages/billiard/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/billiard/__pycache__/_ext.cpython-38.pyc",
+    "Lib/site-packages/billiard/__pycache__/_win.cpython-38.pyc",
+    "Lib/site-packages/billiard/__pycache__/common.cpython-38.pyc",
+    "Lib/site-packages/billiard/__pycache__/compat.cpython-38.pyc",
+    "Lib/site-packages/billiard/__pycache__/connection.cpython-38.pyc",
+    "Lib/site-packages/billiard/__pycache__/context.cpython-38.pyc",
+    "Lib/site-packages/billiard/__pycache__/einfo.cpython-38.pyc",
+    "Lib/site-packages/billiard/__pycache__/exceptions.cpython-38.pyc",
+    "Lib/site-packages/billiard/__pycache__/forkserver.cpython-38.pyc",
+    "Lib/site-packages/billiard/__pycache__/heap.cpython-38.pyc",
+    "Lib/site-packages/billiard/__pycache__/managers.cpython-38.pyc",
+    "Lib/site-packages/billiard/__pycache__/pool.cpython-38.pyc",
+    "Lib/site-packages/billiard/__pycache__/popen_fork.cpython-38.pyc",
+    "Lib/site-packages/billiard/__pycache__/popen_forkserver.cpython-38.pyc",
+    "Lib/site-packages/billiard/__pycache__/popen_spawn_posix.cpython-38.pyc",
+    "Lib/site-packages/billiard/__pycache__/popen_spawn_win32.cpython-38.pyc",
+    "Lib/site-packages/billiard/__pycache__/process.cpython-38.pyc",
+    "Lib/site-packages/billiard/__pycache__/queues.cpython-38.pyc",
+    "Lib/site-packages/billiard/__pycache__/reduction.cpython-38.pyc",
+    "Lib/site-packages/billiard/__pycache__/resource_sharer.cpython-38.pyc",
+    "Lib/site-packages/billiard/__pycache__/semaphore_tracker.cpython-38.pyc",
+    "Lib/site-packages/billiard/__pycache__/sharedctypes.cpython-38.pyc",
+    "Lib/site-packages/billiard/__pycache__/spawn.cpython-38.pyc",
+    "Lib/site-packages/billiard/__pycache__/synchronize.cpython-38.pyc",
+    "Lib/site-packages/billiard/__pycache__/util.cpython-38.pyc",
+    "Lib/site-packages/billiard/_ext.py",
+    "Lib/site-packages/billiard/_win.py",
+    "Lib/site-packages/billiard/common.py",
+    "Lib/site-packages/billiard/compat.py",
+    "Lib/site-packages/billiard/connection.py",
+    "Lib/site-packages/billiard/context.py",
+    "Lib/site-packages/billiard/dummy/__init__.py",
+    "Lib/site-packages/billiard/dummy/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/billiard/dummy/__pycache__/connection.cpython-38.pyc",
+    "Lib/site-packages/billiard/dummy/connection.py",
+    "Lib/site-packages/billiard/einfo.py",
+    "Lib/site-packages/billiard/exceptions.py",
+    "Lib/site-packages/billiard/forkserver.py",
+    "Lib/site-packages/billiard/heap.py",
+    "Lib/site-packages/billiard/managers.py",
+    "Lib/site-packages/billiard/pool.py",
+    "Lib/site-packages/billiard/popen_fork.py",
+    "Lib/site-packages/billiard/popen_forkserver.py",
+    "Lib/site-packages/billiard/popen_spawn_posix.py",
+    "Lib/site-packages/billiard/popen_spawn_win32.py",
+    "Lib/site-packages/billiard/process.py",
+    "Lib/site-packages/billiard/queues.py",
+    "Lib/site-packages/billiard/reduction.py",
+    "Lib/site-packages/billiard/resource_sharer.py",
+    "Lib/site-packages/billiard/semaphore_tracker.py",
+    "Lib/site-packages/billiard/sharedctypes.py",
+    "Lib/site-packages/billiard/spawn.py",
+    "Lib/site-packages/billiard/synchronize.py",
+    "Lib/site-packages/billiard/util.py",
+    ".nonadmin"
+  ],
+  "fn": "billiard-4.2.0-py38h91455d4_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "C:\\Users\\kafub\\anaconda3\\pkgs\\billiard-4.2.0-py38h91455d4_0",
+    "type": 1
+  },
+  "md5": "56c5de7b788e22ed375a91a9435a368c",
+  "name": "billiard",
+  "package_tarball_full_path": "C:\\Users\\kafub\\anaconda3\\pkgs\\billiard-4.2.0-py38h91455d4_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/billiard-4.2.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/billiard-4.2.0.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "6632e59acabdbbbec262837d44724a065318949f002efd0602d642711ae3a457",
+        "sha256_in_prefix": "6632e59acabdbbbec262837d44724a065318949f002efd0602d642711ae3a457",
+        "size_in_bytes": 1483
+      },
+      {
+        "_path": "Lib/site-packages/billiard-4.2.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c54547a352d2019a09215deb3206a078bf626d650127b9e45521d83b8af3ce5c",
+        "sha256_in_prefix": "c54547a352d2019a09215deb3206a078bf626d650127b9e45521d83b8af3ce5c",
+        "size_in_bytes": 4507
+      },
+      {
+        "_path": "Lib/site-packages/billiard-4.2.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "f2b21fc25f58641a7946281c8a4bbf1fc040dac938366bccc3f9936250d15a5a",
+        "sha256_in_prefix": "f2b21fc25f58641a7946281c8a4bbf1fc040dac938366bccc3f9936250d15a5a",
+        "size_in_bytes": 4284
+      },
+      {
+        "_path": "Lib/site-packages/billiard-4.2.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/billiard-4.2.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "sha256_in_prefix": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "Lib/site-packages/billiard-4.2.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "6a952e689c1eb3cc4ac6e690de74d71de15fa6d7f1c11bbf6f201b766f484365",
+        "sha256_in_prefix": "6a952e689c1eb3cc4ac6e690de74d71de15fa6d7f1c11bbf6f201b766f484365",
+        "size_in_bytes": 69
+      },
+      {
+        "_path": "Lib/site-packages/billiard-4.2.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e762a4765aa7f4da7ca5ba644d577fd4a65364b1a3ba9533854c3c42c5be07e5",
+        "sha256_in_prefix": "e762a4765aa7f4da7ca5ba644d577fd4a65364b1a3ba9533854c3c42c5be07e5",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "Lib/site-packages/billiard/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4a76a23b5997d890d0f659dd91c55be2243f0c45b8096ca6ace7231a19be182d",
+        "sha256_in_prefix": "4a76a23b5997d890d0f659dd91c55be2243f0c45b8096ca6ace7231a19be182d",
+        "size_in_bytes": 1556
+      },
+      {
+        "_path": "Lib/site-packages/billiard/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3636a52fbe67c24eaecddbea1998bb1a07c7b89fd576f70ed4996359d5e4f2b3",
+        "sha256_in_prefix": "3636a52fbe67c24eaecddbea1998bb1a07c7b89fd576f70ed4996359d5e4f2b3",
+        "size_in_bytes": 1135
+      },
+      {
+        "_path": "Lib/site-packages/billiard/__pycache__/_ext.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2f112644aa3c716c6e4826f9623687ca77037c877f69871b833abbdbf131d982",
+        "sha256_in_prefix": "2f112644aa3c716c6e4826f9623687ca77037c877f69871b833abbdbf131d982",
+        "size_in_bytes": 941
+      },
+      {
+        "_path": "Lib/site-packages/billiard/__pycache__/_win.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b520c293bc568870f5577397a8a671c62fff3b22b0af14cef6793461dc72334f",
+        "sha256_in_prefix": "b520c293bc568870f5577397a8a671c62fff3b22b0af14cef6793461dc72334f",
+        "size_in_bytes": 2754
+      },
+      {
+        "_path": "Lib/site-packages/billiard/__pycache__/common.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f1dfb90bc6390dc7b62f5b85ae8d902c3b0de6c24b3e2f2512b29799d284135d",
+        "sha256_in_prefix": "f1dfb90bc6390dc7b62f5b85ae8d902c3b0de6c24b3e2f2512b29799d284135d",
+        "size_in_bytes": 3434
+      },
+      {
+        "_path": "Lib/site-packages/billiard/__pycache__/compat.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d47419836f71b420062e7ab8165dcdccce39bf94e8c9bb7adc8fa81a079b29d6",
+        "sha256_in_prefix": "d47419836f71b420062e7ab8165dcdccce39bf94e8c9bb7adc8fa81a079b29d6",
+        "size_in_bytes": 7687
+      },
+      {
+        "_path": "Lib/site-packages/billiard/__pycache__/connection.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b52a28cca44256256e3cc4fa7ac1ab11cde5ef74ceacc2f89a16d43295194f76",
+        "sha256_in_prefix": "b52a28cca44256256e3cc4fa7ac1ab11cde5ef74ceacc2f89a16d43295194f76",
+        "size_in_bytes": 26473
+      },
+      {
+        "_path": "Lib/site-packages/billiard/__pycache__/context.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e8c1800695375df082da9c839a8f524f369b64dd1fe27b1a7c4c5a95206bb89c",
+        "sha256_in_prefix": "e8c1800695375df082da9c839a8f524f369b64dd1fe27b1a7c4c5a95206bb89c",
+        "size_in_bytes": 13929
+      },
+      {
+        "_path": "Lib/site-packages/billiard/__pycache__/einfo.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4771a94424ff90e92f0e72b610ae026af440f906f5000f62ff024e0848775704",
+        "sha256_in_prefix": "4771a94424ff90e92f0e72b610ae026af440f906f5000f62ff024e0848775704",
+        "size_in_bytes": 6070
+      },
+      {
+        "_path": "Lib/site-packages/billiard/__pycache__/exceptions.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1ba6eff03e4cd1f64cdca91c926f164b40dc12aa954c8d96d5d085f7b78f81dd",
+        "sha256_in_prefix": "1ba6eff03e4cd1f64cdca91c926f164b40dc12aa954c8d96d5d085f7b78f81dd",
+        "size_in_bytes": 2367
+      },
+      {
+        "_path": "Lib/site-packages/billiard/__pycache__/forkserver.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8d700ceeba9c96e373c08f231b0708fd9ef5e97110330557935dabcd092284e2",
+        "sha256_in_prefix": "8d700ceeba9c96e373c08f231b0708fd9ef5e97110330557935dabcd092284e2",
+        "size_in_bytes": 6708
+      },
+      {
+        "_path": "Lib/site-packages/billiard/__pycache__/heap.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "078c030bbf5207c75e3aafdc319746c1be6c72423cc60dfb20277658fd5cba4e",
+        "sha256_in_prefix": "078c030bbf5207c75e3aafdc319746c1be6c72423cc60dfb20277658fd5cba4e",
+        "size_in_bytes": 6765
+      },
+      {
+        "_path": "Lib/site-packages/billiard/__pycache__/managers.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a12fb69b843eb569dc80682a88d41688b1e62249afbbc619f2d526292955c691",
+        "sha256_in_prefix": "a12fb69b843eb569dc80682a88d41688b1e62249afbbc619f2d526292955c691",
+        "size_in_bytes": 33354
+      },
+      {
+        "_path": "Lib/site-packages/billiard/__pycache__/pool.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9f436cb018c67354cd63e6da789f23cbcc6b14940cc10a43738caccf3a798a10",
+        "sha256_in_prefix": "9f436cb018c67354cd63e6da789f23cbcc6b14940cc10a43738caccf3a798a10",
+        "size_in_bytes": 55414
+      },
+      {
+        "_path": "Lib/site-packages/billiard/__pycache__/popen_fork.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "49b617c44542cfd4b1b8a06303a62aa9f7995f7a62d9cc8f8ce863c486b883dd",
+        "sha256_in_prefix": "49b617c44542cfd4b1b8a06303a62aa9f7995f7a62d9cc8f8ce863c486b883dd",
+        "size_in_bytes": 2360
+      },
+      {
+        "_path": "Lib/site-packages/billiard/__pycache__/popen_forkserver.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1a3fd4353350bb7209b0c15d233c15f049710d2d06bab1cbc74bd850e684d857",
+        "sha256_in_prefix": "1a3fd4353350bb7209b0c15d233c15f049710d2d06bab1cbc74bd850e684d857",
+        "size_in_bytes": 2186
+      },
+      {
+        "_path": "Lib/site-packages/billiard/__pycache__/popen_spawn_posix.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3d91db3a32114f1a8e46281222b5f86abf854d6be2555dd55c7a3f4948a8763f",
+        "sha256_in_prefix": "3d91db3a32114f1a8e46281222b5f86abf854d6be2555dd55c7a3f4948a8763f",
+        "size_in_bytes": 2196
+      },
+      {
+        "_path": "Lib/site-packages/billiard/__pycache__/popen_spawn_win32.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5b9165cd036424cf8410d0eee871e9544891ca55e5be5df27b781e4db62c4f73",
+        "sha256_in_prefix": "5b9165cd036424cf8410d0eee871e9544891ca55e5be5df27b781e4db62c4f73",
+        "size_in_bytes": 3318
+      },
+      {
+        "_path": "Lib/site-packages/billiard/__pycache__/process.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "17bfbaec0479f9a9b735402c5331f25d45b97940605cc11e65dd62aeb00610fd",
+        "sha256_in_prefix": "17bfbaec0479f9a9b735402c5331f25d45b97940605cc11e65dd62aeb00610fd",
+        "size_in_bytes": 10271
+      },
+      {
+        "_path": "Lib/site-packages/billiard/__pycache__/queues.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "af1815c869763f691704027aae8b4cb2cf900e63a9538ecdc1c839ca305da640",
+        "sha256_in_prefix": "af1815c869763f691704027aae8b4cb2cf900e63a9538ecdc1c839ca305da640",
+        "size_in_bytes": 11114
+      },
+      {
+        "_path": "Lib/site-packages/billiard/__pycache__/reduction.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae48b2af2d6232d36425df63f96a8c0bac01506e914afac4fd66b45269c3331c",
+        "sha256_in_prefix": "ae48b2af2d6232d36425df63f96a8c0bac01506e914afac4fd66b45269c3331c",
+        "size_in_bytes": 8465
+      },
+      {
+        "_path": "Lib/site-packages/billiard/__pycache__/resource_sharer.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c627f190ae611c104044bd5129d1122e19c11b5acf3a75f4c057dd488406d49c",
+        "sha256_in_prefix": "c627f190ae611c104044bd5129d1122e19c11b5acf3a75f4c057dd488406d49c",
+        "size_in_bytes": 5205
+      },
+      {
+        "_path": "Lib/site-packages/billiard/__pycache__/semaphore_tracker.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "070a740f48d216fa657f8877d2335ad80063ee99b3240c7b0b3246b594844c51",
+        "sha256_in_prefix": "070a740f48d216fa657f8877d2335ad80063ee99b3240c7b0b3246b594844c51",
+        "size_in_bytes": 3507
+      },
+      {
+        "_path": "Lib/site-packages/billiard/__pycache__/sharedctypes.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "27ca78ce37953bb2eb34efbce0f583ec3dc46ebcc57c22b20fba7b94a497dd12",
+        "sha256_in_prefix": "27ca78ce37953bb2eb34efbce0f583ec3dc46ebcc57c22b20fba7b94a497dd12",
+        "size_in_bytes": 7314
+      },
+      {
+        "_path": "Lib/site-packages/billiard/__pycache__/spawn.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "762725f532a59ac446ec1d45829bffac61cbbc734fe46f1b62ee46d3412d035b",
+        "sha256_in_prefix": "762725f532a59ac446ec1d45829bffac61cbbc734fe46f1b62ee46d3412d035b",
+        "size_in_bytes": 8875
+      },
+      {
+        "_path": "Lib/site-packages/billiard/__pycache__/synchronize.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "35581025fd973ff2054e58660b941db27128911165d94636a1b569a07eb84941",
+        "sha256_in_prefix": "35581025fd973ff2054e58660b941db27128911165d94636a1b569a07eb84941",
+        "size_in_bytes": 12087
+      },
+      {
+        "_path": "Lib/site-packages/billiard/__pycache__/util.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6a0a7291242124fb8ffa53d05c19e347814de1e11afb817b983b9e23cf9a713e",
+        "sha256_in_prefix": "6a0a7291242124fb8ffa53d05c19e347814de1e11afb817b983b9e23cf9a713e",
+        "size_in_bytes": 5505
+      },
+      {
+        "_path": "Lib/site-packages/billiard/_ext.py",
+        "path_type": "hardlink",
+        "sha256": "c9bb0aac30a77005452fc9a5e2730d29bbdbda7a39b1aa77a8773afdcc14c6a1",
+        "sha256_in_prefix": "c9bb0aac30a77005452fc9a5e2730d29bbdbda7a39b1aa77a8773afdcc14c6a1",
+        "size_in_bytes": 872
+      },
+      {
+        "_path": "Lib/site-packages/billiard/_win.py",
+        "path_type": "hardlink",
+        "sha256": "bc82f37da04a1a184d8de3cf7d14dd46b5682328275f2506b49e05981154e06c",
+        "sha256_in_prefix": "bc82f37da04a1a184d8de3cf7d14dd46b5682328275f2506b49e05981154e06c",
+        "size_in_bytes": 2919
+      },
+      {
+        "_path": "Lib/site-packages/billiard/common.py",
+        "path_type": "hardlink",
+        "sha256": "cf065f1058a8e3ab893f2c93e6c7fb172f072cb90975ffd65b608a328ee0a5e2",
+        "sha256_in_prefix": "cf065f1058a8e3ab893f2c93e6c7fb172f072cb90975ffd65b608a328ee0a5e2",
+        "size_in_bytes": 4154
+      },
+      {
+        "_path": "Lib/site-packages/billiard/compat.py",
+        "path_type": "hardlink",
+        "sha256": "437d2945c26615dc070cdb8926c07cc665c97eebff4464fccee6343c7181f4bd",
+        "sha256_in_prefix": "437d2945c26615dc070cdb8926c07cc665c97eebff4464fccee6343c7181f4bd",
+        "size_in_bytes": 8148
+      },
+      {
+        "_path": "Lib/site-packages/billiard/connection.py",
+        "path_type": "hardlink",
+        "sha256": "0ddac1d2200cd3366d8ca9abe7586ff6de188ec58769f6791426ce2acf26908c",
+        "sha256_in_prefix": "0ddac1d2200cd3366d8ca9abe7586ff6de188ec58769f6791426ce2acf26908c",
+        "size_in_bytes": 32647
+      },
+      {
+        "_path": "Lib/site-packages/billiard/context.py",
+        "path_type": "hardlink",
+        "sha256": "41f2e99c9c096e5bd43ff04f443adb071f4380a06f1f96470c3918af66a7c351",
+        "sha256_in_prefix": "41f2e99c9c096e5bd43ff04f443adb071f4380a06f1f96470c3918af66a7c351",
+        "size_in_bytes": 13154
+      },
+      {
+        "_path": "Lib/site-packages/billiard/dummy/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "306bb1c3a758c94f93a243b0da6122cf079f8fe1718c3c2ae6d12c86e489e678",
+        "sha256_in_prefix": "306bb1c3a758c94f93a243b0da6122cf079f8fe1718c3c2ae6d12c86e489e678",
+        "size_in_bytes": 4633
+      },
+      {
+        "_path": "Lib/site-packages/billiard/dummy/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3d92349cddeb132ffa0ffc3d792ab2e33c6c6b2ee0d921df3f81a3c28e1138b3",
+        "sha256_in_prefix": "3d92349cddeb132ffa0ffc3d792ab2e33c6c6b2ee0d921df3f81a3c28e1138b3",
+        "size_in_bytes": 4114
+      },
+      {
+        "_path": "Lib/site-packages/billiard/dummy/__pycache__/connection.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4fd451f71af90576f4d8eaa289e39163dc65682049171a0a016d7b82997c4ace",
+        "sha256_in_prefix": "4fd451f71af90576f4d8eaa289e39163dc65682049171a0a016d7b82997c4ace",
+        "size_in_bytes": 2306
+      },
+      {
+        "_path": "Lib/site-packages/billiard/dummy/connection.py",
+        "path_type": "hardlink",
+        "sha256": "5188c91f8b260ec8fb5f45b8b89c6f83def3d93c482c32f6c79184478befe0cc",
+        "sha256_in_prefix": "5188c91f8b260ec8fb5f45b8b89c6f83def3d93c482c32f6c79184478befe0cc",
+        "size_in_bytes": 2907
+      },
+      {
+        "_path": "Lib/site-packages/billiard/einfo.py",
+        "path_type": "hardlink",
+        "sha256": "51ecad1a845d6cf645b8da2307ed60a1832cb8e10a176188c5091ce94923ae23",
+        "sha256_in_prefix": "51ecad1a845d6cf645b8da2307ed60a1832cb8e10a176188c5091ce94923ae23",
+        "size_in_bytes": 5064
+      },
+      {
+        "_path": "Lib/site-packages/billiard/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "c729ac7afbd7bc1e523be79b99a1c1a903c425f97a12a4e13353e52ed1859375",
+        "sha256_in_prefix": "c729ac7afbd7bc1e523be79b99a1c1a903c425f97a12a4e13353e52ed1859375",
+        "size_in_bytes": 1272
+      },
+      {
+        "_path": "Lib/site-packages/billiard/forkserver.py",
+        "path_type": "hardlink",
+        "sha256": "48f7ecf13dae68fb5f2bf17500354d34f646494ae379a7537f987a83028e88f7",
+        "sha256_in_prefix": "48f7ecf13dae68fb5f2bf17500354d34f646494ae379a7537f987a83028e88f7",
+        "size_in_bytes": 8282
+      },
+      {
+        "_path": "Lib/site-packages/billiard/heap.py",
+        "path_type": "hardlink",
+        "sha256": "610a0d28810bc29421abb53b5d344a003e7e25518a8327b4f0ef2f6d045d013c",
+        "sha256_in_prefix": "610a0d28810bc29421abb53b5d344a003e7e25518a8327b4f0ef2f6d045d013c",
+        "size_in_bytes": 9154
+      },
+      {
+        "_path": "Lib/site-packages/billiard/managers.py",
+        "path_type": "hardlink",
+        "sha256": "cb17aeaabb5aba8d7bdca272e92b8adc401f4664967a306a122fa8279ed9a242",
+        "sha256_in_prefix": "cb17aeaabb5aba8d7bdca272e92b8adc401f4664967a306a122fa8279ed9a242",
+        "size_in_bytes": 36757
+      },
+      {
+        "_path": "Lib/site-packages/billiard/pool.py",
+        "path_type": "hardlink",
+        "sha256": "1121dfa49392c6ac401e26f7494032dc49e9ae3709977b4d3ec138b3ce512037",
+        "sha256_in_prefix": "1121dfa49392c6ac401e26f7494032dc49e9ae3709977b4d3ec138b3ce512037",
+        "size_in_bytes": 68795
+      },
+      {
+        "_path": "Lib/site-packages/billiard/popen_fork.py",
+        "path_type": "hardlink",
+        "sha256": "2adde7f28104dc9f2a6fd376f28ad2ee8dbc6396d99816d57bdb94dfbcbe1b14",
+        "sha256_in_prefix": "2adde7f28104dc9f2a6fd376f28ad2ee8dbc6396d99816d57bdb94dfbcbe1b14",
+        "size_in_bytes": 2552
+      },
+      {
+        "_path": "Lib/site-packages/billiard/popen_forkserver.py",
+        "path_type": "hardlink",
+        "sha256": "04b2cee41d0ff46423de2dabfb5eae94a71130bcb71d836fc3c235dbd65c35ab",
+        "sha256_in_prefix": "04b2cee41d0ff46423de2dabfb5eae94a71130bcb71d836fc3c235dbd65c35ab",
+        "size_in_bytes": 1770
+      },
+      {
+        "_path": "Lib/site-packages/billiard/popen_spawn_posix.py",
+        "path_type": "hardlink",
+        "sha256": "727458aa6ced803bf6a54445425d4fce03b34754e1c6e509786de4b02cbb4824",
+        "sha256_in_prefix": "727458aa6ced803bf6a54445425d4fce03b34754e1c6e509786de4b02cbb4824",
+        "size_in_bytes": 1922
+      },
+      {
+        "_path": "Lib/site-packages/billiard/popen_spawn_win32.py",
+        "path_type": "hardlink",
+        "sha256": "d451f81d80bd8a59a4cd211f1aac9fea0dfdaaffb373a70fb8cf19e7a1f9d70c",
+        "sha256_in_prefix": "d451f81d80bd8a59a4cd211f1aac9fea0dfdaaffb373a70fb8cf19e7a1f9d70c",
+        "size_in_bytes": 3543
+      },
+      {
+        "_path": "Lib/site-packages/billiard/process.py",
+        "path_type": "hardlink",
+        "sha256": "1509623b352d80a59c346f9877d95c4bdca9bfc06d91c1fa20cf62b1f3a35517",
+        "sha256_in_prefix": "1509623b352d80a59c346f9877d95c4bdca9bfc06d91c1fa20cf62b1f3a35517",
+        "size_in_bytes": 11055
+      },
+      {
+        "_path": "Lib/site-packages/billiard/queues.py",
+        "path_type": "hardlink",
+        "sha256": "6fc62492f83d0777398e15f322670447109cf9b2df0c1b453bcbb7638f34974f",
+        "sha256_in_prefix": "6fc62492f83d0777398e15f322670447109cf9b2df0c1b453bcbb7638f34974f",
+        "size_in_bytes": 12739
+      },
+      {
+        "_path": "Lib/site-packages/billiard/reduction.py",
+        "path_type": "hardlink",
+        "sha256": "a55afcd607a2e379c93617dd4ae4c37afc2666c898dcb5c54d9f86fee18de53b",
+        "sha256_in_prefix": "a55afcd607a2e379c93617dd4ae4c37afc2666c898dcb5c54d9f86fee18de53b",
+        "size_in_bytes": 9382
+      },
+      {
+        "_path": "Lib/site-packages/billiard/resource_sharer.py",
+        "path_type": "hardlink",
+        "sha256": "00a183cc2e9272e5fc19d3e4f511441fc30fe7bf3fca22791efcba293c1221f2",
+        "sha256_in_prefix": "00a183cc2e9272e5fc19d3e4f511441fc30fe7bf3fca22791efcba293c1221f2",
+        "size_in_bytes": 5299
+      },
+      {
+        "_path": "Lib/site-packages/billiard/semaphore_tracker.py",
+        "path_type": "hardlink",
+        "sha256": "ef6394d9cc49cdcdef0da9a3d68548e472fcb1646c45f302581c502943f57366",
+        "sha256_in_prefix": "ef6394d9cc49cdcdef0da9a3d68548e472fcb1646c45f302581c502943f57366",
+        "size_in_bytes": 4846
+      },
+      {
+        "_path": "Lib/site-packages/billiard/sharedctypes.py",
+        "path_type": "hardlink",
+        "sha256": "eb0e7d2c611ae4f01cb9fa02e03514aba4e3b7247b72a673f7198173d1ab2d98",
+        "sha256_in_prefix": "eb0e7d2c611ae4f01cb9fa02e03514aba4e3b7247b72a673f7198173d1ab2d98",
+        "size_in_bytes": 6665
+      },
+      {
+        "_path": "Lib/site-packages/billiard/spawn.py",
+        "path_type": "hardlink",
+        "sha256": "24d7410821a4431e3055e4e0ca265630c57ede0a0bfea241c2d764929179b99f",
+        "sha256_in_prefix": "24d7410821a4431e3055e4e0ca265630c57ede0a0bfea241c2d764929179b99f",
+        "size_in_bytes": 11740
+      },
+      {
+        "_path": "Lib/site-packages/billiard/synchronize.py",
+        "path_type": "hardlink",
+        "sha256": "866422b0080878f6b1229611dbfe03ecd7daf7e12ead7a5e5624f99f22ae7b42",
+        "sha256_in_prefix": "866422b0080878f6b1229611dbfe03ecd7daf7e12ead7a5e5624f99f22ae7b42",
+        "size_in_bytes": 12962
+      },
+      {
+        "_path": "Lib/site-packages/billiard/util.py",
+        "path_type": "hardlink",
+        "sha256": "a0c9322eaa274f522f766a4cfd10549cb0d478ae61e7f0de087f4863b1681aed",
+        "sha256_in_prefix": "a0c9322eaa274f522f766a4cfd10549cb0d478ae61e7f0de087f4863b1681aed",
+        "size_in_bytes": 6088
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ceb61cf5a873701429f0a005de1c7ee47d378b1f696892f8efc9022bd76cb7f6",
+  "size": 159126,
+  "subdir": "win-64",
+  "timestamp": 1703820556000,
+  "url": "https://conda.anaconda.org/conda-forge/win-64/billiard-4.2.0-py38h91455d4_0.conda",
+  "version": "4.2.0"
+}

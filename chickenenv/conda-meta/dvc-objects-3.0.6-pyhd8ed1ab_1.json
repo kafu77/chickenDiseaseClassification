@@ -1,0 +1,344 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "fsspec >=2022.10.0",
+    "funcy >=1.14",
+    "python >=3.8"
+  ],
+  "extracted_package_dir": "C:\\Users\\kafub\\anaconda3\\pkgs\\dvc-objects-3.0.6-pyhd8ed1ab_1",
+  "files": [
+    "Lib/site-packages/dvc_objects-3.0.6.dist-info/INSTALLER",
+    "Lib/site-packages/dvc_objects-3.0.6.dist-info/LICENSE",
+    "Lib/site-packages/dvc_objects-3.0.6.dist-info/METADATA",
+    "Lib/site-packages/dvc_objects-3.0.6.dist-info/RECORD",
+    "Lib/site-packages/dvc_objects-3.0.6.dist-info/REQUESTED",
+    "Lib/site-packages/dvc_objects-3.0.6.dist-info/WHEEL",
+    "Lib/site-packages/dvc_objects-3.0.6.dist-info/direct_url.json",
+    "Lib/site-packages/dvc_objects-3.0.6.dist-info/top_level.txt",
+    "Lib/site-packages/dvc_objects/__init__.py",
+    "Lib/site-packages/dvc_objects/_tqdm.py",
+    "Lib/site-packages/dvc_objects/compat.py",
+    "Lib/site-packages/dvc_objects/db.py",
+    "Lib/site-packages/dvc_objects/errors.py",
+    "Lib/site-packages/dvc_objects/executors.py",
+    "Lib/site-packages/dvc_objects/fs/__init__.py",
+    "Lib/site-packages/dvc_objects/fs/base.py",
+    "Lib/site-packages/dvc_objects/fs/callbacks.py",
+    "Lib/site-packages/dvc_objects/fs/errors.py",
+    "Lib/site-packages/dvc_objects/fs/generic.py",
+    "Lib/site-packages/dvc_objects/fs/local.py",
+    "Lib/site-packages/dvc_objects/fs/memory.py",
+    "Lib/site-packages/dvc_objects/fs/scheme.py",
+    "Lib/site-packages/dvc_objects/fs/system.py",
+    "Lib/site-packages/dvc_objects/fs/utils.py",
+    "Lib/site-packages/dvc_objects/obj.py",
+    "Lib/site-packages/dvc_objects/py.typed",
+    "Lib/site-packages/dvc_objects/transfer.py",
+    ".nonadmin",
+    "Lib/site-packages/dvc_objects/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/dvc_objects/__pycache__/_tqdm.cpython-38.pyc",
+    "Lib/site-packages/dvc_objects/__pycache__/compat.cpython-38.pyc",
+    "Lib/site-packages/dvc_objects/__pycache__/db.cpython-38.pyc",
+    "Lib/site-packages/dvc_objects/__pycache__/errors.cpython-38.pyc",
+    "Lib/site-packages/dvc_objects/__pycache__/executors.cpython-38.pyc",
+    "Lib/site-packages/dvc_objects/fs/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/dvc_objects/fs/__pycache__/base.cpython-38.pyc",
+    "Lib/site-packages/dvc_objects/fs/__pycache__/callbacks.cpython-38.pyc",
+    "Lib/site-packages/dvc_objects/fs/__pycache__/errors.cpython-38.pyc",
+    "Lib/site-packages/dvc_objects/fs/__pycache__/generic.cpython-38.pyc",
+    "Lib/site-packages/dvc_objects/fs/__pycache__/local.cpython-38.pyc",
+    "Lib/site-packages/dvc_objects/fs/__pycache__/memory.cpython-38.pyc",
+    "Lib/site-packages/dvc_objects/fs/__pycache__/scheme.cpython-38.pyc",
+    "Lib/site-packages/dvc_objects/fs/__pycache__/system.cpython-38.pyc",
+    "Lib/site-packages/dvc_objects/fs/__pycache__/utils.cpython-38.pyc",
+    "Lib/site-packages/dvc_objects/__pycache__/obj.cpython-38.pyc",
+    "Lib/site-packages/dvc_objects/__pycache__/transfer.cpython-38.pyc"
+  ],
+  "fn": "dvc-objects-3.0.6-pyhd8ed1ab_1.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\kafub\\anaconda3\\pkgs\\dvc-objects-3.0.6-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "f9de07a1d35fd2b27cee1c53603f1a40",
+  "name": "dvc-objects",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\kafub\\anaconda3\\pkgs\\dvc-objects-3.0.6-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/dvc_objects-3.0.6.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/dvc_objects-3.0.6.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "fb58e16cf8e82151d1d1c1206a12f866172def915fe0ccd8091fe339a2433eaf",
+        "sha256_in_prefix": "fb58e16cf8e82151d1d1c1206a12f866172def915fe0ccd8091fe339a2433eaf",
+        "size_in_bytes": 11340
+      },
+      {
+        "_path": "site-packages/dvc_objects-3.0.6.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "8550444282c07711cf13379513fcfc1e8cae94c6d23a2bb66fbf67325a650b64",
+        "sha256_in_prefix": "8550444282c07711cf13379513fcfc1e8cae94c6d23a2bb66fbf67325a650b64",
+        "size_in_bytes": 3945
+      },
+      {
+        "_path": "site-packages/dvc_objects-3.0.6.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "e2d8831d469a55fcd3c8652650294822e1aa482c13abb6d44d8e0c264b6fe460",
+        "sha256_in_prefix": "e2d8831d469a55fcd3c8652650294822e1aa482c13abb6d44d8e0c264b6fe460",
+        "size_in_bytes": 3148
+      },
+      {
+        "_path": "site-packages/dvc_objects-3.0.6.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dvc_objects-3.0.6.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "sha256_in_prefix": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/dvc_objects-3.0.6.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "fc74f302bea8db3ef1230aa9f4ed4a6a066a850741cf0aebfa37c6e6705a62c9",
+        "sha256_in_prefix": "fc74f302bea8db3ef1230aa9f4ed4a6a066a850741cf0aebfa37c6e6705a62c9",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "site-packages/dvc_objects-3.0.6.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8bf2da53d93fe1eb38c9306e6f675a8d7aa9bf629e350077f87dc6f2a4217249",
+        "sha256_in_prefix": "8bf2da53d93fe1eb38c9306e6f675a8d7aa9bf629e350077f87dc6f2a4217249",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "site-packages/dvc_objects/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dvc_objects/_tqdm.py",
+        "path_type": "hardlink",
+        "sha256": "e1165a05c218d0c296d8ba8f612b29cdb04c5000290f78ad6bcf48e6c8157559",
+        "sha256_in_prefix": "e1165a05c218d0c296d8ba8f612b29cdb04c5000290f78ad6bcf48e6c8157559",
+        "size_in_bytes": 4451
+      },
+      {
+        "_path": "site-packages/dvc_objects/compat.py",
+        "path_type": "hardlink",
+        "sha256": "c4a0609d0a437152da390f0802ad220cac69a102f060e105f2109d953655a2ad",
+        "sha256_in_prefix": "c4a0609d0a437152da390f0802ad220cac69a102f060e105f2109d953655a2ad",
+        "size_in_bytes": 243
+      },
+      {
+        "_path": "site-packages/dvc_objects/db.py",
+        "path_type": "hardlink",
+        "sha256": "12fd17f91515ab6413babdd55883d0538e435d1ccbced6d9ef8d9c5e06e4b804",
+        "sha256_in_prefix": "12fd17f91515ab6413babdd55883d0538e435d1ccbced6d9ef8d9c5e06e4b804",
+        "size_in_bytes": 15926
+      },
+      {
+        "_path": "site-packages/dvc_objects/errors.py",
+        "path_type": "hardlink",
+        "sha256": "44aef5e64085d56796ff0f8da71db775c18712ce67f5656accf8a536652d492e",
+        "sha256_in_prefix": "44aef5e64085d56796ff0f8da71db775c18712ce67f5656accf8a536652d492e",
+        "size_in_bytes": 145
+      },
+      {
+        "_path": "site-packages/dvc_objects/executors.py",
+        "path_type": "hardlink",
+        "sha256": "e67589b917267092aed3b496003ffcbba05f9a5f62f8cc34573ef940bf218242",
+        "sha256_in_prefix": "e67589b917267092aed3b496003ffcbba05f9a5f62f8cc34573ef940bf218242",
+        "size_in_bytes": 4671
+      },
+      {
+        "_path": "site-packages/dvc_objects/fs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "85fd2e2def4621774a86adfcd591abf0ffa345dd55ee330d5b0713377f771b25",
+        "sha256_in_prefix": "85fd2e2def4621774a86adfcd591abf0ffa345dd55ee330d5b0713377f771b25",
+        "size_in_bytes": 5262
+      },
+      {
+        "_path": "site-packages/dvc_objects/fs/base.py",
+        "path_type": "hardlink",
+        "sha256": "9e1a67cafaa6f024dd0fbce382c76910f868e0038f32930678a38ab2dfd178d3",
+        "sha256_in_prefix": "9e1a67cafaa6f024dd0fbce382c76910f868e0038f32930678a38ab2dfd178d3",
+        "size_in_bytes": 24750
+      },
+      {
+        "_path": "site-packages/dvc_objects/fs/callbacks.py",
+        "path_type": "hardlink",
+        "sha256": "ed67460c6283cd0a8eb45978ade0f3db7ed6d8c311c62841e3066ba18d9be811",
+        "sha256_in_prefix": "ed67460c6283cd0a8eb45978ade0f3db7ed6d8c311c62841e3066ba18d9be811",
+        "size_in_bytes": 5138
+      },
+      {
+        "_path": "site-packages/dvc_objects/fs/errors.py",
+        "path_type": "hardlink",
+        "sha256": "5c70c392a2753aeceb88ddb7cbd372b52b255c70af1f0ad9754c0b1c7dc29676",
+        "sha256_in_prefix": "5c70c392a2753aeceb88ddb7cbd372b52b255c70af1f0ad9754c0b1c7dc29676",
+        "size_in_bytes": 616
+      },
+      {
+        "_path": "site-packages/dvc_objects/fs/generic.py",
+        "path_type": "hardlink",
+        "sha256": "2727fe6e6190e48d3ff6f11eaabf2ab6a08419b6a63e8f9aa5ad64ef9a69742f",
+        "sha256_in_prefix": "2727fe6e6190e48d3ff6f11eaabf2ab6a08419b6a63e8f9aa5ad64ef9a69742f",
+        "size_in_bytes": 13237
+      },
+      {
+        "_path": "site-packages/dvc_objects/fs/local.py",
+        "path_type": "hardlink",
+        "sha256": "ce8454dd69b1ee712c090033565652de5de838cebfadba6feff53ab13588ff9c",
+        "sha256_in_prefix": "ce8454dd69b1ee712c090033565652de5de838cebfadba6feff53ab13588ff9c",
+        "size_in_bytes": 6510
+      },
+      {
+        "_path": "site-packages/dvc_objects/fs/memory.py",
+        "path_type": "hardlink",
+        "sha256": "f6a002275c0f8d756c942aee51e8ee80a0e8ab6167618332846d89526d21f381",
+        "sha256_in_prefix": "f6a002275c0f8d756c942aee51e8ee80a0e8ab6167618332846d89526d21f381",
+        "size_in_bytes": 597
+      },
+      {
+        "_path": "site-packages/dvc_objects/fs/scheme.py",
+        "path_type": "hardlink",
+        "sha256": "d43e4090df02305e4ad9f852f12767d31123e776ba9c6c6fc135efeb2d8cc895",
+        "sha256_in_prefix": "d43e4090df02305e4ad9f852f12767d31123e776ba9c6c6fc135efeb2d8cc895",
+        "size_in_bytes": 285
+      },
+      {
+        "_path": "site-packages/dvc_objects/fs/system.py",
+        "path_type": "hardlink",
+        "sha256": "b0d01dae02ad2c7982ab8957fd2716590aaf58ab63036af5e5842baf64d35d37",
+        "sha256_in_prefix": "b0d01dae02ad2c7982ab8957fd2716590aaf58ab63036af5e5842baf64d35d37",
+        "size_in_bytes": 3242
+      },
+      {
+        "_path": "site-packages/dvc_objects/fs/utils.py",
+        "path_type": "hardlink",
+        "sha256": "fab68ec8d9c2f56399e023b4be8b8ba0e5f828631f1ff9ecdcf32e6590877508",
+        "sha256_in_prefix": "fab68ec8d9c2f56399e023b4be8b8ba0e5f828631f1ff9ecdcf32e6590877508",
+        "size_in_bytes": 9104
+      },
+      {
+        "_path": "site-packages/dvc_objects/obj.py",
+        "path_type": "hardlink",
+        "sha256": "b76963512f02a8fb2b87f54d2855f8645e0a047765ab1702fa5dcfb290abf647",
+        "sha256_in_prefix": "b76963512f02a8fb2b87f54d2855f8645e0a047765ab1702fa5dcfb290abf647",
+        "size_in_bytes": 871
+      },
+      {
+        "_path": "site-packages/dvc_objects/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dvc_objects/transfer.py",
+        "path_type": "hardlink",
+        "sha256": "5a92ad90d18fc1f4f88e6b953b677239eb66850f0c5418d5f99e970b0d234764",
+        "sha256_in_prefix": "5a92ad90d18fc1f4f88e6b953b677239eb66850f0c5418d5f99e970b0d234764",
+        "size_in_bytes": 652
+      },
+      {
+        "_path": "Lib/site-packages/dvc_objects/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_objects/__pycache__/_tqdm.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_objects/__pycache__/compat.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_objects/__pycache__/db.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_objects/__pycache__/errors.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_objects/__pycache__/executors.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_objects/fs/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_objects/fs/__pycache__/base.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_objects/fs/__pycache__/callbacks.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_objects/fs/__pycache__/errors.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_objects/fs/__pycache__/generic.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_objects/fs/__pycache__/local.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_objects/fs/__pycache__/memory.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_objects/fs/__pycache__/scheme.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_objects/fs/__pycache__/system.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_objects/fs/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_objects/__pycache__/obj.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dvc_objects/__pycache__/transfer.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e346f1abc76f21917c55d3967a5fb956a6f5b187eb4cc8f9ce5228df142a7de7",
+  "size": 35922,
+  "subdir": "noarch",
+  "timestamp": 1706678842000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/dvc-objects-3.0.6-pyhd8ed1ab_1.conda",
+  "version": "3.0.6"
+}

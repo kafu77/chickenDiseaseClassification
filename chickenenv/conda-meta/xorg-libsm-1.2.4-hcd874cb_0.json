@@ -1,0 +1,88 @@
+{
+  "build": "hcd874cb_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-gcc-libs",
+    "m2w64-gcc-libs-core",
+    "xorg-libice >=1.1.1,<2.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\kafub\\anaconda3\\pkgs\\xorg-libsm-1.2.4-hcd874cb_0",
+  "files": [
+    "Library/bin/msys-SM-6.dll",
+    "Library/include/X11/SM/SM.h",
+    "Library/include/X11/SM/SMlib.h",
+    "Library/include/X11/SM/SMproto.h",
+    "Library/lib/libSM.dll.a",
+    "Library/lib/pkgconfig/sm.pc",
+    ".nonadmin"
+  ],
+  "fn": "xorg-libsm-1.2.4-hcd874cb_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\kafub\\anaconda3\\pkgs\\xorg-libsm-1.2.4-hcd874cb_0",
+    "type": 1
+  },
+  "md5": "25926681339df15918243d9a7cec25a1",
+  "name": "xorg-libsm",
+  "package_tarball_full_path": "C:\\Users\\kafub\\anaconda3\\pkgs\\xorg-libsm-1.2.4-hcd874cb_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/msys-SM-6.dll",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:/bld/xorg-libsm_1685453659185/_h_env",
+        "sha256": "707f3bf853d786ffde633f9d55fe58b16763c6f99233ab9745a7916326c0f15a",
+        "sha256_in_prefix": "707f3bf853d786ffde633f9d55fe58b16763c6f99233ab9745a7916326c0f15a",
+        "size_in_bytes": 259748
+      },
+      {
+        "_path": "Library/include/X11/SM/SM.h",
+        "path_type": "hardlink",
+        "sha256": "3580529fdcd97370008a713ff8c4e9e22d7ce179b04d1eabad9ab21085cb3373",
+        "sha256_in_prefix": "3580529fdcd97370008a713ff8c4e9e22d7ce179b04d1eabad9ab21085cb3373",
+        "size_in_bytes": 2927
+      },
+      {
+        "_path": "Library/include/X11/SM/SMlib.h",
+        "path_type": "hardlink",
+        "sha256": "d2aea2243d0ec61de6dbde0a7b389d1d6918aa23adc50354d88f7580f8eac11a",
+        "sha256_in_prefix": "d2aea2243d0ec61de6dbde0a7b389d1d6918aa23adc50354d88f7580f8eac11a",
+        "size_in_bytes": 11268
+      },
+      {
+        "_path": "Library/include/X11/SM/SMproto.h",
+        "path_type": "hardlink",
+        "sha256": "39194dff4b0e535141fee600fd96558e58b1ef2ecc98a2f7cc40fcd6953d1048",
+        "sha256_in_prefix": "39194dff4b0e535141fee600fd96558e58b1ef2ecc98a2f7cc40fcd6953d1048",
+        "size_in_bytes": 4780
+      },
+      {
+        "_path": "Library/lib/libSM.dll.a",
+        "path_type": "hardlink",
+        "sha256": "e77232ff5b7e519c89c536a83ec7d334267d1679e219a65174bf53ead2a84e19",
+        "sha256_in_prefix": "e77232ff5b7e519c89c536a83ec7d334267d1679e219a65174bf53ead2a84e19",
+        "size_in_bytes": 30284
+      },
+      {
+        "_path": "Library/lib/pkgconfig/sm.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:/bld/xorg-libsm_1685453659185/_h_env",
+        "sha256": "f12ef7af6e7c67dc03968e382829702c9df7a953d820a7a05e6d83a5378de71e",
+        "sha256_in_prefix": "52e5172b6dcc3f5f55a7311a2a91d43aac0990065e9b1a521f5853b695e6fcc3",
+        "size_in_bytes": 300
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "3a8cc151142c379d3ec3ec4420395d3a273873d3a45a94cd3038d143f5a519e8",
+  "size": 86397,
+  "subdir": "win-64",
+  "timestamp": 1685454296000,
+  "url": "https://conda.anaconda.org/conda-forge/win-64/xorg-libsm-1.2.4-hcd874cb_0.conda",
+  "version": "1.2.4"
+}

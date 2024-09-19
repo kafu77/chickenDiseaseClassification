@@ -1,0 +1,273 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "attrs",
+    "orjson",
+    "pygtrie",
+    "python >=3.8"
+  ],
+  "extracted_package_dir": "C:\\Users\\kafub\\anaconda3\\pkgs\\sqltrie-0.11.1-pyhd8ed1ab_0",
+  "files": [
+    "Lib/site-packages/sqltrie-0.11.1.dist-info/INSTALLER",
+    "Lib/site-packages/sqltrie-0.11.1.dist-info/LICENSE",
+    "Lib/site-packages/sqltrie-0.11.1.dist-info/METADATA",
+    "Lib/site-packages/sqltrie-0.11.1.dist-info/RECORD",
+    "Lib/site-packages/sqltrie-0.11.1.dist-info/REQUESTED",
+    "Lib/site-packages/sqltrie-0.11.1.dist-info/WHEEL",
+    "Lib/site-packages/sqltrie-0.11.1.dist-info/direct_url.json",
+    "Lib/site-packages/sqltrie-0.11.1.dist-info/entry_points.txt",
+    "Lib/site-packages/sqltrie-0.11.1.dist-info/top_level.txt",
+    "Lib/site-packages/sqltrie/__init__.py",
+    "Lib/site-packages/sqltrie/__pyinstaller/__init__.py",
+    "Lib/site-packages/sqltrie/__pyinstaller/hook-sqltrie.py",
+    "Lib/site-packages/sqltrie/__pyinstaller/test_hook-sqltrie.py",
+    "Lib/site-packages/sqltrie/py.typed",
+    "Lib/site-packages/sqltrie/pygtrie.py",
+    "Lib/site-packages/sqltrie/serialized.py",
+    "Lib/site-packages/sqltrie/sqlalchemy.py",
+    "Lib/site-packages/sqltrie/sqlite/__init__.py",
+    "Lib/site-packages/sqltrie/sqlite/diff.sql",
+    "Lib/site-packages/sqltrie/sqlite/init.sql",
+    "Lib/site-packages/sqltrie/sqlite/sqlite.py",
+    "Lib/site-packages/sqltrie/sqlite/steps.sql",
+    "Lib/site-packages/sqltrie/trie.py",
+    ".nonadmin",
+    "Lib/site-packages/sqltrie/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/sqltrie/__pyinstaller/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/sqltrie/__pyinstaller/__pycache__/hook-sqltrie.cpython-38.pyc",
+    "Lib/site-packages/sqltrie/__pyinstaller/__pycache__/test_hook-sqltrie.cpython-38.pyc",
+    "Lib/site-packages/sqltrie/__pycache__/pygtrie.cpython-38.pyc",
+    "Lib/site-packages/sqltrie/__pycache__/serialized.cpython-38.pyc",
+    "Lib/site-packages/sqltrie/__pycache__/sqlalchemy.cpython-38.pyc",
+    "Lib/site-packages/sqltrie/sqlite/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/sqltrie/sqlite/__pycache__/sqlite.cpython-38.pyc",
+    "Lib/site-packages/sqltrie/__pycache__/trie.cpython-38.pyc"
+  ],
+  "fn": "sqltrie-0.11.1-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\kafub\\anaconda3\\pkgs\\sqltrie-0.11.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "3e011a2382b7aa1ab89483f29bc96fe1",
+  "name": "sqltrie",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\kafub\\anaconda3\\pkgs\\sqltrie-0.11.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/sqltrie-0.11.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/sqltrie-0.11.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "39a28daced70b7cce179f1b47d520b7a739365db4c9f10cdf683f572cf87cf2f",
+        "sha256_in_prefix": "39a28daced70b7cce179f1b47d520b7a739365db4c9f10cdf683f572cf87cf2f",
+        "size_in_bytes": 11347
+      },
+      {
+        "_path": "site-packages/sqltrie-0.11.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "0b5c7169e20d6bc51a92c23b01ea942df209ee3c46024f511964126bcb00cf32",
+        "sha256_in_prefix": "0b5c7169e20d6bc51a92c23b01ea942df209ee3c46024f511964126bcb00cf32",
+        "size_in_bytes": 3271
+      },
+      {
+        "_path": "site-packages/sqltrie-0.11.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "1814f620e72f25e33388dc6c363611fea4269745ec8a45f9ba8a86ca96cfaaf1",
+        "sha256_in_prefix": "1814f620e72f25e33388dc6c363611fea4269745ec8a45f9ba8a86ca96cfaaf1",
+        "size_in_bytes": 2457
+      },
+      {
+        "_path": "site-packages/sqltrie-0.11.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/sqltrie-0.11.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "4749dceaa4f1ba82e4ed2840dbf63e51690df1975f0c11b607a12aa73d965dbb",
+        "sha256_in_prefix": "4749dceaa4f1ba82e4ed2840dbf63e51690df1975f0c11b607a12aa73d965dbb",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/sqltrie-0.11.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "28de141abfc9da60234ff71fa97cfff5957450d33001cfffef00c01516a92d74",
+        "sha256_in_prefix": "28de141abfc9da60234ff71fa97cfff5957450d33001cfffef00c01516a92d74",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "site-packages/sqltrie-0.11.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "1aad1a6ee366babe8c1d25539935b71f5bd1d67db745f42b25602d1f9a3049cb",
+        "sha256_in_prefix": "1aad1a6ee366babe8c1d25539935b71f5bd1d67db745f42b25602d1f9a3049cb",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "site-packages/sqltrie-0.11.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "1df97e53f723d9ec734cc3df58338b5a5767749a1deb2d1a203d00981a85f746",
+        "sha256_in_prefix": "1df97e53f723d9ec734cc3df58338b5a5767749a1deb2d1a203d00981a85f746",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/sqltrie/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b2b4dc0414f8cb745ce0b743633dc0616fb7fee223f530b07637609b581b61a5",
+        "sha256_in_prefix": "b2b4dc0414f8cb745ce0b743633dc0616fb7fee223f530b07637609b581b61a5",
+        "size_in_bytes": 460
+      },
+      {
+        "_path": "site-packages/sqltrie/__pyinstaller/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "abe5942ebd71bfc21094601ab792aba2b4afda280199c1ed8eedfaa833ffbc5a",
+        "sha256_in_prefix": "abe5942ebd71bfc21094601ab792aba2b4afda280199c1ed8eedfaa833ffbc5a",
+        "size_in_bytes": 174
+      },
+      {
+        "_path": "site-packages/sqltrie/__pyinstaller/hook-sqltrie.py",
+        "path_type": "hardlink",
+        "sha256": "1f7f48a2f310ddea13f105081105c12ea0c4a2953458686873a1ee60b5cc470c",
+        "sha256_in_prefix": "1f7f48a2f310ddea13f105081105c12ea0c4a2953458686873a1ee60b5cc470c",
+        "size_in_bytes": 157
+      },
+      {
+        "_path": "site-packages/sqltrie/__pyinstaller/test_hook-sqltrie.py",
+        "path_type": "hardlink",
+        "sha256": "b504d4e1f932378f476d1d3fe3d748c07ff9ef78ff83a3005b19a08d1e3fef76",
+        "sha256_in_prefix": "b504d4e1f932378f476d1d3fe3d748c07ff9ef78ff83a3005b19a08d1e3fef76",
+        "size_in_bytes": 677
+      },
+      {
+        "_path": "site-packages/sqltrie/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/sqltrie/pygtrie.py",
+        "path_type": "hardlink",
+        "sha256": "11381f5d7ea493c53b3a19e5b17d77571524313238c7d7154202fccec3139519",
+        "sha256_in_prefix": "11381f5d7ea493c53b3a19e5b17d77571524313238c7d7154202fccec3139519",
+        "size_in_bytes": 3455
+      },
+      {
+        "_path": "site-packages/sqltrie/serialized.py",
+        "path_type": "hardlink",
+        "sha256": "a246d64e8d25279e26faf9651685b81575022eee770b5235e074d961607deb45",
+        "sha256_in_prefix": "a246d64e8d25279e26faf9651685b81575022eee770b5235e074d961607deb45",
+        "size_in_bytes": 3830
+      },
+      {
+        "_path": "site-packages/sqltrie/sqlalchemy.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/sqltrie/sqlite/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e8649f3ed43754b6353c8350bb48fdb2193b8ee1ea9adbdb13aeb7db8eb9f6d5",
+        "sha256_in_prefix": "e8649f3ed43754b6353c8350bb48fdb2193b8ee1ea9adbdb13aeb7db8eb9f6d5",
+        "size_in_bytes": 76
+      },
+      {
+        "_path": "site-packages/sqltrie/sqlite/diff.sql",
+        "path_type": "hardlink",
+        "sha256": "567596efa4fbc7d5afe52f68741e5674accffb29f6b5218199646d716d5e8e44",
+        "sha256_in_prefix": "567596efa4fbc7d5afe52f68741e5674accffb29f6b5218199646d716d5e8e44",
+        "size_in_bytes": 3287
+      },
+      {
+        "_path": "site-packages/sqltrie/sqlite/init.sql",
+        "path_type": "hardlink",
+        "sha256": "90fad412ff1fc5285917aef2f9841dd0fd55e70e5bafb2983297629872499bab",
+        "sha256_in_prefix": "90fad412ff1fc5285917aef2f9841dd0fd55e70e5bafb2983297629872499bab",
+        "size_in_bytes": 393
+      },
+      {
+        "_path": "site-packages/sqltrie/sqlite/sqlite.py",
+        "path_type": "hardlink",
+        "sha256": "4dad9ae623def286f46f6bb45b58b4af464b4c730bf5fd061782333b27755d33",
+        "sha256_in_prefix": "4dad9ae623def286f46f6bb45b58b4af464b4c730bf5fd061782333b27755d33",
+        "size_in_bytes": 11068
+      },
+      {
+        "_path": "site-packages/sqltrie/sqlite/steps.sql",
+        "path_type": "hardlink",
+        "sha256": "df44f759c8a7b0c02bf94a4c25a2bbe9e1d2d9c036dde33b13626493fa9d2e8a",
+        "sha256_in_prefix": "df44f759c8a7b0c02bf94a4c25a2bbe9e1d2d9c036dde33b13626493fa9d2e8a",
+        "size_in_bytes": 1707
+      },
+      {
+        "_path": "site-packages/sqltrie/trie.py",
+        "path_type": "hardlink",
+        "sha256": "6573dd32f48f62d2d7ae804bb65a6aab81d9eb7a44508528aa07be402924f491",
+        "sha256_in_prefix": "6573dd32f48f62d2d7ae804bb65a6aab81d9eb7a44508528aa07be402924f491",
+        "size_in_bytes": 3077
+      },
+      {
+        "_path": "Lib/site-packages/sqltrie/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sqltrie/__pyinstaller/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sqltrie/__pyinstaller/__pycache__/hook-sqltrie.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sqltrie/__pyinstaller/__pycache__/test_hook-sqltrie.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sqltrie/__pycache__/pygtrie.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sqltrie/__pycache__/serialized.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sqltrie/__pycache__/sqlalchemy.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sqltrie/sqlite/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sqltrie/sqlite/__pycache__/sqlite.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/sqltrie/__pycache__/trie.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d4c7e158749a4b41ea089ce8863301bc8fc793cbe6e1c6d2885193e77f926c9b",
+  "size": 20093,
+  "subdir": "noarch",
+  "timestamp": 1722842063000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/sqltrie-0.11.1-pyhd8ed1ab_0.conda",
+  "version": "0.11.1"
+}
